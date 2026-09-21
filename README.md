@@ -20,6 +20,16 @@ npm run build
 npm run preview
 ```
 
+## アクセス解析（GA4 / Clarity / Search Console）
+
+`.env.example` を `.env.production` にコピーし、各サービスの ID を設定してからビルドします。
+
+```bash
+cp .env.example .env.production
+# PUBLIC_GA_MEASUREMENT_ID / PUBLIC_CLARITY_PROJECT_ID / PUBLIC_GOOGLE_SITE_VERIFICATION を設定
+npm run build
+```
+
 ## GitHub Pages デプロイ
 
 `main` ブランチへの push で GitHub Actions が自動デプロイします。
@@ -42,6 +52,53 @@ npm run research -- "狙うキーワード" --slug 記事スラッグ
 # IndexNow を手動送信する場合
 npm run indexnow -- --changed
 ```
+
+## 記事の自動追加（1日2記事）
+
+**Anthropic API キーは不要です。** Cursor Automation で記事を執筆し、`main` に push すると GitHub Actions が自動デプロイします。
+
+### セットアップ手順
+
+1. Cursor で **Automations** を開く（`Cmd+Shift+P` → "Automations"）
+2. 新規 Automation を作成:
+   - **Trigger:** Schedule — 毎日 6:00（ローカル時間）
+   - **Repository:** このリポジトリ（`main`）
+   - **Instructions:** `.cursor/automations/daily-articles.md` の内容をコピー
+3. GitHub リポジトリの **Settings → Secrets → Actions** に解析用 ID を登録（任意）:
+   - `PUBLIC_GA_MEASUREMENT_ID` / `PUBLIC_CLARITY_PROJECT_ID` / `PUBLIC_GOOGLE_SITE_VERIFICATION`
+
+### 流れ
+
+```
+Cursor Automation（毎日）
+  → キューから2件選ぶ → リサーチ → 記事執筆 → commit & push
+GitHub Actions（push 時）
+  → ビルド → gh-pages デプロイ → IndexNow
+```
+
+### 記事キュー
+
+`data/article-queue.json` に公開予定のキーワードを登録します。priority が高いものから順に処理されます。
+
+```bash
+# キュー一覧
+npm run queue -- list
+
+# 次に処理される記事
+npm run queue -- next --count 2
+
+# リサーチだけ先に実行（API キー不要）
+npm run daily:prepare
+
+# キューに追加
+npm run queue -- add --slug new-article --keyword "婚活 コツ 男性" --category konkatsu
+```
+
+### 手動で今日の2記事を書く
+
+Cursor のチャットで次のように依頼できます:
+
+> `@.cursor/automations/daily-articles.md` に従って、今日の2記事を書いて commit & push して
 
 ## 構成
 

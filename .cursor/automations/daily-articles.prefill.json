@@ -1,0 +1,24 @@
+{
+  "name": "motetai 毎日2記事追加",
+  "description": "data/article-queue.json から2記事をリサーチ・執筆し、main に push。デプロイは GitHub Actions が自動実行。",
+  "workflow": {
+    "triggers": [
+      {
+        "cron": {
+          "cron": "0 6 * * *"
+        }
+      }
+    ],
+    "actions": [],
+    "prompts": [
+      {
+        "text": "`.cursor/automations/daily-articles.md` の手順に従い、`data/article-queue.json` から pending の記事を priority 順に2件選んで記事を執筆してください。\n\n必ず `.cursor/skills/article-writing/SKILL.md` のワークフローに従います。\n\n各記事: リサーチ → 執筆 → convert:templates。2件完了後に build・check:bold を実行し、キューを completed に更新して commit & push してください。\n\nコミットメッセージ: feat: 記事追加 - <title1>, <title2>"
+      }
+    ],
+    "gitConfig": {
+      "repo": "ATOHSaaa/motetai",
+      "branch": "main"
+    },
+    "memoryEnabled": true
+  }
+}

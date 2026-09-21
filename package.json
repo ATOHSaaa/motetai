@@ -11,7 +11,13 @@
     "preview": "astro preview",
     "astro": "astro",
     "research": "node scripts/research-keyword.mjs",
-    "indexnow": "node scripts/indexnow.mjs"
+    "indexnow": "node scripts/indexnow.mjs",
+    "check:bold": "node scripts/check-markdown-bold.mjs",
+    "convert:templates": "node scripts/convert-template-blocks.mjs --write",
+    "queue": "node scripts/article-queue.mjs",
+    "generate:article": "node scripts/generate-article.mjs",
+    "daily:articles": "node scripts/daily-articles.mjs",
+    "daily:prepare": "node scripts/prepare-daily-articles.mjs"
   },
   "dependencies": {
     "@astrojs/markdown-remark": "^7.3.1",
