@@ -20,6 +20,9 @@ const articles = defineCollection({
     tags: z.array(z.string()).default([]),
     readingTime: z.number().optional(),
     affiliate: z.boolean().default(false),
+    targetKeyword: z.string().optional(),
+    targetKeywords: z.array(z.string()).default([]),
+    researchSlug: z.string().optional(),
   }),
 });
 

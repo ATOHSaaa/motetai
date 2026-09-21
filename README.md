@@ -26,9 +26,25 @@ npm run preview
 
 初回のみ、GitHub リポジトリの **Settings → Pages → Build and deployment → Source** を **GitHub Actions** に設定してください。
 
+## 記事作成
+
+**必ずリサーチしてから書く。** 詳細は `.cursor/skills/article-writing/SKILL.md`
+
+```bash
+# 1. 上位10記事をリサーチ
+npm run research -- "狙うキーワード" --slug 記事スラッグ
+
+# 2. research/<slug>.md を読んでから記事を執筆
+
+# 3. デプロイ
+./scripts/deploy-pages.sh
+```
+
 ## 構成
 
 - `src/content/articles/` — 記事（Markdown）
+- `research/` — キーワードリサーチブリーフ（記事執筆前に作成）
 - `src/pages/` — ページルーティング
 - `src/components/` — UIコンポーネント
 - `src/config/site.ts` — サイト設定
+- `.cursor/skills/article-writing/` — 記事執筆ワークフロー
