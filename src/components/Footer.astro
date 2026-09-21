@@ -1,0 +1,46 @@
+---
+import { categories } from '../utils/category';
+import { siteConfig } from '../config/site';
+---
+
+<footer class="mt-16 border-t border-slate-200 bg-slate-900 text-slate-300">
+  <div class="mx-auto max-w-6xl px-4 py-12">
+    <div class="grid gap-8 md:grid-cols-3">
+      <div>
+        <p class="text-lg font-bold text-white">{siteConfig.name}</p>
+        <p class="mt-2 text-sm leading-relaxed">{siteConfig.description}</p>
+      </div>
+
+      <div>
+        <p class="mb-3 font-semibold text-white">カテゴリ</p>
+        <ul class="space-y-2 text-sm">
+          {
+            categories.map((cat) => (
+              <li>
+                <a href={`/category/${cat.slug}`} class="hover:text-white">
+                  {cat.name}
+                </a>
+              </li>
+            ))
+          }
+        </ul>
+      </div>
+
+      <div>
+        <p class="mb-3 font-semibold text-white">サイト情報</p>
+        <ul class="space-y-2 text-sm">
+          <li><a href="/about" class="hover:text-white">運営者情報</a></li>
+          <li><a href="/articles" class="hover:text-white">記事一覧</a></li>
+          <li><a href="/ranking" class="hover:text-white">人気ランキング</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="mt-10 border-t border-slate-700 pt-6 text-center text-xs text-slate-500">
+      <p>
+        ※当サイトはアフィリエイト広告を利用しています。商品・サービスの紹介にはPRが含まれる場合があります。
+      </p>
+      <p class="mt-2">© {new Date().getFullYear()} {siteConfig.name}. All rights reserved.</p>
+    </div>
+  </div>
+</footer>

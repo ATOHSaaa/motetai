@@ -1,0 +1,18 @@
+---
+import { getCategory } from '../utils/category';
+
+interface Props {
+  category: string;
+}
+
+const { category } = Astro.props;
+const cat = getCategory(category);
+---
+
+{
+  cat && (
+    <span class={`inline-flex items-center rounded-full px-2.5 py-0.5 text-xs font-medium ${cat.color}`}>
+      {cat.name}
+    </span>
+  )
+}

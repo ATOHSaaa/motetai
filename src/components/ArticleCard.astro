@@ -1,0 +1,45 @@
+---
+import CategoryBadge from './CategoryBadge.astro';
+
+interface Props {
+  title: string;
+  description: string;
+  slug: string;
+  category: string;
+  publishedAt: Date;
+  readingTime?: number;
+  featured?: boolean;
+}
+
+const { title, description, slug, category, publishedAt, readingTime, featured } = Astro.props;
+
+const formattedDate = publishedAt.toLocaleDateString('ja-JP', {
+  year: 'numeric',
+  month: 'long',
+  day: 'numeric',
+});
+---
+
+<article
+  class={`group flex flex-col overflow-hidden rounded-xl border bg-white transition-shadow hover:shadow-md ${
+    featured ? 'border-brand-200 ring-1 ring-brand-100' : 'border-slate-200'
+  }`}
+>
+  <a href={`/articles/${slug}`} class="flex flex-1 flex-col p-5">
+    <div class="mb-3 flex items-center justify-between gap-2">
+      <CategoryBadge category={category} />
+      {readingTime && <span class="text-xs text-slate-400">{readingTime}分で読める</span>}
+    </div>
+    <h2
+      class="mb-2 text-lg font-bold leading-snug text-slate-900 group-hover:text-brand-600"
+    >
+      {title}
+    </h2>
+    <p class="mb-4 flex-1 text-sm leading-relaxed text-slate-600 line-clamp-2">
+      {description}
+    </p>
+    <time datetime={publishedAt.toISOString()} class="text-xs text-slate-400">
+      {formattedDate}
+    </time>
+  </a>
+</article>

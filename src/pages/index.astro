@@ -1,0 +1,135 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import ArticleCard from '../components/ArticleCard.astro';
+import { getCollection } from 'astro:content';
+import { categories } from '../utils/category';
+import { siteConfig } from '../config/site';
+
+const allArticles = await getCollection('articles');
+const sorted = allArticles.sort(
+  (a, b) => b.data.publishedAt.getTime() - a.data.publishedAt.getTime()
+);
+const featured = sorted.filter((a) => a.data.featured).slice(0, 3);
+const latest = sorted.slice(0, 6);
+---
+
+<BaseLayout title={siteConfig.name} description={siteConfig.description} path="/">
+  <section class="bg-gradient-to-br from-brand-800 via-brand-700 to-brand-900 text-white">
+    <div class="mx-auto max-w-6xl px-4 py-16 md:py-24">
+      <p class="mb-3 text-sm font-medium text-brand-200">20代後半〜40代男性向け</p>
+      <h1 class="text-3xl font-bold leading-tight md:text-5xl">
+        恋愛は感覚じゃない。<br />
+        <span class="text-brand-200">データと実践</span>で攻略する。
+      </h1>
+      <p class="mt-6 max-w-2xl text-lg leading-relaxed text-brand-100">
+        マッチングアプリ攻略、婚活、見た目改善、デート術まで。論理的に、でも押し付けがましくなく、男性の恋愛をサポートします。
+      </p>
+      <div class="mt-8 flex flex-wrap gap-3">
+        <a
+          href="/category/matching-app"
+          class="rounded-lg bg-white px-6 py-3 text-sm font-semibold text-brand-700 transition hover:bg-brand-50"
+        >
+          マッチングアプリ攻略
+        </a>
+        <a
+          href="/ranking"
+          class="rounded-lg border border-brand-400 px-6 py-3 text-sm font-semibold text-white transition hover:bg-brand-600"
+        >
+          人気記事ランキング
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="mx-auto max-w-6xl px-4 py-12">
+    <h2 class="mb-6 text-2xl font-bold text-slate-900">カテゴリから探す</h2>
+    <div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+      {
+        categories.map((cat) => (
+          <a
+            href={`/category/${cat.slug}`}
+            class="group rounded-xl border border-slate-200 bg-white p-5 transition hover:border-brand-200 hover:shadow-md"
+          >
+            <span class="text-2xl">{cat.icon}</span>
+            <h3 class="mt-2 text-lg font-bold text-slate-900 group-hover:text-brand-600">
+              {cat.name}
+            </h3>
+            <p class="mt-1 text-sm leading-relaxed text-slate-600">{cat.description}</p>
+          </a>
+        ))
+      }
+    </div>
+  </section>
+
+  {
+    featured.length > 0 && (
+      <section class="bg-white py-12">
+        <div class="mx-auto max-w-6xl px-4">
+          <h2 class="mb-6 text-2xl font-bold text-slate-900">注目記事</h2>
+          <div class="grid gap-6 md:grid-cols-3">
+            {featured.map((article) => (
+              <ArticleCard
+                title={article.data.title}
+                description={article.data.description}
+                slug={article.id}
+                category={article.data.category}
+                publishedAt={article.data.publishedAt}
+                readingTime={article.data.readingTime}
+                featured
+              />
+            ))}
+          </div>
+        </div>
+      </section>
+    )
+  }
+
+  <section class="mx-auto max-w-6xl px-4 py-12">
+    <div class="mb-6 flex items-center justify-between">
+      <h2 class="text-2xl font-bold text-slate-900">新着記事</h2>
+      <a href="/articles" class="text-sm font-medium text-brand-600 hover:text-brand-800">
+        すべて見る →
+      </a>
+    </div>
+    <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+      {
+        latest.map((article) => (
+          <ArticleCard
+            title={article.data.title}
+            description={article.data.description}
+            slug={article.id}
+            category={article.data.category}
+            publishedAt={article.data.publishedAt}
+            readingTime={article.data.readingTime}
+          />
+        ))
+      }
+    </div>
+  </section>
+
+  <section class="border-t border-slate-200 bg-slate-100 py-12">
+    <div class="mx-auto max-w-6xl px-4 text-center">
+      <h2 class="text-2xl font-bold text-slate-900">なぜ「論理」で恋愛を学ぶのか？</h2>
+      <p class="mx-auto mt-4 max-w-2xl leading-relaxed text-slate-600">
+        恋愛に「正解」はありません。でも、マッチングアプリのプロフィール改善や清潔感の習得には、明確に効果のある方法があります。感覚だけに頼らず、行動と改善のサイクルを回すことで、出会いの数も質も変わります。
+      </p>
+      <div class="mt-8 grid gap-6 md:grid-cols-3">
+        <div class="rounded-xl bg-white p-6">
+          <p class="text-3xl font-bold text-brand-600">01</p>
+          <p class="mt-2 font-bold text-slate-900">出会いの母数を増やす</p>
+          <p class="mt-2 text-sm text-slate-600">アプリ・婚活・コミュニティを戦略的に活用</p>
+        </div>
+        <div class="rounded-xl bg-white p-6">
+          <p class="text-3xl font-bold text-brand-600">02</p>
+          <p class="mt-2 font-bold text-slate-900">第一印象を最適化</p>
+          <p class="mt-2 text-sm text-slate-600">写真・服装・清潔感を論理的に改善</p>
+        </div>
+        <div class="rounded-xl bg-white p-6">
+          <p class="text-3xl font-bold text-brand-600">03</p>
+          <p class="mt-2 font-bold text-slate-900">デートで差をつける</p>
+          <p class="mt-2 text-sm text-slate-600">会話・場所選び・フォローの実践テクニック</p>
+        </div>
+      </div>
+    </div>
+  </section>
+</BaseLayout>

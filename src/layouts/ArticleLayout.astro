@@ -1,0 +1,102 @@
+---
+import BaseLayout from './BaseLayout.astro';
+import Breadcrumb from '../components/Breadcrumb.astro';
+import CategoryBadge from '../components/CategoryBadge.astro';
+import CtaBanner from '../components/CtaBanner.astro';
+import { getCategoryName } from '../utils/category';
+
+interface Props {
+  title: string;
+  description: string;
+  slug: string;
+  category: string;
+  publishedAt: Date;
+  updatedAt?: Date;
+  tags: string[];
+  readingTime?: number;
+  affiliate?: boolean;
+}
+
+const {
+  title,
+  description,
+  slug,
+  category,
+  publishedAt,
+  updatedAt,
+  tags,
+  readingTime,
+  affiliate,
+} = Astro.props;
+
+const formattedDate = publishedAt.toLocaleDateString('ja-JP', {
+  year: 'numeric',
+  month: 'long',
+  day: 'numeric',
+});
+
+const ctaVariant =
+  category === 'matching-app' ? 'app' : category === 'appearance' ? 'cosme' : 'general';
+---
+
+<BaseLayout
+  title={title}
+  description={description}
+  path={`/articles/${slug}`}
+  type="article"
+  publishedAt={publishedAt}
+  updatedAt={updatedAt}
+>
+  <article class="mx-auto max-w-3xl px-4 py-8">
+    <Breadcrumb
+      items={[
+        { label: 'ホーム', href: '/' },
+        { label: getCategoryName(category), href: `/category/${category}` },
+        { label: title },
+      ]}
+    />
+
+    <header class="mb-8">
+      <div class="mb-4 flex flex-wrap items-center gap-3">
+        <CategoryBadge category={category} />
+        {readingTime && <span class="text-sm text-slate-400">{readingTime}分で読める</span>}
+        {affiliate && (
+          <span class="rounded bg-slate-100 px-2 py-0.5 text-xs text-slate-500">PR</span>
+        )}
+      </div>
+      <h1 class="text-2xl font-bold leading-tight text-slate-900 md:text-3xl">{title}</h1>
+      <p class="mt-3 text-sm leading-relaxed text-slate-600">{description}</p>
+      <div class="mt-4 flex items-center gap-4 text-xs text-slate-400">
+        <time datetime={publishedAt.toISOString()}>公開: {formattedDate}</time>
+        {
+          updatedAt && (
+            <time datetime={updatedAt.toISOString()}>
+              更新: {updatedAt.toLocaleDateString('ja-JP')}
+            </time>
+          )
+        }
+      </div>
+    </header>
+
+    <div class="prose-article">
+      <slot />
+    </div>
+
+    <CtaBanner variant={ctaVariant} />
+
+    {
+      tags.length > 0 && (
+        <div class="mt-8 border-t border-slate-200 pt-6">
+          <p class="mb-2 text-sm font-semibold text-slate-700">関連タグ</p>
+          <div class="flex flex-wrap gap-2">
+            {tags.map((tag) => (
+              <span class="rounded-full bg-slate-100 px-3 py-1 text-xs text-slate-600">
+                #{tag}
+              </span>
+            ))}
+          </div>
+        </div>
+      )
+    }
+  </article>
+</BaseLayout>

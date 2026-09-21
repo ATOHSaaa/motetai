@@ -1,0 +1,37 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import ArticleCard from '../../components/ArticleCard.astro';
+import Breadcrumb from '../../components/Breadcrumb.astro';
+import { getCollection } from 'astro:content';
+
+const articles = (await getCollection('articles')).sort(
+  (a, b) => b.data.publishedAt.getTime() - a.data.publishedAt.getTime()
+);
+---
+
+<BaseLayout
+  title="記事一覧"
+  description="婚活・恋愛・マッチングアプリ・見た目改善の記事一覧。男性向けにわかりやすく解説しています。"
+  path="/articles"
+>
+  <div class="mx-auto max-w-6xl px-4 py-8">
+    <Breadcrumb items={[{ label: 'ホーム', href: '/' }, { label: '記事一覧' }]} />
+    <h1 class="mb-2 text-3xl font-bold text-slate-900">記事一覧</h1>
+    <p class="mb-8 text-slate-600">全{articles.length}件の記事</p>
+
+    <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+      {
+        articles.map((article) => (
+          <ArticleCard
+            title={article.data.title}
+            description={article.data.description}
+            slug={article.id}
+            category={article.data.category}
+            publishedAt={article.data.publishedAt}
+            readingTime={article.data.readingTime}
+          />
+        ))
+      }
+    </div>
+  </div>
+</BaseLayout>

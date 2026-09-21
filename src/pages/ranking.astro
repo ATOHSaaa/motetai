@@ -1,0 +1,58 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Breadcrumb from '../components/Breadcrumb.astro';
+import CategoryBadge from '../components/CategoryBadge.astro';
+import { getCollection } from 'astro:content';
+
+const articles = (await getCollection('articles'))
+  .sort((a, b) => {
+    const scoreA = (a.data.featured ? 10 : 0) + a.data.readingTime!;
+    const scoreB = (b.data.featured ? 10 : 0) + b.data.readingTime!;
+    return scoreB - scoreA;
+  })
+  .slice(0, 10);
+---
+
+<BaseLayout
+  title="人気記事ランキング"
+  description="メンズ恋ラボの人気記事ランキング。マッチングアプリ・婚活・見た目改善のおすすめ記事をまとめました。"
+  path="/ranking"
+>
+  <div class="mx-auto max-w-3xl px-4 py-8">
+    <Breadcrumb items={[{ label: 'ホーム', href: '/' }, { label: '人気ランキング' }]} />
+    <h1 class="mb-2 text-3xl font-bold text-slate-900">人気記事ランキング</h1>
+    <p class="mb-8 text-slate-600">男性の婚活・恋愛でよく読まれている記事TOP10</p>
+
+    <ol class="space-y-4">
+      {
+        articles.map((article, i) => (
+          <li>
+            <a
+              href={`/articles/${article.id}`}
+              class="group flex items-start gap-4 rounded-xl border border-slate-200 bg-white p-5 transition hover:border-brand-200 hover:shadow-md"
+            >
+              <span
+                class={`flex h-10 w-10 shrink-0 items-center justify-center rounded-full text-lg font-bold ${
+                  i < 3 ? 'bg-brand-600 text-white' : 'bg-slate-100 text-slate-600'
+                }`}
+              >
+                {i + 1}
+              </span>
+              <div class="min-w-0 flex-1">
+                <div class="mb-2">
+                  <CategoryBadge category={article.data.category} />
+                </div>
+                <h2 class="font-bold text-slate-900 group-hover:text-brand-600">
+                  {article.data.title}
+                </h2>
+                <p class="mt-1 text-sm text-slate-600 line-clamp-2">
+                  {article.data.description}
+                </p>
+              </div>
+            </a>
+          </li>
+        ))
+      }
+    </ol>
+  </div>
+</BaseLayout>

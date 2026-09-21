@@ -1,0 +1,75 @@
+@import 'tailwindcss';
+
+@theme {
+  --font-sans: 'Hiragino Sans', 'Hiragino Kaku Gothic ProN', 'Noto Sans JP', sans-serif;
+  --color-brand-50: #eff6ff;
+  --color-brand-100: #dbeafe;
+  --color-brand-200: #bfdbfe;
+  --color-brand-400: #60a5fa;
+  --color-brand-500: #3b82f6;
+  --color-brand-600: #2563eb;
+  --color-brand-700: #1d4ed8;
+  --color-brand-800: #1e40af;
+  --color-brand-900: #1e3a8a;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-slate-50 text-slate-800 antialiased;
+}
+
+.prose-article h2 {
+  @apply mt-10 mb-4 border-b-2 border-brand-100 pb-2 text-xl font-bold text-slate-900;
+}
+
+.prose-article h3 {
+  @apply mt-8 mb-3 text-lg font-bold text-slate-800;
+}
+
+.prose-article p {
+  @apply mb-4 leading-relaxed text-slate-700;
+}
+
+.prose-article ul,
+.prose-article ol {
+  @apply mb-4 ml-6 space-y-2 text-slate-700;
+}
+
+.prose-article ul {
+  @apply list-disc;
+}
+
+.prose-article ol {
+  @apply list-decimal;
+}
+
+.prose-article li {
+  @apply leading-relaxed;
+}
+
+.prose-article strong {
+  @apply font-bold text-slate-900;
+}
+
+.prose-article a {
+  @apply text-brand-600 underline decoration-brand-200 underline-offset-2 hover:text-brand-800;
+}
+
+.prose-article blockquote {
+  @apply my-6 rounded-r-lg border-l-4 border-brand-500 bg-brand-50 px-5 py-4 text-slate-700;
+}
+
+.prose-article table {
+  @apply mb-6 w-full border-collapse text-sm;
+}
+
+.prose-article th {
+  @apply border border-slate-200 bg-slate-100 px-4 py-2 text-left font-semibold;
+}
+
+.prose-article td {
+  @apply border border-slate-200 px-4 py-2;
+}

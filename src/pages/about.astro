@@ -1,0 +1,42 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Breadcrumb from '../components/Breadcrumb.astro';
+import { siteConfig } from '../config/site';
+---
+
+<BaseLayout
+  title="運営者情報"
+  description="メンズ恋ラボの運営者情報・編集方針について"
+  path="/about"
+>
+  <div class="mx-auto max-w-3xl px-4 py-8">
+    <Breadcrumb items={[{ label: 'ホーム', href: '/' }, { label: '運営者情報' }]} />
+    <h1 class="mb-6 text-3xl font-bold text-slate-900">運営者情報</h1>
+
+    <div class="prose-article">
+      <h2>サイト名</h2>
+      <p>{siteConfig.name}</p>
+
+      <h2>サイトの目的</h2>
+      <p>
+        20代後半から40代の男性が、婚活・恋愛において「何をすればいいかわからない」という状態から抜け出すための情報を提供することを目的としています。
+      </p>
+
+      <h2>編集方針</h2>
+      <ul>
+        <li>感覚的なアドバイスではなく、根拠のある情報を中心に掲載します</li>
+        <li>読者を責めたり、焦らせたりする表現は避けます</li>
+        <li>アフィリエイト広告を利用している記事には「PR」表記を行います</li>
+        <li>定期的に記事を更新し、最新の情報を反映します</li>
+      </ul>
+
+      <h2>広告について</h2>
+      <p>
+        当サイトでは、アフィリエイトプログラムおよび広告を利用しています。リンク先の商品・サービスを紹介することで、サイトの運営費を捻出しています。紹介内容は編集部の独自の見解に基づいており、広告主の意向によって記事内容が左右されることはありません。
+      </p>
+
+      <h2>お問い合わせ</h2>
+      <p>お問い合わせは現在準備中です。今しばらくお待ちください。</p>
+    </div>
+  </div>
+</BaseLayout>

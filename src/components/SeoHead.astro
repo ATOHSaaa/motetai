@@ -1,0 +1,92 @@
+---
+import { siteConfig } from '../config/site';
+
+interface Props {
+  title: string;
+  description: string;
+  path?: string;
+  type?: 'website' | 'article';
+  publishedAt?: Date;
+  updatedAt?: Date;
+  noindex?: boolean;
+}
+
+const {
+  title,
+  description,
+  path = '/',
+  type = 'website',
+  publishedAt,
+  updatedAt,
+  noindex = false,
+} = Astro.props;
+
+const fullTitle = title === siteConfig.name ? title : `${title} | ${siteConfig.name}`;
+const canonicalUrl = new URL(path, siteConfig.url).href;
+const ogImage = new URL(siteConfig.ogImage, siteConfig.url).href;
+---
+
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>{fullTitle}</title>
+<meta name="description" content={description} />
+<link rel="canonical" href={canonicalUrl} />
+{noindex && <meta name="robots" content="noindex, nofollow" />}
+
+<meta property="og:type" content={type} />
+<meta property="og:title" content={fullTitle} />
+<meta property="og:description" content={description} />
+<meta property="og:url" content={canonicalUrl} />
+<meta property="og:site_name" content={siteConfig.name} />
+<meta property="og:locale" content={siteConfig.locale} />
+<meta property="og:image" content={ogImage} />
+
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content={fullTitle} />
+<meta name="twitter:description" content={description} />
+<meta name="twitter:image" content={ogImage} />
+
+<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+
+{
+  type === 'article' && publishedAt && (
+    <>
+      <meta property="article:published_time" content={publishedAt.toISOString()} />
+      {updatedAt && (
+        <meta property="article:modified_time" content={updatedAt.toISOString()} />
+      )}
+    </>
+  )
+}
+
+<script
+  type="application/ld+json"
+  set:html={JSON.stringify(
+    type === 'article'
+      ? {
+          '@context': 'https://schema.org',
+          '@type': 'Article',
+          headline: title,
+          description,
+          url: canonicalUrl,
+          datePublished: publishedAt?.toISOString(),
+          dateModified: (updatedAt ?? publishedAt)?.toISOString(),
+          author: {
+            '@type': 'Organization',
+            name: siteConfig.author,
+          },
+          publisher: {
+            '@type': 'Organization',
+            name: siteConfig.name,
+            url: siteConfig.url,
+          },
+        }
+      : {
+          '@context': 'https://schema.org',
+          '@type': 'WebSite',
+          name: siteConfig.name,
+          description: siteConfig.description,
+          url: siteConfig.url,
+        }
+  )}
+/>
