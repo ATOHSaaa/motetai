@@ -5,7 +5,7 @@ import { visit } from 'unist-util-visit';
 import tailwindcss from '@tailwindcss/vite';
 import sitemap from '@astrojs/sitemap';
 
-const owner = process.env.GITHUB_REPOSITORY_OWNER ?? 'atohslit1113';
+const owner = process.env.GITHUB_REPOSITORY_OWNER ?? 'atohsaaa';
 const repo = 'motetai';
 const base = process.env.ASTRO_BASE ?? `/${repo}/`;
 const site = process.env.ASTRO_SITE ?? `https://${owner}.github.io`;

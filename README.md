@@ -2,7 +2,7 @@
 
 20代後半〜40代男性向けの婚活・恋愛メディア。Astro + Tailwind CSS で構築。
 
-**公開URL:** https://atohslit1113.github.io/motetai/
+**公開URL:** https://atohsaaa.github.io/motetai/
 
 ## 開発
 

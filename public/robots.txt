@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://atohslit1113.github.io/motetai/sitemap-index.xml
+Sitemap: https://atohsaaa.github.io/motetai/sitemap-index.xml
