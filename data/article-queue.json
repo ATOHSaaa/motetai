@@ -7,7 +7,9 @@
       "category": "matching-app",
       "targetKeywords": ["マッチングアプリ 危険", "マッチングアプリ 注意点"],
       "priority": 100,
-      "status": "pending"
+      "status": "completed",
+      "completedAt": "2026-09-21T14:07:00.000Z",
+      "title": "【2026年最新】マッチングアプリは安全？男性が知るべき危険回避ガイド"
     },
     {
       "slug": "matching-app-price-comparison",
@@ -15,7 +17,9 @@
       "category": "matching-app",
       "targetKeywords": ["マッチングアプリ 月額", "マッチングアプリ 無料"],
       "priority": 99,
-      "status": "pending"
+      "status": "completed",
+      "completedAt": "2026-09-21T14:07:00.000Z",
+      "title": "【2026年最新】マッチングアプリ料金比較｜男性の月額相場とコスパ選び方"
     },
     {
       "slug": "first-date-conversation-tips",
