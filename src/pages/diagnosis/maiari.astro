@@ -1,0 +1,229 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Breadcrumb from '../../components/Breadcrumb.astro';
+import { maiariQuestions, maxMaiariScore } from '../../data/maiari-diagnosis';
+import { withBase } from '../../utils/url';
+
+const title = '脈あり度診断';
+const description =
+  '10個の質問に答えるだけで、気になる相手の脈あり度を診断。LINE・デート・会話のサインをもとに、論理的に好意度をチェックできます。';
+---
+
+<BaseLayout title={title} description={description} path="/diagnosis/maiari">
+  <div class="mx-auto max-w-2xl px-4 py-8">
+    <Breadcrumb
+      items={[
+        { label: 'ホーム', href: '/' },
+        { label: '脈あり度診断' },
+      ]}
+    />
+
+    <!-- イントロ -->
+    <section id="intro" class="text-center">
+      <span class="inline-block rounded-full bg-rose-100 px-4 py-1 text-sm font-medium text-rose-700">
+        無料・10問・約2分
+      </span>
+      <h1 class="mt-4 text-3xl font-bold text-slate-900">脈あり度診断</h1>
+      <p class="mt-3 text-slate-600 leading-relaxed">
+        気になる相手の行動を10個の質問でチェック。<br />
+        LINE・デート・会話のサインから、<strong>脈あり度</strong>を診断します。
+      </p>
+      <p class="mt-2 text-xs text-slate-400">
+        ※あくまで行動パターンの参考です。100%正確ではありません。
+      </p>
+      <button
+        id="start-btn"
+        class="mt-8 rounded-xl bg-brand-600 px-10 py-4 text-lg font-bold text-white shadow-lg transition hover:bg-brand-700"
+      >
+        診断をはじめる
+      </button>
+    </section>
+
+    <!-- 質問 -->
+    <section id="quiz" class="hidden">
+      <div class="mb-6">
+        <div class="mb-2 flex items-center justify-between text-sm text-slate-500">
+          <span id="progress-label">質問 1 / 10</span>
+          <span id="category-label" class="rounded-full bg-brand-100 px-2 py-0.5 text-xs font-medium text-brand-700"></span>
+        </div>
+        <div class="h-2 overflow-hidden rounded-full bg-slate-200">
+          <div id="progress-bar" class="h-full rounded-full bg-brand-600 transition-all duration-300" style="width: 10%"></div>
+        </div>
+      </div>
+
+      <h2 id="question-text" class="mb-6 text-xl font-bold text-slate-900"></h2>
+
+      <div id="options" class="space-y-3"></div>
+
+      <div class="mt-6 flex justify-between">
+        <button id="prev-btn" class="rounded-lg px-4 py-2 text-sm text-slate-500 hover:text-slate-700 disabled:opacity-30" disabled>
+          ← 戻る
+        </button>
+      </div>
+    </section>
+
+    <!-- 結果 -->
+    <section id="result" class="hidden text-center">
+      <p class="text-sm text-slate-500">診断結果</p>
+      <div id="result-emoji" class="mt-2 text-6xl"></div>
+      <p class="mt-2 text-5xl font-bold text-brand-600" id="result-percent">0%</p>
+      <p class="mt-1 text-lg font-bold text-slate-900" id="result-title"></p>
+      <p class="mt-4 text-left text-sm leading-relaxed text-slate-600" id="result-desc"></p>
+
+      <div class="mt-6 rounded-xl border border-slate-200 bg-white p-5 text-left">
+        <p class="mb-3 font-bold text-slate-900">次にやること</p>
+        <ul id="result-advice" class="space-y-2 text-sm text-slate-700"></ul>
+      </div>
+
+      <div class="mt-6 rounded-xl bg-slate-50 p-5 text-left">
+        <p class="mb-2 text-sm font-bold text-slate-700">もっと詳しく知る</p>
+        <a id="result-article" href="#" class="text-sm font-medium text-brand-600 hover:text-brand-800">
+          関連記事を読む →
+        </a>
+      </div>
+
+      <div class="mt-8 flex flex-col gap-3 sm:flex-row sm:justify-center">
+        <button
+          id="retry-btn"
+          class="rounded-lg border border-slate-300 px-6 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50"
+        >
+          もう一度診断する
+        </button>
+        <a
+          href={withBase('/articles/how-to-read-maiari-signs')}
+          class="rounded-lg bg-brand-600 px-6 py-3 text-sm font-semibold text-white hover:bg-brand-700"
+        >
+          脈アリサイン記事を読む
+        </a>
+      </div>
+
+      <p class="mt-6 text-xs text-slate-400">
+        結果をシェア：
+        <button id="share-btn" class="text-brand-600 hover:underline">コピーする</button>
+      </p>
+    </section>
+  </div>
+
+  <script define:vars={{ questions: maiariQuestions, maxScore: maxMaiariScore, baseUrl: import.meta.env.BASE_URL }}>
+    const results = [
+      { min: 0, max: 8, emoji: '💭', percent: '0〜27%', title: '脈ナシの可能性が高い', desc: '現時点では、相手の好意サインはあまり見られません。単に忙しい可能性もありますが、複数の項目で低スコアが出ている場合は、期待値を下げて他の出会いも視野に入れるのが合理的です。', advice: ['追撃メッセージは避け、一度距離を置いてみましょう', '自分磨き（清潔感・プロフィール改善）に集中するのも有効です', '1つだけ好反応がある場合は、他のサインも確認してから判断してください'], article: 'how-to-read-maiari-signs' },
+      { min: 9, max: 15, emoji: '🤔', percent: '30〜50%', title: '様子見ゾーン', desc: '好意のサインと中立のサインが混在しています。この段階では「脈アリ」と決めつけず、もう1〜2回のデートや会話で追加のサインを確認するのがベストです。', advice: ['自然体で会話を楽しみ、相手のペースを尊重しましょう', '自分から次のデートを具体的に提案してみてください', '清潔感と会話の質を上げると、評価が変わることもあります'], article: 'date-maiari-signs-male' },
+      { min: 16, max: 22, emoji: '💗', percent: '53〜73%', title: '脈アリの可能性が高い', desc: '複数の場面で好意のサインが見られます。相手はあなたとの関係に興味を持っている可能性が高いです。ここからは「確認」より「関係を進める」フェーズに入れます。', advice: ['48時間以内に次のデートを具体的に提案しましょう', '褒めすぎず、相手の話を聞く姿勢を続けてください', '焦って告白するより、デートの回数を重ねるのが安全です'], article: 'matching-app-maiari-signs' },
+      { min: 23, max: 30, emoji: '🔥', percent: '77〜100%', title: '脈アリ濃厚！', desc: 'ほぼすべての場面で好意のサインが確認できます。相手はあなたに強い関心を持っている可能性が非常に高いです。次の行動を迷わず進めましょう。', advice: ['次のデートを早めに提案し、二人きりの時間を増やしましょう', '「楽しい」「また会いたい」という気持ちを素直に伝えてOK', '清潔感をキープし、自信を持って接してください'], article: 'line-how-to-send-male' },
+    ];
+
+    let current = 0;
+    const answers = new Array(questions.length).fill(null);
+
+    const intro = document.getElementById('intro');
+    const quiz = document.getElementById('quiz');
+    const result = document.getElementById('result');
+    const startBtn = document.getElementById('start-btn');
+    const prevBtn = document.getElementById('prev-btn');
+    const retryBtn = document.getElementById('retry-btn');
+    const shareBtn = document.getElementById('share-btn');
+
+    function showSection(section) {
+      intro.classList.add('hidden');
+      quiz.classList.add('hidden');
+      result.classList.add('hidden');
+      section.classList.remove('hidden');
+    }
+
+    function renderQuestion() {
+      const q = questions[current];
+      document.getElementById('progress-label').textContent = `質問 ${current + 1} / ${questions.length}`;
+      document.getElementById('category-label').textContent = q.category;
+      document.getElementById('progress-bar').style.width = `${((current + 1) / questions.length) * 100}%`;
+      document.getElementById('question-text').textContent = q.question;
+
+      const optionsEl = document.getElementById('options');
+      optionsEl.innerHTML = '';
+
+      q.options.forEach((opt, i) => {
+        const btn = document.createElement('button');
+        const isSelected = answers[current] === i;
+        btn.className = `w-full rounded-xl border p-4 text-left text-sm transition ${
+          isSelected
+            ? 'border-brand-500 bg-brand-50 ring-2 ring-brand-200'
+            : 'border-slate-200 bg-white hover:border-brand-300 hover:bg-brand-50'
+        }`;
+        btn.textContent = opt.label;
+        btn.addEventListener('click', () => selectOption(i));
+        optionsEl.appendChild(btn);
+      });
+
+      prevBtn.disabled = current === 0;
+    }
+
+    function selectOption(index) {
+      answers[current] = index;
+
+      if (current < questions.length - 1) {
+        current++;
+        renderQuestion();
+      } else {
+        showResult();
+      }
+    }
+
+    function getTotalScore() {
+      return answers.reduce((sum, ansIdx, qIdx) => {
+        if (ansIdx === null) return sum;
+        return sum + questions[qIdx].options[ansIdx].score;
+      }, 0);
+    }
+
+    function showResult() {
+      const score = getTotalScore();
+      const percent = Math.round((score / maxScore) * 100);
+      const res = results.find((r) => score >= r.min && score <= r.max) ?? results[0];
+
+      document.getElementById('result-emoji').textContent = res.emoji;
+      document.getElementById('result-percent').textContent = `${percent}%`;
+      document.getElementById('result-title').textContent = res.title;
+      document.getElementById('result-desc').textContent = res.desc;
+
+      const adviceEl = document.getElementById('result-advice');
+      adviceEl.innerHTML = res.advice.map((a) => `<li class="flex gap-2"><span class="text-brand-500">✓</span>${a}</li>`).join('');
+
+      const articleLink = document.getElementById('result-article');
+      articleLink.href = `${baseUrl}articles/${res.article}/`;
+      articleLink.textContent = '関連記事で詳しく読む →';
+
+      showSection(result);
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+
+    startBtn.addEventListener('click', () => {
+      current = 0;
+      answers.fill(null);
+      showSection(quiz);
+      renderQuestion();
+    });
+
+    prevBtn.addEventListener('click', () => {
+      if (current > 0) {
+        current--;
+        renderQuestion();
+      }
+    });
+
+    retryBtn.addEventListener('click', () => {
+      current = 0;
+      answers.fill(null);
+      showSection(intro);
+    });
+
+    shareBtn.addEventListener('click', () => {
+      const score = getTotalScore();
+      const percent = Math.round((score / maxScore) * 100);
+      const res = results.find((r) => score >= r.min && score <= r.max) ?? results[0];
+      const text = `脈あり度診断の結果：${percent}%（${res.title}）\n${window.location.href}`;
+      navigator.clipboard.writeText(text).then(() => {
+        shareBtn.textContent = 'コピーしました！';
+        setTimeout(() => { shareBtn.textContent = 'コピーする'; }, 2000);
+      });
+    });
+  </script>
+</BaseLayout>
