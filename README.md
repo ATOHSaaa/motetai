@@ -1,43 +1,34 @@
-# Astro Starter Kit: Minimal
+# motetai
 
-```sh
-npm create astro@latest -- --template minimal
+20代後半〜40代男性向けの婚活・恋愛メディア。Astro + Tailwind CSS で構築。
+
+**公開URL:** https://atohslit1113.github.io/motetai/
+
+## 開発
+
+```bash
+npm install
+npm run dev
 ```
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+ローカルでは `http://localhost:4321/motetai/` で表示されます。
 
-## 🚀 Project Structure
+## ビルド
 
-Inside of your Astro project, you'll see the following folders and files:
-
-```text
-/
-├── public/
-├── src/
-│   └── pages/
-│       └── index.astro
-└── package.json
+```bash
+npm run build
+npm run preview
 ```
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+## GitHub Pages デプロイ
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+`main` ブランチへの push で GitHub Actions が自動デプロイします。
 
-Any static assets, like images, can be placed in the `public/` directory.
+初回のみ、GitHub リポジトリの **Settings → Pages → Build and deployment → Source** を **GitHub Actions** に設定してください。
 
-## 🧞 Commands
+## 構成
 
-All commands are run from the root of the project, from a terminal:
-
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+- `src/content/articles/` — 記事（Markdown）
+- `src/pages/` — ページルーティング
+- `src/components/` — UIコンポーネント
+- `src/config/site.ts` — サイト設定

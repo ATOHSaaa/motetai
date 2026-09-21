@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://mens-renai-lab.com/sitemap-index.xml
+Sitemap: https://atohslit1113.github.io/motetai/sitemap-index.xml
