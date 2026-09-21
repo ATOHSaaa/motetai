@@ -37,4 +37,4 @@ fi
 
 echo ""
 echo "✅ デプロイ完了！"
-echo "📍 https://$(echo "$OWNER" | tr '[:upper:]' '[:lower:]').github.io/$REPO/"
+echo "📍 https://motetai.jp/"

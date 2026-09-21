@@ -23,4 +23,5 @@ echo "1. https://github.com/$(gh api user -q .login)/motetai/settings/pages を�
 echo "2. Build and deployment → Source を「GitHub Actions」に設定"
 echo "3. Actions タブでデプロイ完了を確認"
 echo ""
-echo "公開URL: https://$(gh api user -q .login).github.io/motetai/"
+echo "公開URL: https://motetai.jp/"
+echo "4. ドメイン設定で motetai.jp の DNS を GitHub Pages に向けてください"

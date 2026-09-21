@@ -3,12 +3,10 @@ import { defineConfig } from 'astro/config';
 import { visit } from 'unist-util-visit';
 
 import tailwindcss from '@tailwindcss/vite';
-import sitemap from '@astrojs/sitemap';
+import { siteEnv } from './site.config.mjs';
 
-const owner = process.env.GITHUB_REPOSITORY_OWNER ?? 'atohsaaa';
-const repo = 'motetai';
-const base = process.env.ASTRO_BASE ?? `/${repo}/`;
-const site = process.env.ASTRO_SITE ?? `https://${owner}.github.io`;
+const base = siteEnv.basePath;
+const site = siteEnv.origin;
 
 // https://astro.build/config
 /** @param {string} basePath */
@@ -34,5 +32,4 @@ export default defineConfig({
   vite: {
     plugins: [tailwindcss()],
   },
-  integrations: [sitemap()],
 });

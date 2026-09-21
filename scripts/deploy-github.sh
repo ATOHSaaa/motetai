@@ -37,7 +37,7 @@ gh api "repos/$OWNER/$REPO/pages" -X POST -f build_type=workflow 2>/dev/null || 
 
 echo ""
 echo "✅ 完了！"
-echo "📍 公開URL: https://$OWNER.github.io/$REPO/"
+echo "📍 公開URL: https://motetai.jp/"
 echo "🔗 リポジトリ: https://github.com/$OWNER/$REPO"
 echo ""
 echo "Actions タブでデプロイ完了を確認してください（1〜3分）"

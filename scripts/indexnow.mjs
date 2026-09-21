@@ -17,9 +17,11 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dirname, '..');
 const ARTICLES_DIR = join(ROOT, 'src/content/articles');
 
+import { getSiteUrl, siteEnv } from '../site.config.mjs';
+
 const INDEXNOW_KEY = 'e8f3a2b1c9d04e7f';
-const INDEXNOW_HOST = 'atohsaaa.github.io';
-const SITE_BASE = process.env.INDEXNOW_SITE_BASE ?? 'https://atohsaaa.github.io/motetai';
+const INDEXNOW_HOST = siteEnv.domain;
+const SITE_BASE = process.env.INDEXNOW_SITE_BASE ?? getSiteUrl();
 
 const INDEXNOW_ENDPOINTS = [
   'https://api.indexnow.org/indexnow',

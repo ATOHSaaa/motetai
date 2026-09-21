@@ -2,7 +2,7 @@
 
 20代後半〜40代男性向けの婚活・恋愛メディア。Astro + Tailwind CSS で構築。
 
-**公開URL:** https://atohsaaa.github.io/motetai/
+**公開URL:** https://motetai.jp/
 
 ## 開発
 
@@ -11,7 +11,7 @@ npm install
 npm run dev
 ```
 
-ローカルでは `http://localhost:4321/motetai/` で表示されます。
+ローカルでは `http://localhost:4321/` で表示されます。
 
 ## ビルド
 
