@@ -59,12 +59,13 @@ npm run indexnow -- --changed
 
 ### セットアップ手順
 
-1. Cursor で **Automations** を開く（`Cmd+Shift+P` → "Automations"）
+1. https://cursor.com/automations/new を開く（`Automations: New Automation` コマンドは存在しない）
 2. 新規 Automation を作成:
-   - **Trigger:** Schedule — 毎日 6:00（ローカル時間）
-   - **Repository:** このリポジトリ（`main`）
+   - **Trigger:** Schedule — 毎日 6:00（JST）
+   - **Repository:** `ATOHSaaa/motetai` / `main`
    - **Instructions:** `.cursor/automations/daily-articles.md` の内容をコピー
-3. GitHub リポジトリの **Settings → Secrets → Actions** に解析用 ID を登録（任意）:
+   - **Tools:** Git commit / push を有効化
+3. GitHub リポジトリの **Settings → Secrets → Actions** に解析用 ID を登録（任意・済）:
    - `PUBLIC_GA_MEASUREMENT_ID` / `PUBLIC_CLARITY_PROJECT_ID` / `PUBLIC_GOOGLE_SITE_VERIFICATION`
 
 ### 流れ

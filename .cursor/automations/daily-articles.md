@@ -4,13 +4,29 @@ Anthropic API キーは不要です。Cursor の Cloud Agent が記事を執筆�
 
 ## Automation 作成手順（初回のみ）
 
-1. `Cmd+Shift+P` → **Automations: New Automation**
+`Automations: New Automation` というコマンドは**存在しません**。次のいずれかで作成します。
+
+### 方法A: ブラウザ（いちばん簡単）
+
+1. https://cursor.com/automations/new を開く
 2. **Name:** `motetai 毎日2記事追加`
-3. **Trigger:** Schedule → **毎日 6:00**（ローカル時間）
+3. **Trigger:** Schedule → **毎日 6:00**（JST）
 4. **Repository:** `ATOHSaaa/motetai` / `main`
 5. **Tools:** Git commit / push を有効化
-6. **Instructions:** このファイルを `@.cursor/automations/daily-articles.md` で参照
+6. **Instructions:** 下の「やること」セクションをコピー、または `@.cursor/automations/daily-articles.md` を参照
 7. 保存して有効化
+
+### 方法B: Agents Window
+
+1. `Cmd+Shift+P` → **表示: New Agents Window**
+2. チャットで `/automate` と入力
+3. 「毎日6時に motetai で2記事書いて push」と説明する
+
+### 方法C: このチャットで依頼（手動・確実）
+
+毎朝、チャットで次を送るだけでもOK:
+
+> `@.cursor/automations/daily-articles.md` に従って、今日の2記事を書いて commit & push して
 
 プリフィル JSON: `.cursor/automations/daily-articles.prefill.json`
 
