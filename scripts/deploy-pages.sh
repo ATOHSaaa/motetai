@@ -1,7 +1,8 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-cd "$(dirname "$0")/.."
+ROOT="$(cd "$(dirname "$0")/.." && pwd)"
+cd "$ROOT"
 
 OWNER=$(gh api user -q .login)
 REPO="motetai"
@@ -27,7 +28,7 @@ echo "⏳ Pages 反映待ち（15秒）..."
 sleep 15
 
 echo "📡 IndexNow に送信..."
-cd "$(dirname "$0")/.."
+cd "$ROOT"
 if node scripts/indexnow.mjs --changed; then
   echo "✅ IndexNow 送信完了"
 else
