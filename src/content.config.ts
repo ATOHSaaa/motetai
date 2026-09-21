@@ -13,6 +13,7 @@ const articles = defineCollection({
       'appearance',
       'date-talk',
       'fashion',
+      'relationship',
     ]),
     publishedAt: z.coerce.date(),
     updatedAt: z.coerce.date().optional(),

@@ -83,6 +83,17 @@ tags: ["タグ1", "タグ2"]
 
 **文字数の目安:** 最低 3,000文字、理想 5,000〜8,000文字
 
+**太字の書き方（重要）:**
+
+- `**テキスト**` は `「」` や `（）` を含むとパースされず `**` がそのまま表示される
+- 括弧入りは `<strong>「お題」機能</strong>` のように HTML で書く
+- ビルド後は `npm run build && node scripts/check-markdown-bold.mjs` で全記事を確認
+
+**テンプレート例（``` コードブロック）:**
+
+- 執筆時は通常の ` ``` ` で書いてよい
+- ビルド前に `node scripts/convert-template-blocks.mjs --write` を実行し、コピー用カード UI に変換する
+
 ### Step 5: 品質チェック
 
 - [ ] `research/<slug>.md` のチェックリストをすべて確認
@@ -90,6 +101,7 @@ tags: ["タグ1", "タグ2"]
 - [ ] タイトル・description にメインKWが含まれている
 - [ ] 内部リンクが2本以上ある
 - [ ] `npm run build` が通る
+- [ ] `node scripts/check-markdown-bold.mjs` で太字の未パースがない
 
 ### Step 6: デプロイ + IndexNow
 
@@ -130,3 +142,4 @@ npm run indexnow -- article-slug # 特定記事
 | appearance | メンズ スキンケア 初心者、脱毛 婚活、AGA 恋愛 |
 | date-talk | 初デート 場所、LINE 送り方 男性、会話 ネタ |
 | fashion | デート 服装 男性、婚活 ファッション、清潔感 コーデ |
+| relationship | 告白 タイミング、失恋 立ち直り、付き合う タイミング |

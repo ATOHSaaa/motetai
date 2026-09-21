@@ -5,7 +5,10 @@
       "slug": "matching-app-safety-male",
       "keyword": "マッチングアプリ 安全 男性",
       "category": "matching-app",
-      "targetKeywords": ["マッチングアプリ 危険", "マッチングアプリ 注意点"],
+      "targetKeywords": [
+        "マッチングアプリ 危険",
+        "マッチングアプリ 注意点"
+      ],
       "priority": 100,
       "status": "completed",
       "completedAt": "2026-09-21T14:07:00.000Z",
@@ -15,7 +18,10 @@
       "slug": "matching-app-price-comparison",
       "keyword": "マッチングアプリ 料金 比較",
       "category": "matching-app",
-      "targetKeywords": ["マッチングアプリ 月額", "マッチングアプリ 無料"],
+      "targetKeywords": [
+        "マッチングアプリ 月額",
+        "マッチングアプリ 無料"
+      ],
       "priority": 99,
       "status": "completed",
       "completedAt": "2026-09-21T14:07:00.000Z",
@@ -25,7 +31,10 @@
       "slug": "first-date-conversation-tips",
       "keyword": "初デート 会話 ネタ 男性",
       "category": "date-talk",
-      "targetKeywords": ["初デート 話題", "デート 会話術"],
+      "targetKeywords": [
+        "初デート 話題",
+        "デート 会話術"
+      ],
       "priority": 98,
       "status": "pending"
     },
@@ -33,7 +42,10 @@
       "slug": "second-date-invitation",
       "keyword": "デート 2回目 誘い方 男性",
       "category": "date-talk",
-      "targetKeywords": ["2回目デート タイミング", "デート 次 誘う"],
+      "targetKeywords": [
+        "2回目デート タイミング",
+        "デート 次 誘う"
+      ],
       "priority": 97,
       "status": "pending"
     },
@@ -41,7 +53,10 @@
       "slug": "konkatsu-party-fashion-male",
       "keyword": "婚活パーティー 服装 男性",
       "category": "fashion",
-      "targetKeywords": ["婚活パーティー コーデ", "婚活 服装 30代"],
+      "targetKeywords": [
+        "婚活パーティー コーデ",
+        "婚活 服装 30代"
+      ],
       "priority": 96,
       "status": "pending"
     },
@@ -49,15 +64,23 @@
       "slug": "konkatsu-agency-comparison",
       "keyword": "結婚相談所 選び方 男性",
       "category": "konkatsu",
-      "targetKeywords": ["結婚相談所 比較", "婚活 相談所 おすすめ"],
+      "targetKeywords": [
+        "結婚相談所 比較",
+        "婚活 相談所 おすすめ"
+      ],
       "priority": 95,
-      "status": "pending"
+      "status": "completed",
+      "completedAt": "2026-09-21T14:49:21.715Z",
+      "title": "【30代男性】結婚相談所の選び方｜失敗しない5つの比較ポイント"
     },
     {
       "slug": "mens-fragrance-beginner",
       "keyword": "メンズ 香水 初心者 デート",
       "category": "appearance",
-      "targetKeywords": ["男性 香水 おすすめ", "デート 香水"],
+      "targetKeywords": [
+        "男性 香水 おすすめ",
+        "デート 香水"
+      ],
       "priority": 94,
       "status": "pending"
     },
@@ -65,7 +88,10 @@
       "slug": "mens-hair-styling-date",
       "keyword": "メンズ ヘアセット デート",
       "category": "appearance",
-      "targetKeywords": ["男性 髪型 セット", "デート ヘアスタイル"],
+      "targetKeywords": [
+        "男性 髪型 セット",
+        "デート ヘアスタイル"
+      ],
       "priority": 93,
       "status": "pending"
     },
@@ -73,7 +99,10 @@
       "slug": "line-after-first-date",
       "keyword": "初デート後 LINE 送り方 男性",
       "category": "date-talk",
-      "targetKeywords": ["デート後 メッセージ", "初デート後 連絡"],
+      "targetKeywords": [
+        "デート後 メッセージ",
+        "初デート後 連絡"
+      ],
       "priority": 92,
       "status": "pending"
     },
@@ -81,7 +110,10 @@
       "slug": "matching-app-profile-text",
       "keyword": "マッチングアプリ プロフィール 文 例",
       "category": "matching-app",
-      "targetKeywords": ["プロフィール 自己紹介 例", "Pairs 自己紹介"],
+      "targetKeywords": [
+        "プロフィール 自己紹介 例",
+        "Pairs 自己紹介"
+      ],
       "priority": 91,
       "status": "pending"
     },
@@ -89,15 +121,23 @@
       "slug": "konkatsu-success-tips-male",
       "keyword": "婚活 成功 コツ 男性",
       "category": "konkatsu",
-      "targetKeywords": ["婚活 うまくいく", "婚活 男性 ポイント"],
+      "targetKeywords": [
+        "婚活 うまくいく",
+        "婚活 男性 ポイント"
+      ],
       "priority": 90,
-      "status": "pending"
+      "status": "completed",
+      "completedAt": "2026-09-21T14:49:21.715Z",
+      "title": "【30代男性】婚活成功のコツ12選｜準備・行動・継続の論理ガイド"
     },
     {
       "slug": "date-shoes-male-guide",
       "keyword": "デート 靴 おすすめ 男性",
       "category": "fashion",
-      "targetKeywords": ["デート スニーカー", "婚活 靴 選び方"],
+      "targetKeywords": [
+        "デート スニーカー",
+        "婚活 靴 選び方"
+      ],
       "priority": 89,
       "status": "pending"
     },
@@ -105,7 +145,10 @@
       "slug": "mens-shaving-guide",
       "keyword": "メンズ ヒゲ 手入れ デート",
       "category": "appearance",
-      "targetKeywords": ["髭 整え方 男性", "清潔感 ヒゲ"],
+      "targetKeywords": [
+        "髭 整え方 男性",
+        "清潔感 ヒゲ"
+      ],
       "priority": 88,
       "status": "pending"
     },
@@ -113,7 +156,10 @@
       "slug": "confession-timing-male",
       "keyword": "告白 タイミング 男性",
       "category": "date-talk",
-      "targetKeywords": ["告白 何回目のデート", "付き合う タイミング"],
+      "targetKeywords": [
+        "告白 何回目のデート",
+        "付き合う タイミング"
+      ],
       "priority": 87,
       "status": "pending"
     },
@@ -121,7 +167,10 @@
       "slug": "matching-app-photo-tips",
       "keyword": "マッチングアプリ 写真 撮り方 男性",
       "category": "matching-app",
-      "targetKeywords": ["アプリ プロフィール写真", "マッチングアプリ 自撮り"],
+      "targetKeywords": [
+        "アプリ プロフィール写真",
+        "マッチングアプリ 自撮り"
+      ],
       "priority": 86,
       "status": "pending"
     },
@@ -129,7 +178,10 @@
       "slug": "omiai-clothing-male",
       "keyword": "お見合い 服装 男性",
       "category": "fashion",
-      "targetKeywords": ["お見合い スーツ", "お見合い コーデ"],
+      "targetKeywords": [
+        "お見合い スーツ",
+        "お見合い コーデ"
+      ],
       "priority": 85,
       "status": "pending"
     },
@@ -137,7 +189,10 @@
       "slug": "mens-posture-confidence",
       "keyword": "男性 姿勢 印象 恋愛",
       "category": "appearance",
-      "targetKeywords": ["姿勢 良くする 男性", "清潔感 姿勢"],
+      "targetKeywords": [
+        "姿勢 良くする 男性",
+        "清潔感 姿勢"
+      ],
       "priority": 84,
       "status": "pending"
     },
@@ -145,15 +200,23 @@
       "slug": "konkatsu-line-exchange",
       "keyword": "婚活 LINE 交換 タイミング",
       "category": "konkatsu",
-      "targetKeywords": ["婚活 LINE 送り方", "お見合い後 LINE"],
+      "targetKeywords": [
+        "婚活 LINE 送り方",
+        "お見合い後 LINE"
+      ],
       "priority": 83,
-      "status": "pending"
+      "status": "completed",
+      "completedAt": "2026-09-21T14:49:21.715Z",
+      "title": "婚活でのLINE交換タイミング｜男性が押さえるべき5つのルール"
     },
     {
       "slug": "tinder-guide-male-japan",
       "keyword": "Tinder 使い方 男性 日本",
       "category": "matching-app",
-      "targetKeywords": ["Tinder 攻略", "ティンダー プロフィール"],
+      "targetKeywords": [
+        "Tinder 攻略",
+        "ティンダー プロフィール"
+      ],
       "priority": 82,
       "status": "pending"
     },
@@ -161,7 +224,10 @@
       "slug": "date-budget-guide-male",
       "keyword": "デート 予算 男性 目安",
       "category": "date-talk",
-      "targetKeywords": ["初デート 費用", "デート お金 分担"],
+      "targetKeywords": [
+        "初デート 費用",
+        "デート お金 分担"
+      ],
       "priority": 81,
       "status": "pending"
     },
@@ -169,7 +235,10 @@
       "slug": "mens-wardrobe-essentials",
       "keyword": "婚活 ワードローブ 基本 男性",
       "category": "fashion",
-      "targetKeywords": ["婚活 服 揃える", "デート服 基本"],
+      "targetKeywords": [
+        "婚活 服 揃える",
+        "デート服 基本"
+      ],
       "priority": 80,
       "status": "pending"
     },
@@ -177,7 +246,10 @@
       "slug": "matching-app-rejection-coping",
       "keyword": "マッチングアプリ 振られ 対処",
       "category": "matching-app",
-      "targetKeywords": ["マッチング 失敗", "いいね 返ってこない"],
+      "targetKeywords": [
+        "マッチング 失敗",
+        "いいね 返ってこない"
+      ],
       "priority": 79,
       "status": "pending"
     },
@@ -185,15 +257,23 @@
       "slug": "konkatsu-age-gap",
       "keyword": "婚活 年の差 男性",
       "category": "konkatsu",
-      "targetKeywords": ["年上 婚活", "年下 婚活 男性"],
+      "targetKeywords": [
+        "年上 婚活",
+        "年下 婚活 男性"
+      ],
       "priority": 78,
-      "status": "pending"
+      "status": "completed",
+      "completedAt": "2026-09-21T14:49:21.715Z",
+      "title": "婚活の年の差｜30代男性が知るべき現実と成功のコツ"
     },
     {
       "slug": "mens-lip-care",
       "keyword": "メンズ リップケア デート",
       "category": "appearance",
-      "targetKeywords": ["男性 唇 ケア", "リップクリーム 男性"],
+      "targetKeywords": [
+        "男性 唇 ケア",
+        "リップクリーム 男性"
+      ],
       "priority": 77,
       "status": "pending"
     },
@@ -201,9 +281,72 @@
       "slug": "coffee-date-guide-male",
       "keyword": "カフェデート おすすめ 男性",
       "category": "date-talk",
-      "targetKeywords": ["カフェデート コツ", "初デート カフェ"],
+      "targetKeywords": [
+        "カフェデート コツ",
+        "初デート カフェ"
+      ],
       "priority": 76,
       "status": "pending"
+    },
+    {
+      "slug": "konkatsu-party-guide-male",
+      "keyword": "konkatsu-party-guide-male",
+      "category": "konkatsu",
+      "targetKeywords": [],
+      "priority": 50,
+      "status": "completed",
+      "completedAt": "2026-09-21T14:49:21.715Z",
+      "title": "【30代男性】婚活パーティー攻略ガイド｜カップリング率を上げる完全版"
+    },
+    {
+      "slug": "konkatsu-profile-male",
+      "keyword": "konkatsu-profile-male",
+      "category": "konkatsu",
+      "targetKeywords": [],
+      "priority": 50,
+      "status": "completed",
+      "completedAt": "2026-09-21T14:49:21.715Z",
+      "title": "【男性向け】婚活プロフィールの書き方｜選ばれる自己紹介の型とNG例"
+    },
+    {
+      "slug": "konkatsu-omiai-manner-male",
+      "keyword": "konkatsu-omiai-manner-male",
+      "category": "konkatsu",
+      "targetKeywords": [],
+      "priority": 50,
+      "status": "completed",
+      "completedAt": "2026-09-21T14:49:21.715Z",
+      "title": "お見合いマナー完全ガイド｜30代男性が好印象を残すための心得"
+    },
+    {
+      "slug": "konkatsu-40s-male-tips",
+      "keyword": "konkatsu-40s-male-tips",
+      "category": "konkatsu",
+      "targetKeywords": [],
+      "priority": 50,
+      "status": "completed",
+      "completedAt": "2026-09-21T14:49:21.715Z",
+      "title": "【40代男性】婚活のコツ12選｜遅れてると思ってる人が一番損する"
+    },
+    {
+      "slug": "konkatsu-budget-male",
+      "keyword": "konkatsu-budget-male",
+      "category": "konkatsu",
+      "targetKeywords": [],
+      "priority": 50,
+      "status": "completed",
+      "completedAt": "2026-09-21T14:49:21.715Z",
+      "title": "【30代男性】婚活費用の目安｜手段別の相場と賢い予算の立て方"
+    },
+    {
+      "slug": "konkatsu-burnout-male",
+      "keyword": "konkatsu-burnout-male",
+      "category": "konkatsu",
+      "targetKeywords": [],
+      "priority": 50,
+      "status": "completed",
+      "completedAt": "2026-09-21T14:49:21.715Z",
+      "title": "婚活に疲れた男性へ｜燃え尽きずに続けるための現実的なアドバイス"
     }
   ]
 }

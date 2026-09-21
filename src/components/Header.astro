@@ -24,9 +24,6 @@ import { withBase } from '../utils/url';
       <a href={withBase('/ranking')} class="text-sm font-medium text-slate-600 hover:text-brand-600">
         人気ランキング
       </a>
-      <a href={withBase('/diagnosis/maiari')} class="text-sm font-medium text-rose-600 hover:text-rose-700">
-        脈あり度診断
-      </a>
       {
         categories.slice(0, 3).map((cat) => (
           <a
@@ -37,6 +34,9 @@ import { withBase } from '../utils/url';
           </a>
         ))
       }
+      <a href={withBase('/diagnosis/maiari')} class="text-sm font-medium text-rose-600 hover:text-rose-700">
+        脈あり度診断
+      </a>
     </nav>
 
     <button
@@ -62,19 +62,19 @@ import { withBase } from '../utils/url';
       <a href={withBase('/ranking')} class="rounded-lg px-3 py-2 text-sm font-medium hover:bg-slate-50">
         人気ランキング
       </a>
-      <a href={withBase('/diagnosis/maiari')} class="rounded-lg px-3 py-2 text-sm font-medium text-rose-600 hover:bg-rose-50">
-        💗 脈あり度診断
-      </a>
       {
         categories.map((cat) => (
           <a
             href={withBase(`/category/${cat.slug}`)}
             class="rounded-lg px-3 py-2 text-sm font-medium hover:bg-slate-50"
           >
-            {cat.icon} {cat.name}
+            {cat.name}
           </a>
         ))
       }
+      <a href={withBase('/diagnosis/maiari')} class="rounded-lg px-3 py-2 text-sm font-medium text-rose-600 hover:bg-rose-50">
+        脈あり度診断
+      </a>
     </div>
   </nav>
 </header>
