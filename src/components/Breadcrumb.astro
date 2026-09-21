@@ -1,4 +1,6 @@
 ---
+import { withBase } from '../utils/url';
+
 interface Crumb {
   label: string;
   href?: string;
@@ -18,7 +20,7 @@ const { items } = Astro.props;
         <li class="flex items-center gap-1">
           {i > 0 && <span class="text-slate-300">/</span>}
           {item.href ? (
-            <a href={item.href} class="hover:text-brand-600">{item.label}</a>
+            <a href={withBase(item.href)} class="hover:text-brand-600">{item.label}</a>
           ) : (
             <span class="text-slate-700">{item.label}</span>
           )}

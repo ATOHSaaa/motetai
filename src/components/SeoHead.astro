@@ -1,5 +1,6 @@
 ---
 import { siteConfig } from '../config/site';
+import { withBase } from '../utils/url';
 
 interface Props {
   title: string;
@@ -22,8 +23,8 @@ const {
 } = Astro.props;
 
 const fullTitle = title === siteConfig.name ? title : `${title} | ${siteConfig.name}`;
-const canonicalUrl = new URL(path, siteConfig.url).href;
-const ogImage = new URL(siteConfig.ogImage, siteConfig.url).href;
+const canonicalUrl = `${siteConfig.url}${path === '/' ? '' : path}`;
+const ogImage = `${siteConfig.url}${siteConfig.ogImage}`;
 ---
 
 <meta charset="UTF-8" />
@@ -46,7 +47,7 @@ const ogImage = new URL(siteConfig.ogImage, siteConfig.url).href;
 <meta name="twitter:description" content={description} />
 <meta name="twitter:image" content={ogImage} />
 
-<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+<link rel="icon" type="image/svg+xml" href={withBase('/favicon.svg')} />
 
 {
   type === 'article' && publishedAt && (

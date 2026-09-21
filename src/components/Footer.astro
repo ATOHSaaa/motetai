@@ -1,6 +1,7 @@
 ---
 import { categories } from '../utils/category';
 import { siteConfig } from '../config/site';
+import { withBase } from '../utils/url';
 ---
 
 <footer class="mt-16 border-t border-slate-200 bg-slate-900 text-slate-300">
@@ -17,7 +18,7 @@ import { siteConfig } from '../config/site';
           {
             categories.map((cat) => (
               <li>
-                <a href={`/category/${cat.slug}`} class="hover:text-white">
+                <a href={withBase(`/category/${cat.slug}`)} class="hover:text-white">
                   {cat.name}
                 </a>
               </li>
@@ -29,9 +30,9 @@ import { siteConfig } from '../config/site';
       <div>
         <p class="mb-3 font-semibold text-white">サイト情報</p>
         <ul class="space-y-2 text-sm">
-          <li><a href="/about" class="hover:text-white">運営者情報</a></li>
-          <li><a href="/articles" class="hover:text-white">記事一覧</a></li>
-          <li><a href="/ranking" class="hover:text-white">人気ランキング</a></li>
+          <li><a href={withBase('/about')} class="hover:text-white">運営者情報</a></li>
+          <li><a href={withBase('/articles')} class="hover:text-white">記事一覧</a></li>
+          <li><a href={withBase('/ranking')} class="hover:text-white">人気ランキング</a></li>
         </ul>
       </div>
     </div>

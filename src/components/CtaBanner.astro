@@ -1,4 +1,6 @@
 ---
+import { withBase } from '../utils/url';
+
 interface Props {
   variant?: 'app' | 'cosme' | 'general';
 }
@@ -31,7 +33,7 @@ const content = {
   <p class="text-lg font-bold">{content.title}</p>
   <p class="mt-2 text-sm leading-relaxed text-brand-100">{content.description}</p>
   <a
-    href={content.href}
+    href={withBase(content.href)}
     class="mt-4 inline-flex items-center rounded-lg bg-white px-5 py-2.5 text-sm font-semibold text-brand-700 transition hover:bg-brand-50"
   >
     {content.cta} →
