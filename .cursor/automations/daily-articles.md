@@ -1,16 +1,20 @@
 # 毎日2記事追加（Cursor Automation 用プロンプト）
 
-このファイルを Cursor Automations の Instructions にコピーするか、`@.cursor/automations/daily-articles.md` で参照してください。
-
 Anthropic API キーは不要です。Cursor の Cloud Agent が記事を執筆します。
 
+## Automation 作成手順（初回のみ）
+
+1. `Cmd+Shift+P` → **Automations: New Automation**
+2. **Name:** `motetai 毎日2記事追加`
+3. **Trigger:** Schedule → **毎日 6:00**（ローカル時間）
+4. **Repository:** `ATOHSaaa/motetai` / `main`
+5. **Tools:** Git commit / push を有効化
+6. **Instructions:** このファイルを `@.cursor/automations/daily-articles.md` で参照
+7. 保存して有効化
+
+プリフィル JSON: `.cursor/automations/daily-articles.prefill.json`
+
 ---
-
-## トリガー
-
-- **Schedule:** 毎日 6:00（JST）— 1日1回で2記事まとめて処理
-- **Repository:** motetai（main ブランチ）
-- **Tools:** Git への commit / push を有効化
 
 ## やること
 
