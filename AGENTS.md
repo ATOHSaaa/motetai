@@ -18,7 +18,7 @@ Manage the background server with `astro dev stop`, `astro dev status`, and `ast
 2. `npm run research -- "キーワード" --slug 記事スラッグ` で上位10記事をリサーチ
 3. `research/<slug>.md` を読み、競合分析してから執筆
 4. `src/content/articles/<slug>.md` に記事を書く（frontmatter に `targetKeyword` を設定）
-5. `npm run build` → `./scripts/deploy-pages.sh`
+5. `npm run build` → `./scripts/deploy-pages.sh`（デプロイ後に IndexNow 自動送信）
 
 ## Documentation
 

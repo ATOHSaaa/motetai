@@ -23,5 +23,17 @@ echo "⚙️  Pages ビルドをトリガー..."
 gh api "repos/$OWNER/$REPO/pages/builds" -X POST >/dev/null
 
 echo ""
+echo "⏳ Pages 反映待ち（15秒）..."
+sleep 15
+
+echo "📡 IndexNow に送信..."
+cd "$(dirname "$0")/.."
+if node scripts/indexnow.mjs --changed; then
+  echo "✅ IndexNow 送信完了"
+else
+  echo "⚠️  IndexNow 送信失敗（後で npm run indexnow -- --changed を実行）"
+fi
+
+echo ""
 echo "✅ デプロイ完了！"
 echo "📍 https://$(echo "$OWNER" | tr '[:upper:]' '[:lower:]').github.io/$REPO/"

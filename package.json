@@ -10,7 +10,8 @@
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro",
-    "research": "node scripts/research-keyword.mjs"
+    "research": "node scripts/research-keyword.mjs",
+    "indexnow": "node scripts/indexnow.mjs"
   },
   "dependencies": {
     "@astrojs/markdown-remark": "^7.3.1",

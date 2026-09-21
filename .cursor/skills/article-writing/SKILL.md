@@ -91,11 +91,21 @@ tags: ["タグ1", "タグ2"]
 - [ ] 内部リンクが2本以上ある
 - [ ] `npm run build` が通る
 
-### Step 6: デプロイ
+### Step 6: デプロイ + IndexNow
 
 ```bash
 git add -A && git commit -m "feat: 記事追加 - タイトル"
 ./scripts/deploy-pages.sh
+```
+
+`deploy-pages.sh` はデプロイ後に自動で **IndexNow**（Bing 等）へ URL を通知します。
+
+手動で送る場合:
+
+```bash
+npm run indexnow -- --changed    # git差分の記事のみ
+npm run indexnow -- --all        # 全記事
+npm run indexnow -- article-slug # 特定記事
 ```
 
 ---

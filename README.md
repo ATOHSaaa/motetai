@@ -36,8 +36,11 @@ npm run research -- "狙うキーワード" --slug 記事スラッグ
 
 # 2. research/<slug>.md を読んでから記事を執筆
 
-# 3. デプロイ
+# 3. デプロイ（IndexNow 自動送信付き）
 ./scripts/deploy-pages.sh
+
+# IndexNow を手動送信する場合
+npm run indexnow -- --changed
 ```
 
 ## 構成
