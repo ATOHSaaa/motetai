@@ -75,13 +75,8 @@ researchSlug: mens-teeth-whitening
 
 ### ステップ2：着色を防ぐ習慣
 
-```
-【着色防止ルーティン】
-1. コーヒー・紅茶の後、水を一口飲む
-2. 可能なら30分以内に歯磨き（酸性でエナメルが弱い直後は避ける）
-3. タバコは黄ばみの最大要因 → 減らす or やめる
-4. 歯磨き粉は「着色除去」タイプを試す
-```
+<div class="template-block" role="note" aria-label="コピー用テンプレート"><p class="template-label">コピー用テンプレート</p><div class="template-body"><p class="template-section-title">【着色防止ルーティン】</p><p class="template-line">1. コーヒー・紅茶の後、水を一口飲む</p><p class="template-line">2. 可能なら30分以内に歯磨き（酸性でエナメルが弱い直後は避ける）</p><p class="template-line">3. タバコは黄ばみの最大要因 → 減らす or やめる</p><p class="template-line">4. 歯磨き粉は「着色除去」タイプを試す</p></div></div>
+
 
 ### ステップ3：舌磨きとフロス
 

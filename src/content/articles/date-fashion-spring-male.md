@@ -46,12 +46,8 @@ affiliate: true
 - チノパンは膝上が長すぎないフィット感
 - 靴は白スニーカー or ブラウンの革靴
 
-```
-【アイテム例】
-トップス：白のオックスフォードシャツ（UNIQLO 3,990円〜）
-ボトムス：ベージュチノパン（UNIQLO 3,990円〜）
-靴：白スニーカー or ブラウン革靴
-```
+<div class="template-block" role="note" aria-label="コピー用テンプレート"><p class="template-label">コピー用テンプレート</p><div class="template-body"><p class="template-section-title">【アイテム例】</p><p class="template-line">トップス：白のオックスフォードシャツ（UNIQLO 3,990円〜）</p><p class="template-line">ボトムス：ベージュチノパン（UNIQLO 3,990円〜）</p><p class="template-line">靴：白スニーカー or ブラウン革靴</p></div></div>
+
 
 初回デート・カジュアルなランチデートに最適です。「きちんとしているけど、気取っていない」バランスが取れています。
 
@@ -129,13 +125,8 @@ affiliate: true
 - 白Tは襟ぐりがきれいなもの（黄ばみ・伸びに注意）
 - チノパンはベージュ or ネイビー
 
-```
-【アイテム例】
-ジャケット：ネイビーテーラード（UNITED ARROWS GREEN 29,900円〜）
-トップス：白クルーネックT（UNIQLO 1,990円〜）
-ボトムス：ベージュチノパン
-靴：ブラウン革靴
-```
+<div class="template-block" role="note" aria-label="コピー用テンプレート"><p class="template-label">コピー用テンプレート</p><div class="template-body"><p class="template-section-title">【アイテム例】</p><p class="template-line">ジャケット：ネイビーテーラード（UNITED ARROWS GREEN 29,900円〜）</p><p class="template-line">トップス：白クルーネックT（UNIQLO 1,990円〜）</p><p class="template-line">ボトムス：ベージュチノパン</p><p class="template-line">靴：ブラウン革靴</p></div></div>
+
 
 初回デートにはやや格式が高いかもしれませんが、**お店選びが少し良い場所**のときに活きるコーデです。
 

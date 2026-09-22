@@ -172,10 +172,8 @@ affiliate: false
 
 1回目のデート後、48時間以内に次の提案をするのが鉄則です。
 
-```
-「今日は楽しかったです。もしよければ、来週あたりまたお時間いただけませんか？
-〇曜日の午後、△△（場所）でランチなどいかがでしょうか」
-```
+<div class="template-block" role="note" aria-label="コピー用テンプレート"><p class="template-label">コピー用テンプレート</p><div class="template-body"><p class="template-line">「今日は楽しかったです。もしよければ、来週あたりまたお時間いただけませんか？</p><p class="template-line">〇曜日の午後、△△（場所）でランチなどいかがでしょうか」</p></div></div>
+
 
 相手の返信が遅い場合も、焦って追いLINEは不要です。48時間〜3日待ってから、一度だけフォローする程度で十分です。
 

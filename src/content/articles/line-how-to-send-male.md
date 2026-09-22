@@ -40,48 +40,35 @@ LINEは「会話の延長」です。デートで好印象を与えた後のLINE
 | 24時間以上 | 興味がないと思われる |
 
 **忙しいときの一言例**：
-```
-ごめん、今日は忙しくて返信遅れるかも！
-落ち着いたら返すね。
-```
+<div class="template-block" role="note" aria-label="コピー用テンプレート"><p class="template-label">コピー用テンプレート</p><div class="template-body"><p class="template-line">ごめん、今日は忙しくて返信遅れるかも！</p><p class="template-line">落ち着いたら返すね。</p></div></div>
+
 
 ### 2. 1通目は短く、具体的に
 
-```
-お疲れ様です！
-昨日の○○の話、面白かったです。
-また今度○○に行きませんか？
-```
+<div class="template-block" role="note" aria-label="コピー用テンプレート"><p class="template-label">コピー用テンプレート</p><div class="template-body"><p class="template-line">お疲れ様です！</p><p class="template-line">昨日の○○の話、面白かったです。</p><p class="template-line">また今度○○に行きませんか？</p></div></div>
+
 
 長文や抽象的なメッセージは読まれません。1通は**3〜5行以内**が目安です。
 
 **悪い例**：
-```
-今日は本当に楽しかったです。あなたと話せて嬉しかったです。
-いろいろ話したいことがあるんですが、なかなか言葉にできなくて…
-また会える機会があれば嬉しいです。いつでも連絡してください。
-```
+<div class="template-block" role="note" aria-label="コピー用テンプレート"><p class="template-label">コピー用テンプレート</p><div class="template-body"><p class="template-line">今日は本当に楽しかったです。あなたと話せて嬉しかったです。</p><p class="template-line">いろいろ話したいことがあるんですが、なかなか言葉にできなくて…</p><p class="template-line">また会える機会があれば嬉しいです。いつでも連絡してください。</p></div></div>
+
 
 **良い例**：
-```
-今日ありがとう！
-○○のレストランの話、面白かった。
-来週また行きたい店見つけたから、今度一緒にどう？
-```
+<div class="template-block" role="note" aria-label="コピー用テンプレート"><p class="template-label">コピー用テンプレート</p><div class="template-body"><p class="template-line">今日ありがとう！</p><p class="template-line">○○のレストランの話、面白かった。</p><p class="template-line">来週また行きたい店見つけたから、今度一緒にどう？</p></div></div>
+
 
 ### 3. 質問は1つずつ
 
 複数の質問を一度に送ると、相手が答えにくくなります。1通に1つの質問が基本です。
 
 **悪い例**：
-```
-休みの日は何してる？趣味は？好きな食べ物は？
-```
+<div class="template-block" role="note" aria-label="コピー用テンプレート"><p class="template-label">コピー用テンプレート</p><div class="template-body"><p class="template-line">休みの日は何してる？趣味は？好きな食べ物は？</p></div></div>
+
 
 **良い例**：
-```
-休みの日は何してることが多い？
-```
+<div class="template-block" role="note" aria-label="コピー用テンプレート"><p class="template-label">コピー用テンプレート</p><div class="template-body"><p class="template-line">休みの日は何してることが多い？</p></div></div>
+
 
 相手が答えたら、次の質問を送る。会話は段階的に深めましょう。
 
@@ -103,16 +90,12 @@ LINEは「会話の延長」です。デートで好印象を与えた後のLINE
 既読スルーされたら、**3日待ってから**別の話題で連絡するのが基本です。追撃メッセージは逆効果です。
 
 **追撃してはいけない例**：
-```
-既読無視？
-返信してくれないと不安になる
-```
+<div class="template-block" role="note" aria-label="コピー用テンプレート"><p class="template-label">コピー用テンプレート</p><div class="template-body"><p class="template-line">既読無視？</p><p class="template-line">返信してくれないと不安になる</p></div></div>
+
 
 **3日後に送る例**：
-```
-先週は忙しそうだったね。お疲れ様！
-今度○○のカフェ行きたんだけど、おすすめだったよ。
-```
+<div class="template-block" role="note" aria-label="コピー用テンプレート"><p class="template-label">コピー用テンプレート</p><div class="template-body"><p class="template-line">先週は忙しそうだったね。お疲れ様！</p><p class="template-line">今度○○のカフェ行きたんだけど、おすすめだったよ。</p></div></div>
+
 
 ### 6. 夜22時以降の送信は避ける
 
@@ -128,10 +111,8 @@ LINEは「会話の延長」です。デートで好印象を与えた後のLINE
 
 ### 7. デートの提案は具体的に
 
-```
-来週の土曜、渋谷の△△カフェはどうですか？
-14時から1時間くらいで。
-```
+<div class="template-block" role="note" aria-label="コピー用テンプレート"><p class="template-label">コピー用テンプレート</p><div class="template-body"><p class="template-line">来週の土曜、渋谷の△△カフェはどうですか？</p><p class="template-line">14時から1時間くらいで。</p></div></div>
+
 
 「会いたい」だけでは相手は動けません。日時・場所を具体的に提案しましょう。
 
@@ -145,35 +126,23 @@ LINEは「会話の延長」です。デートで好印象を与えた後のLINE
 
 ### 初デート後のお礼
 
-```
-今日はありがとうございました！
-○○の話、すごく面白かったです。
-またお話しできたら嬉しいです。
-```
+<div class="template-block" role="note" aria-label="コピー用テンプレート"><p class="template-label">コピー用テンプレート</p><div class="template-body"><p class="template-line">今日はありがとうございました！</p><p class="template-line">○○の話、すごく面白かったです。</p><p class="template-line">またお話しできたら嬉しいです。</p></div></div>
+
 
 ### 2回目デートの提案
 
-```
-先日のデート楽しかった！
-来週の日曜、○○のランチ行きたいんだけど、空いてる？
-12時から1時間くらいで。
-```
+<div class="template-block" role="note" aria-label="コピー用テンプレート"><p class="template-label">コピー用テンプレート</p><div class="template-body"><p class="template-line">先日のデート楽しかった！</p><p class="template-line">来週の日曜、○○のランチ行きたいんだけど、空いてる？</p><p class="template-line">12時から1時間くらいで。</p></div></div>
+
 
 ### マッチングアプリからLINE交換後
 
-```
-LINE交換ありがとう！
-プロフィールの○○、趣味が合うかもって思った。
-今度カフェで話せたら嬉しいです。
-```
+<div class="template-block" role="note" aria-label="コピー用テンプレート"><p class="template-label">コピー用テンプレート</p><div class="template-body"><p class="template-line">LINE交換ありがとう！</p><p class="template-line">プロフィールの○○、趣味が合うかもって思った。</p><p class="template-line">今度カフェで話せたら嬉しいです。</p></div></div>
+
 
 ### 返信が遅れたときの一言
 
-```
-ごめん、返信遅くなった！
-仕事が忙しくて…
-○○の件、どうだった？
-```
+<div class="template-block" role="note" aria-label="コピー用テンプレート"><p class="template-label">コピー用テンプレート</p><div class="template-body"><p class="template-line">ごめん、返信遅くなった！</p><p class="template-line">仕事が忙しくて…</p><p class="template-line">○○の件、どうだった？</p></div></div>
+
 
 ## やってはいけないNG行動
 

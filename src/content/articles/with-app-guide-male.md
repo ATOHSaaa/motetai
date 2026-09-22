@@ -42,20 +42,8 @@ withのユーザーは内面を重視します。見た目より、**一緒に�
 
 **テンプレート例**
 
-```
-【大切にしていること】
-・誠実なコミュニケーション
-・お互いの時間を尊重する関係
-・新しいことに挑戦する姿勢
+<div class="template-block" role="note" aria-label="コピー用テンプレート"><p class="template-label">コピー用テンプレート</p><div class="template-body"><p class="template-section-title">【大切にしていること】</p><p class="template-line">・誠実なコミュニケーション</p><p class="template-line">・お互いの時間を尊重する関係</p><p class="template-line">・新しいことに挑戦する姿勢</p><div class="template-spacer" aria-hidden="true"></div><p class="template-section-title">【休日の過ごし方】</p><p class="template-line">カフェで読書したり、近所を散歩するのが好きです。</p><p class="template-line">最近は料理にハマっていて、週末は新しいレシピに挑戦しています。</p><div class="template-spacer" aria-hidden="true"></div><p class="template-section-title">【求めている関係】</p><p class="template-line">まずは気軽にお話しできて、自然体でいられる関係が理想です。</p><p class="template-line">価値観が合う方と、ゆっくり関係を深めていけたらと思います。</p></div></div>
 
-【休日の過ごし方】
-カフェで読書したり、近所を散歩するのが好きです。
-最近は料理にハマっていて、週末は新しいレシピに挑戦しています。
-
-【求めている関係】
-まずは気軽にお話しできて、自然体でいられる関係が理想です。
-価値観が合う方と、ゆっくり関係を深めていけたらと思います。
-```
 
 [Pairsプロフィール攻略](/articles/pairs-profile-guide)の自己紹介の書き方も参考になります。
 
@@ -70,11 +58,8 @@ withではメッセージの質がマッチ後の成功率を左右します。
 
 **最初のメッセージ例**
 
-```
-プロフィール拝見しました。
-カフェ巡りがお好きなんですね。僕も最近下町の喫茶店にはまってます。
-お気に入りのカフェがあれば教えてください！
-```
+<div class="template-block" role="note" aria-label="コピー用テンプレート"><p class="template-label">コピー用テンプレート</p><div class="template-body"><p class="template-line">プロフィール拝見しました。</p><p class="template-line">カフェ巡りがお好きなんですね。僕も最近下町の喫茶店にはまってます。</p><p class="template-line">お気に入りのカフェがあれば教えてください！</p></div></div>
+
 
 詳しくは[LINEの送り方](/articles/line-how-to-send-male)も参考にしてください。
 

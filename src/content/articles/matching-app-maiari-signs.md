@@ -45,10 +45,8 @@ researchSlug: matching-app-maiari-signs
 | プロフィールの話を覚えている | ◎ | 写真や趣味への言及がある |
 
 **脈アリの具体例**：
-```
-あなた：週末は何してることが多い？
-相手：カフェ巡りが好きなんです！前にプロフィールに書いてた○○、行ったことある？
-```
+<div class="template-block" role="note" aria-label="コピー用テンプレート"><p class="template-label">コピー用テンプレート</p><div class="template-body"><p class="template-line">あなた：週末は何してることが多い？</p><p class="template-line">相手：カフェ巡りが好きなんです！前にプロフィールに書いてた○○、行ったことある？</p></div></div>
+
 
 相手があなたのプロフィール内容を覚え、質問に返してくるのは、関心があるサインです。メッセージの質を上げるには、[Pairsプロフィール攻略](/articles/pairs-profile-guide)でプロフィールを整えておくことも有効です。
 
@@ -93,10 +91,8 @@ LINE交換後は、アプリ内より通知が届きやすくなります。そ�
 | こちらから連絡しなくても返信 | ◎ | 関心が続いている |
 
 **脈アリの例**：
-```
-相手：今日はありがとう！○○の話、もっと聞きたかった。
-来週の土曜、またカフェ行けたら嬉しいです。
-```
+<div class="template-block" role="note" aria-label="コピー用テンプレート"><p class="template-label">コピー用テンプレート</p><div class="template-body"><p class="template-line">相手：今日はありがとう！○○の話、もっと聞きたかった。</p><p class="template-line">来週の土曜、またカフェ行けたら嬉しいです。</p></div></div>
+
 
 デート後48時間以上連絡がない、既読スルーが続く場合は、脈なしの可能性が高まります。追撃は避け、3日後に別の話題で1通送るのが基本です。
 

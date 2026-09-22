@@ -66,13 +66,8 @@ researchSlug: mens-cologne-date-guide
 
 ### 正しい付け方の手順
 
-```
-1. シャワー後、清潔な肌に保湿（乾燥肌は香りが長持ちしにくい）
-2. 出発30分前、服を着る前に1プッシュ
-3. 首筋か胸元のどちらか一方にスプレー
-4. 必要なら腰の服の内側に1プッシュ追加
-5. 鏡の前で「自分に香りが届くか」を確認 → 届くなら量を減らす
-```
+<div class="template-block" role="note" aria-label="コピー用テンプレート"><p class="template-label">コピー用テンプレート</p><div class="template-body"><p class="template-line">1. シャワー後、清潔な肌に保湿（乾燥肌は香りが長持ちしにくい）</p><p class="template-line">2. 出発30分前、服を着る前に1プッシュ</p><p class="template-line">3. 首筋か胸元のどちらか一方にスプレー</p><p class="template-line">4. 必要なら腰の服の内側に1プッシュ追加</p><p class="template-line">5. 鏡の前で「自分に香りが届くか」を確認 → 届くなら量を減らす</p></div></div>
+
 
 ## デート向けの香りの選び方
 

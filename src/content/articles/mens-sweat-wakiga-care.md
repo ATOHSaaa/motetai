@@ -72,13 +72,8 @@ researchSlug: mens-sweat-wakiga-care
 
 **習慣：就寝前の「ワキ重点ケア」**
 
-```
-【前日の夜のルーティン】（約7分）
-1. シャワーでワキ・首・背中を30秒以上洗う
-2. タオルで完全に乾かす（湿った状態は菌が増える）
-3. 制汗剤をワキに塗る（就寝前タイプの場合）
-4. 通気性の良いパジャマに着替える
-```
+<div class="template-block" role="note" aria-label="コピー用テンプレート"><p class="template-label">コピー用テンプレート</p><div class="template-body"><p class="template-line">【前日の夜のルーティン】（約7分）</p><p class="template-line">1. シャワーでワキ・首・背中を30秒以上洗う</p><p class="template-line">2. タオルで完全に乾かす（湿った状態は菌が増える）</p><p class="template-line">3. 制汗剤をワキに塗る（就寝前タイプの場合）</p><p class="template-line">4. 通気性の良いパジャマに着替える</p></div></div>
+
 
 ### 前日に避けるべきこと
 

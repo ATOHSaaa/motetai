@@ -43,11 +43,8 @@ Omiaiでは以下の項目が特に重要です。空欄は避け、具体的に
 
 曖昧な表現は避け、具体的なタイムラインを示すと信頼感が増します。
 
-```
-「1〜2年以内に結婚したいと考えています。
- まずはお互いのことを知りながら、
- 自然な形で関係を深めていけたらと思います。」
-```
+<div class="template-block" role="note" aria-label="コピー用テンプレート"><p class="template-label">コピー用テンプレート</p><div class="template-body"><p class="template-line">「1〜2年以内に結婚したいと考えています。</p><p class="template-line"> まずはお互いのことを知りながら、</p><p class="template-line"> 自然な形で関係を深めていけたらと思います。」</p></div></div>
+
 
 ### 年収は正直に
 
@@ -66,34 +63,13 @@ Omiaiは婚活アプリなので、年収は重要な判断材料です。嘘は
 
 婚活では「一緒に過ごすイメージ」が大切です。具体的に書きましょう。
 
-```
-【休日の過ごし方】
-カフェで読書したり、近所を散歩するのが好きです。
-最近は料理にハマっていて、週末は新しいレシピに挑戦しています。
-一緒にカフェ巡りや散歩ができる方と出会いたいです。
-```
+<div class="template-block" role="note" aria-label="コピー用テンプレート"><p class="template-label">コピー用テンプレート</p><div class="template-body"><p class="template-section-title">【休日の過ごし方】</p><p class="template-line">カフェで読書したり、近所を散歩するのが好きです。</p><p class="template-line">最近は料理にハマっていて、週末は新しいレシピに挑戦しています。</p><p class="template-line">一緒にカフェ巡りや散歩ができる方と出会いたいです。</p></div></div>
+
 
 ## Omiai向け自己紹介文テンプレート
 
-```
-【基本情報】
-30代 / 会社員 / 都内在住
+<div class="template-block" role="note" aria-label="コピー用テンプレート"><p class="template-label">コピー用テンプレート</p><div class="template-body"><p class="template-section-title">【基本情報】</p><p class="template-line">30代 / 会社員 / 都内在住</p><div class="template-spacer" aria-hidden="true"></div><p class="template-section-title">【結婚観】</p><p class="template-line">1〜2年以内に結婚したいと考えています。</p><p class="template-line">まずはお互いのことを知りながら、自然な形で関係を深めていけたらと思います。</p><div class="template-spacer" aria-hidden="true"></div><p class="template-section-title">【仕事・生活】</p><p class="template-line">都内で会社員として働いています。休日はカフェや散歩でリフレッシュしています。</p><div class="template-spacer" aria-hidden="true"></div><p class="template-section-title">【大切にしていること】</p><p class="template-line">・誠実なコミュニケーション</p><p class="template-line">・お互いの時間を尊重する関係</p><p class="template-line">・一緒にいて楽しい時間を過ごせること</p><div class="template-spacer" aria-hidden="true"></div><p class="template-section-title">【お相手に求めること】</p><p class="template-line">価値観が合い、一緒にいて楽しい時間を過ごせる方と出会いたいです。</p></div></div>
 
-【結婚観】
-1〜2年以内に結婚したいと考えています。
-まずはお互いのことを知りながら、自然な形で関係を深めていけたらと思います。
-
-【仕事・生活】
-都内で会社員として働いています。休日はカフェや散歩でリフレッシュしています。
-
-【大切にしていること】
-・誠実なコミュニケーション
-・お互いの時間を尊重する関係
-・一緒にいて楽しい時間を過ごせること
-
-【お相手に求めること】
-価値観が合い、一緒にいて楽しい時間を過ごせる方と出会いたいです。
-```
 
 ## OmiaiとPairsの使い分け
 

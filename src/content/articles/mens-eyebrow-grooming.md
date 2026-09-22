@@ -113,14 +113,8 @@ researchSlug: mens-eyebrow-grooming
 2. 正面・横・斜めから鏡で確認
 3. 左右のバランスをチェック
 
-```
-【5分ルーティンまとめ】
-コームで整える（30秒）
-→ 長い毛をカット（1分）
-→ 眉下のはみ出しを剃る（1分）
-→ 眉間を整える（1分）
-→ 仕上げ確認（1分30秒）
-```
+<div class="template-block" role="note" aria-label="コピー用テンプレート"><p class="template-label">コピー用テンプレート</p><div class="template-body"><p class="template-section-title">【5分ルーティンまとめ】</p><p class="template-line">コームで整える（30秒）</p><p class="template-line">→ 長い毛をカット（1分）</p><p class="template-line">→ 眉下のはみ出しを剃る（1分）</p><p class="template-line">→ 眉間を整える（1分）</p><p class="template-line">→ 仕上げ確認（1分30秒）</p></div></div>
+
 
 ## よくある失敗と対策
 

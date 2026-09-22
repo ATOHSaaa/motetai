@@ -36,7 +36,9 @@
         "デート 会話術"
       ],
       "priority": 98,
-      "status": "pending"
+      "status": "completed",
+      "completedAt": "2026-09-22T00:06:00.000Z",
+      "title": "【男性向け】初デートの会話ネタ30選｜沈黙しない話題設計と会話術"
     },
     {
       "slug": "second-date-invitation",
@@ -47,7 +49,9 @@
         "デート 次 誘う"
       ],
       "priority": 97,
-      "status": "pending"
+      "status": "completed",
+      "completedAt": "2026-09-22T00:06:00.000Z",
+      "title": "【男性向け】デート2回目の誘い方完全ガイド｜タイミング・LINE例文・成功のコツ"
     },
     {
       "slug": "konkatsu-party-fashion-male",
