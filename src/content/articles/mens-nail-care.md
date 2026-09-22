@@ -67,13 +67,8 @@ researchSlug: mens-nail-care
 
 ### ステップ2：爪切りで切る
 
-```
-【切り方のルール】
-1. 爪の白い部分を、指先と同じライン or 少し短めに切る
-2. 一度に大きく切らず、少しずつ切る
-3. 角は丸く、直線的に切りすぎない
-4. 左右の長さを揃える
-```
+<div class="template-block" role="note" aria-label="コピー用テンプレート"><p class="template-label">コピー用テンプレート</p><div class="template-body"><p class="template-section-title">【切り方のルール】</p><p class="template-line">1. 爪の白い部分を、指先と同じライン or 少し短めに切る</p><p class="template-line">2. 一度に大きく切らず、少しずつ切る</p><p class="template-line">3. 角は丸く、直線的に切りすぎない</p><p class="template-line">4. 左右の長さを揃える</p></div></div>
+
 
 **男性の爪の理想の長さ**は、指先と同じか、わずかに短い程度です。白い部分が2mm以上見える状態は長すぎです。深爪は指先が痛くなるだけでなく、爪が割れる原因にもなります。
 
@@ -143,14 +138,8 @@ researchSlug: mens-nail-care
 
 毎日やる必要はありません。**週1回、5分**のルーティンで十分です。日曜の夜か、お風呂上がりに固定すると習慣化しやすいです。
 
-```
-【週1回・5分ルーティン】
-□ 手を温める（お風呂上がり or ぬるま湯）
-□ 爪切りで切る（左右の長さを揃える）
-□ 爪やすりで一方向に整える
-□ キューティクルオイル → 甘皮を押し上げる
-□ ハンドクリームで保湿
-```
+<div class="template-block" role="note" aria-label="コピー用テンプレート"><p class="template-label">コピー用テンプレート</p><div class="template-body"><p class="template-section-title">【週1回・5分ルーティン】</p><p class="template-line">□ 手を温める（お風呂上がり or ぬるま湯）</p><p class="template-line">□ 爪切りで切る（左右の長さを揃える）</p><p class="template-line">□ 爪やすりで一方向に整える</p><p class="template-line">□ キューティクルオイル → 甘皮を押し上げる</p><p class="template-line">□ ハンドクリームで保湿</p></div></div>
+
 
 ### デート前日の追加チェック（1分）
 

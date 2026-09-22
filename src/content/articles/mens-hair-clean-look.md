@@ -112,14 +112,8 @@ researchSlug: mens-hair-clean-look
 
 ### 基本オーダー台本
 
-```
-「清潔感のある髪型にしたいです。
-・耳周りと襟足はスッキリ整えてください
-・前髪は目にかからない長さで
-・サイドパート（またはセンターパート）で
-・セットは朝3分で終わるくらいの手軽さがいいです
-・仕事でもプライベートでも使える感じで」
-```
+<div class="template-block" role="note" aria-label="コピー用テンプレート"><p class="template-label">コピー用テンプレート</p><div class="template-body"><p class="template-line">「清潔感のある髪型にしたいです。</p><p class="template-line">・耳周りと襟足はスッキリ整えてください</p><p class="template-line">・前髪は目にかからない長さで</p><p class="template-line">・サイドパート（またはセンターパート）で</p><p class="template-line">・セットは朝3分で終わるくらいの手軽さがいいです</p><p class="template-line">・仕事でもプライベートでも使える感じで」</p></div></div>
+
 
 ### オーダー時に見せるべきもの
 
@@ -156,13 +150,8 @@ researchSlug: mens-hair-clean-look
 
 清潔感は「カット」で7割、「セット」で3割決まります。朝のルーティンを固定すれば、毎日同じ印象を維持できます。
 
-```
-【朝3分セット】
-1. タオルドライ後、ドライヤーで根元を立ち上げる（1分）
-2. 手のひらにワックスを米粒大だけ取る（少量が鉄則）
-3. 手で全体に揉み込み、毛流れを整える（1分）
-4. 前髪とサイドを指で整え、仕上げ（30秒）
-```
+<div class="template-block" role="note" aria-label="コピー用テンプレート"><p class="template-label">コピー用テンプレート</p><div class="template-body"><p class="template-section-title">【朝3分セット】</p><p class="template-line">1. タオルドライ後、ドライヤーで根元を立ち上げる（1分）</p><p class="template-line">2. 手のひらにワックスを米粒大だけ取る（少量が鉄則）</p><p class="template-line">3. 手で全体に揉み込み、毛流れを整える（1分）</p><p class="template-line">4. 前髪とサイドを指で整え、仕上げ（30秒）</p></div></div>
+
 
 ### スタイリング剤の選び方
 

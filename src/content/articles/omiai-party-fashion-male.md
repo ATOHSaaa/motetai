@@ -37,14 +37,8 @@ affiliate: false
 
 これで9割の婚活パーティーに対応できます。
 
-```
-【鉄板コーデの構成】
-ジャケット：ネイビー or グレーのテーラード
-シャツ：白 or ライトブルー（襟元きちんと）
-ボトムス：ベージュ or ネイビーのチノパン
-靴：ブラウン or ブラックの革靴
-ベルト：靴の色に合わせる
-```
+<div class="template-block" role="note" aria-label="コピー用テンプレート"><p class="template-label">コピー用テンプレート</p><div class="template-body"><p class="template-section-title">【鉄板コーデの構成】</p><p class="template-line">ジャケット：ネイビー or グレーのテーラード</p><p class="template-line">シャツ：白 or ライトブルー（襟元きちんと）</p><p class="template-line">ボトムス：ベージュ or ネイビーのチノパン</p><p class="template-line">靴：ブラウン or ブラックの革靴</p><p class="template-line">ベルト：靴の色に合わせる</p></div></div>
+
 
 迷ったらこの構成を選んでください。格式が高いパーティーでは、ジャケットをスーツに差し替え、チノをスラックスに変えるだけで対応できます。
 

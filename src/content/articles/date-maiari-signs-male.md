@@ -57,11 +57,8 @@ researchSlug: date-maiari-signs-male
 | 10 | あなたの意見を求める | 「どう思う？」「おすすめは？」 |
 
 **脈アリの会話例**：
-```
-相手：このカフェ、雰囲気いいね。来週も来れるかな。
-あなた：土曜なら空いてるよ。
-相手：じゃあ、来週もここで会おう！
-```
+<div class="template-block" role="note" aria-label="コピー用テンプレート"><p class="template-label">コピー用テンプレート</p><div class="template-body"><p class="template-line">相手：このカフェ、雰囲気いいね。来週も来れるかな。</p><p class="template-line">あなた：土曜なら空いてるよ。</p><p class="template-line">相手：じゃあ、来週もここで会おう！</p></div></div>
+
 
 相手が**次のデートの話題**を自分から出すのは、好意の強いサインです。
 
@@ -107,9 +104,8 @@ researchSlug: date-maiari-signs-male
 | 3日以上後 | △ | 関心が薄まる可能性 |
 
 **提案の例**：
-```
-今日楽しかった！来週の土曜、○○のランチ行きたいんだけど、空いてる？
-```
+<div class="template-block" role="note" aria-label="コピー用テンプレート"><p class="template-label">コピー用テンプレート</p><div class="template-body"><p class="template-line">今日楽しかった！来週の土曜、○○のランチ行きたいんだけど、空いてる？</p></div></div>
+
 
 日時・場所・所要時間を具体的に伝えると、相手が答えやすくなります。清潔感もデートの印象を左右します。[男性の清潔感ガイド](/articles/mens-cleanliness-guide)で、見た目の準備も整えておきましょう。
 

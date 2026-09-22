@@ -82,42 +82,13 @@ Pairsのユーザー調査や口コミを分析すると、女性のスワイプ
 
 ### 基本テンプレート（30代会社員向け）
 
-```
-【基本情報】
-30代 / 会社員 / 都内在住
+<div class="template-block" role="note" aria-label="コピー用テンプレート"><p class="template-label">コピー用テンプレート</p><div class="template-body"><p class="template-section-title">【基本情報】</p><p class="template-line">30代 / 会社員 / 都内在住</p><div class="template-spacer" aria-hidden="true"></div><p class="template-section-title">【仕事】</p><p class="template-line">IT系の会社で働いています。平日は忙しいですが、</p><p class="template-line">休日はしっかりリフレッシュするタイプです。</p><div class="template-spacer" aria-hidden="true"></div><p class="template-section-title">【趣味】</p><p class="template-line">・カフェ巡り（最近は下町の喫茶店にはまってます）</p><p class="template-line">・料理（週末は自分で作ることが多いです）</p><p class="template-line">・散歩（近所の公園を歩くのが日課です）</p><div class="template-spacer" aria-hidden="true"></div><p class="template-section-title">【求めている関係】</p><p class="template-line">まずは気軽にお話しできて、自然体でいられる関係が理想です。</p><p class="template-line">結婚を視野に入れた出会いを希望しています。</p><div class="template-spacer" aria-hidden="true"></div><p class="template-section-title">【お相手に求めること】</p><p class="template-line">一緒にいて楽しい時間を過ごせる方と出会いたいです。</p></div></div>
 
-【仕事】
-IT系の会社で働いています。平日は忙しいですが、
-休日はしっかりリフレッシュするタイプです。
-
-【趣味】
-・カフェ巡り（最近は下町の喫茶店にはまってます）
-・料理（週末は自分で作ることが多いです）
-・散歩（近所の公園を歩くのが日課です）
-
-【求めている関係】
-まずは気軽にお話しできて、自然体でいられる関係が理想です。
-結婚を視野に入れた出会いを希望しています。
-
-【お相手に求めること】
-一緒にいて楽しい時間を過ごせる方と出会いたいです。
-```
 
 ### 婚活重視テンプレート
 
-```
-【結婚観】
-1〜2年以内に結婚したいと考えています。
-まずはお互いのことを知りながら、自然な形で関係を深めていけたらと思います。
+<div class="template-block" role="note" aria-label="コピー用テンプレート"><p class="template-label">コピー用テンプレート</p><div class="template-body"><p class="template-section-title">【結婚観】</p><p class="template-line">1〜2年以内に結婚したいと考えています。</p><p class="template-line">まずはお互いのことを知りながら、自然な形で関係を深めていけたらと思います。</p><div class="template-spacer" aria-hidden="true"></div><p class="template-section-title">【仕事・生活】</p><p class="template-line">都内で会社員として働いています。休日はカフェや散歩でリフレッシュしています。</p><div class="template-spacer" aria-hidden="true"></div><p class="template-section-title">【大切にしていること】</p><p class="template-line">・誠実なコミュニケーション</p><p class="template-line">・お互いの時間を尊重する関係</p><p class="template-line">・一緒にいて楽しい時間を過ごせること</p></div></div>
 
-【仕事・生活】
-都内で会社員として働いています。休日はカフェや散歩でリフレッシュしています。
-
-【大切にしていること】
-・誠実なコミュニケーション
-・お互いの時間を尊重する関係
-・一緒にいて楽しい時間を過ごせること
-```
 
 ### 自己紹介で避けるべき表現
 

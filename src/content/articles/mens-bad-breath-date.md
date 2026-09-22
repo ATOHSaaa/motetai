@@ -45,13 +45,8 @@ researchSlug: mens-bad-breath-date
 
 ### 習慣2：就寝前の「徹底口腔ケア」
 
-```
-【前日の夜のルーティン】（約5分）
-1. 歯磨き（3分）— 磨き残しをなくす
-2. 舌磨き（1分）— 舌の真ん中から奥へ
-3. フロス or 歯間ブラシ（1分）
-4. 就寝前に水を1杯飲む（口の乾燥防止）
-```
+<div class="template-block" role="note" aria-label="コピー用テンプレート"><p class="template-label">コピー用テンプレート</p><div class="template-body"><p class="template-line">【前日の夜のルーティン】（約5分）</p><p class="template-line">1. 歯磨き（3分）— 磨き残しをなくす</p><p class="template-line">2. 舌磨き（1分）— 舌の真ん中から奥へ</p><p class="template-line">3. フロス or 歯間ブラシ（1分）</p><p class="template-line">4. 就寝前に水を1杯飲む（口の乾燥防止）</p></div></div>
+
 
 舌の表面には、口臭の原因菌が最も多く付着しています。歯磨きだけで終わらせないでください。
 
@@ -80,13 +75,8 @@ researchSlug: mens-bad-breath-date
 
 ### 習慣5：水分補給＋軽い口腔ケア
 
-```
-【30分前の即効ルーティン】（約3分）
-1. 水 or 緑茶を200ml飲む（口の乾燥を防ぐ）
-2. 歯磨き（可能なら）or 携帯用歯ブラシ
-3. マウスウォッシュ（30秒）
-4. 口臭ケアガムを5分間噛む
-```
+<div class="template-block" role="note" aria-label="コピー用テンプレート"><p class="template-label">コピー用テンプレート</p><div class="template-body"><p class="template-line">【30分前の即効ルーティン】（約3分）</p><p class="template-line">1. 水 or 緑茶を200ml飲む（口の乾燥を防ぐ）</p><p class="template-line">2. 歯磨き（可能なら）or 携帯用歯ブラシ</p><p class="template-line">3. マウスウォッシュ（30秒）</p><p class="template-line">4. 口臭ケアガムを5分間噛む</p></div></div>
+
 
 口が乾燥すると、唾液が減り、口臭が強くなります。**水を飲む**のは最もシンプルで効果的な即効ケアです。
 

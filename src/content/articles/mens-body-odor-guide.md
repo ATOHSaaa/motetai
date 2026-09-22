@@ -96,13 +96,8 @@ researchSlug: mens-body-odor-guide
 
 ### 塗るタイミングと場所
 
-```
-【制汗剤の正しい使い方】
-1. 前日夜 or 当日朝のシャワー後、清潔な肌に塗る
-2. 脇は「塗る」ではなく「なじませる」
-3. 汗をかいた後に塗ると効果が半減する
-4. 1日1回が基本（塗りすぎは肌荒れの原因）
-```
+<div class="template-block" role="note" aria-label="コピー用テンプレート"><p class="template-label">コピー用テンプレート</p><div class="template-body"><p class="template-section-title">【制汗剤の正しい使い方】</p><p class="template-line">1. 前日夜 or 当日朝のシャワー後、清潔な肌に塗る</p><p class="template-line">2. 脇は「塗る」ではなく「なじませる」</p><p class="template-line">3. 汗をかいた後に塗ると効果が半減する</p><p class="template-line">4. 1日1回が基本（塗りすぎは肌荒れの原因）</p></div></div>
+
 
 | 塗る場所 | 必要性 |
 |---------|--------|
@@ -158,14 +153,8 @@ researchSlug: mens-body-odor-guide
 
 ### 当日朝｜仕上げのケア
 
-```
-【当日朝のルーティン】（約10分）
-1. シャワー（前日と同じく脇・頭皮・足を重点的に）
-2. 制汗剤を脇に塗る（清潔な肌に）
-3. 清潔な下着・靴下に着替える
-4. 洗濯済みの服を着る
-5. 口臭ケア（歯磨き・舌磨き）— [口臭対策記事](/articles/mens-bad-breath-date)参照
-```
+<div class="template-block" role="note" aria-label="コピー用テンプレート"><p class="template-label">コピー用テンプレート</p><div class="template-body"><p class="template-line">【当日朝のルーティン】（約10分）</p><p class="template-line">1. シャワー（前日と同じく脇・頭皮・足を重点的に）</p><p class="template-line">2. 制汗剤を脇に塗る（清潔な肌に）</p><p class="template-line">3. 清潔な下着・靴下に着替える</p><p class="template-line">4. 洗濯済みの服を着る</p><p class="template-line">5. 口臭ケア（歯磨き・舌磨き）— [口臭対策記事](/articles/mens-bad-breath-date)参照</p></div></div>
+
 
 ### 待ち合わせ30分前｜最終チェック
 

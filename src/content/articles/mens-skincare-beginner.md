@@ -97,16 +97,8 @@ affiliate: true
 
 ## 1日のスキンケアルーティン
 
-```
-【朝】（所要時間：約3分）
-1. 洗顔
-2. 化粧水 or オールインワン
-3. 日焼け止め
+<div class="template-block" role="note" aria-label="コピー用テンプレート"><p class="template-label">コピー用テンプレート</p><div class="template-body"><p class="template-line">【朝】（所要時間：約3分）</p><p class="template-line">1. 洗顔</p><p class="template-line">2. 化粧水 or オールインワン</p><p class="template-line">3. 日焼け止め</p><div class="template-spacer" aria-hidden="true"></div><p class="template-line">【夜】（所要時間：約2分）</p><p class="template-line">1. 洗顔</p><p class="template-line">2. 化粧水 or オールインワン</p></div></div>
 
-【夜】（所要時間：約2分）
-1. 洗顔
-2. 化粧水 or オールインワン
-```
 
 所要時間：**朝3分、夜2分**。これだけです。歯を磨くのと同じ感覚で、生活のルーティンに組み込んでください。
 

@@ -161,18 +161,8 @@ researchSlug: mens-cleanliness-guide
 
 ### 1日のタイムライン例
 
-```
-【朝】（約10分）
-6:30  洗顔 → 保湿 → 日焼け止め
-6:35  ヒゲ剃り → 眉毛確認
-6:40  歯磨き＋舌磨き
-6:45  髪セット → 服選び → 鏡で全身チェック
+<div class="template-block" role="note" aria-label="コピー用テンプレート"><p class="template-label">コピー用テンプレート</p><div class="template-body"><p class="template-line">【朝】（約10分）</p><p class="template-line">6:30  洗顔 → 保湿 → 日焼け止め</p><p class="template-line">6:35  ヒゲ剃り → 眉毛確認</p><p class="template-line">6:40  歯磨き＋舌磨き</p><p class="template-line">6:45  髪セット → 服選び → 鏡で全身チェック</p><div class="template-spacer" aria-hidden="true"></div><p class="template-line">【夜】（約5分）</p><p class="template-line">22:00 洗顔 → 保湿</p><p class="template-line">22:05 歯磨き＋舌磨き</p><p class="template-line">22:10 翌日の服を決める</p></div></div>
 
-【夜】（約5分）
-22:00 洗顔 → 保湿
-22:05 歯磨き＋舌磨き
-22:10 翌日の服を決める
-```
 
 完璧を目指す必要はありません。**朝10分・夜5分**を清潔感の投資時間と考えてください。
 

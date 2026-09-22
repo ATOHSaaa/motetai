@@ -64,17 +64,11 @@ affiliate: true
 
 **メッセージテンプレート例**
 
-```
-カフェ巡りのお題、共通ですね！
-最近お気に入りのカフェはありますか？
-僕は最近△△（具体的な店名）にハマってます。
-```
+<div class="template-block" role="note" aria-label="コピー用テンプレート"><p class="template-label">コピー用テンプレート</p><div class="template-body"><p class="template-line">カフェ巡りのお題、共通ですね！</p><p class="template-line">最近お気に入りのカフェはありますか？</p><p class="template-line">僕は最近△△（具体的な店名）にハマってます。</p></div></div>
 
-```
-料理のお題、共通ですね！
-普段どんな料理を作ることが多いですか？
-僕は週末はパスタや炒め物をよく作ります。
-```
+
+<div class="template-block" role="note" aria-label="コピー用テンプレート"><p class="template-label">コピー用テンプレート</p><div class="template-body"><p class="template-line">料理のお題、共通ですね！</p><p class="template-line">普段どんな料理を作ることが多いですか？</p><p class="template-line">僕は週末はパスタや炒め物をよく作ります。</p></div></div>
+
 
 **メッセージのポイント**
 - お題に触れ、共通点を伝える
@@ -131,19 +125,8 @@ affiliate: true
 
 ## お題設定の実例（30代男性向け）
 
-```
-【食・グルメ】
-カフェ巡り、料理、お酒、ラーメン
+<div class="template-block" role="note" aria-label="コピー用テンプレート"><p class="template-label">コピー用テンプレート</p><div class="template-body"><p class="template-section-title">【食・グルメ】</p><p class="template-line">カフェ巡り、料理、お酒、ラーメン</p><div class="template-spacer" aria-hidden="true"></div><p class="template-section-title">【趣味】</p><p class="template-line">映画、読書、音楽ライブ、散歩</p><div class="template-spacer" aria-hidden="true"></div><p class="template-section-title">【スポーツ・アウトドア】</p><p class="template-line">ランニング、旅行</p><div class="template-spacer" aria-hidden="true"></div><p class="template-section-title">【その他】</p><p class="template-line">ペット、写真</p></div></div>
 
-【趣味】
-映画、読書、音楽ライブ、散歩
-
-【スポーツ・アウトドア】
-ランニング、旅行
-
-【その他】
-ペット、写真
-```
 
 このように10個以上設定し、それぞれに連動する写真があれば、マッチ率は上がりやすくなります。
 

@@ -135,11 +135,8 @@ affiliate: false
 
 LINEやアプリで場所を提案する際は、具体的に書きましょう。
 
-```
-来週の土曜、渋谷の△△カフェはどうですか？
-14時から1時間くらいで。
-駅から徒歩3分で、席もゆったりしてます。
-```
+<div class="template-block" role="note" aria-label="コピー用テンプレート"><p class="template-label">コピー用テンプレート</p><div class="template-body"><p class="template-line">来週の土曜、渋谷の△△カフェはどうですか？</p><p class="template-line">14時から1時間くらいで。</p><p class="template-line">駅から徒歩3分で、席もゆったりしてます。</p></div></div>
+
 
 ポイントは**日時・場所・所要時間・安心材料**の4点を入れることです。「会いたい」だけでは相手は動けません。
 
@@ -156,11 +153,8 @@ LINEやアプリで場所を提案する際は、具体的に書きましょう�
 
 初デート後、**48時間以内**にメッセージを送りましょう。遅すぎると「興味がない」と思われます。
 
-```
-今日はありがとうございました！
-○○の話、とても面白かったです。
-またお話しできたら嬉しいです。
-```
+<div class="template-block" role="note" aria-label="コピー用テンプレート"><p class="template-label">コピー用テンプレート</p><div class="template-body"><p class="template-line">今日はありがとうございました！</p><p class="template-line">○○の話、とても面白かったです。</p><p class="template-line">またお話しできたら嬉しいです。</p></div></div>
+
 
 シンプルで十分です。長文や即告白は不要です。相手から返信があったら、2回目のデートを具体的に提案しましょう。
 
