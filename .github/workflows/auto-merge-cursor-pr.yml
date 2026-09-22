@@ -1,0 +1,53 @@
+name: Auto-merge Cursor PR
+
+on:
+  pull_request:
+    types: [opened, ready_for_review, synchronize, reopened]
+    branches: [main]
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: auto-merge-${{ github.event.pull_request.number }}
+  cancel-in-progress: true
+
+jobs:
+  validate-and-merge:
+    if: github.event.pull_request.user.login == 'app/cursor'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout PR
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.head.sha }}
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build site
+        run: npm run build
+
+      - name: Check markdown bold
+        run: npm run check:bold
+
+      - name: Mark PR ready for review
+        if: github.event.pull_request.draft == true
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh pr ready ${{ github.event.pull_request.number }}
+
+      - name: Merge PR
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh pr merge ${{ github.event.pull_request.number }} \
+            --merge \
+            --delete-branch

@@ -12,9 +12,11 @@ Anthropic API キーは不要です。Cursor の Cloud Agent が記事を執筆�
 2. **Name:** `motetai 毎日2記事追加`
 3. **Trigger:** Schedule → **毎日 6:00**（JST）
 4. **Repository:** `ATOHSaaa/motetai` / `main`
-5. **Tools:** Git commit / push を有効化
+5. **Tools:** `Open Pull Request` を有効化（直接 main push はできない）
 6. **Instructions:** 下の「やること」セクションをコピー、または `@.cursor/automations/daily-articles.md` を参照
 7. 保存して有効化
+
+PR が開かれたら `.github/workflows/auto-merge-cursor-pr.yml` がビルド確認後に **自動マージ** し、`Deploy` ワークフローで公開されます。
 
 ### 方法B: Agents Window
 
@@ -50,17 +52,19 @@ Anthropic API キーは不要です。Cursor の Cloud Agent が記事を執筆�
    - `npm run build`
    - `npm run check:bold`
 7. `data/article-queue.json` の該当項目を `status: "completed"` に更新
-8. git commit & push:
+8. PR を作成（Draft でも可）:
    ```
    feat: 記事追加 - <title1>, <title2>
    ```
+   GitHub Actions がビルド確認後に自動マージし、`main` へのマージでデプロイが走る
 
 ### 注意
 
 - 既に `src/content/articles/<slug>.md` がある場合はスキップし、キューを completed にする
 - 失敗した記事は `status: "failed"` と `error` を記録
 - キューが空なら終了（エラーにしない）
-- デプロイは **push 後に GitHub Actions が自動実行** する（手動で deploy 不要）
+- デプロイは **PR 自動マージ後に GitHub Actions が自動実行** する（手動で deploy 不要）
+- 既存記事の不要な変更は入れない（新規記事・キュー・research のみ）
 
 ## キュー確認コマンド
 
