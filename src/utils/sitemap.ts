@@ -16,7 +16,14 @@ function escapeXml(value: string): string {
     .replaceAll("'", '&apos;');
 }
 
-export function renderSitemapXml(urls: SitemapUrl[]): string {
+export interface SitemapRenderOptions {
+  stylesheet?: string;
+}
+
+export function renderSitemapXml(
+  urls: SitemapUrl[],
+  options?: SitemapRenderOptions
+): string {
   const urlEntries = urls
     .map(({ loc, lastmod }) => {
       const lastmodTag = lastmod
@@ -26,8 +33,12 @@ export function renderSitemapXml(urls: SitemapUrl[]): string {
     })
     .join('\n');
 
+  const stylesheetLine = options?.stylesheet
+    ? `<?xml-stylesheet type="text/xsl" href="${escapeXml(options.stylesheet)}"?>\n`
+    : '';
+
   return `<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+${stylesheetLine}<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 ${urlEntries}
 </urlset>`;
 }

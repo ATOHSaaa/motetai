@@ -3,8 +3,7 @@ export type CategorySlug =
   | 'konkatsu'
   | 'appearance'
   | 'date-talk'
-  | 'fashion'
-  | 'relationship';
+  | 'fashion';
 
 export interface Category {
   slug: CategorySlug;
@@ -43,12 +42,6 @@ export const categories: Category[] = [
     name: 'ファッション',
     description: '婚活・デートに映えるメンズコーデ。失敗しない服装の選び方',
     color: 'bg-violet-100 text-violet-800',
-  },
-  {
-    slug: 'relationship',
-    name: '恋愛・関係',
-    description: '告白、失恋からの立ち直り、長続きのコツ。恋愛関係を論理的に整理する',
-    color: 'bg-sky-100 text-sky-800',
   },
 ];
 

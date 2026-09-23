@@ -2,6 +2,7 @@ import type { APIRoute } from 'astro';
 import { getCollection } from 'astro:content';
 import { categories } from '../utils/category';
 import { renderSitemapXml, type SitemapUrl } from '../utils/sitemap';
+import { withBase } from '../utils/url';
 
 function absoluteUrl(path: string): string {
   const base = import.meta.env.SITE + import.meta.env.BASE_URL;
@@ -15,6 +16,7 @@ export const GET: APIRoute = async () => {
   const urls: SitemapUrl[] = [
     { loc: absoluteUrl('/') },
     { loc: absoluteUrl('/about/') },
+    { loc: absoluteUrl('/privacy/') },
     { loc: absoluteUrl('/articles/') },
     { loc: absoluteUrl('/ranking/') },
     { loc: absoluteUrl('/diagnosis/maiari/') },
@@ -27,9 +29,14 @@ export const GET: APIRoute = async () => {
     })),
   ];
 
-  return new Response(renderSitemapXml(urls), {
-    headers: {
-      'Content-Type': 'application/xml; charset=utf-8',
-    },
-  });
+  return new Response(
+    renderSitemapXml(urls, {
+      stylesheet: absoluteUrl(withBase('/sitemap.xsl')),
+    }),
+    {
+      headers: {
+        'Content-Type': 'application/xml; charset=utf-8',
+      },
+    }
+  );
 };

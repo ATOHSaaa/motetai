@@ -2,6 +2,7 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 import Breadcrumb from '../components/Breadcrumb.astro';
 import { siteConfig } from '../config/site';
+import { withBase } from '../utils/url';
 ---
 
 <BaseLayout
@@ -30,9 +31,20 @@ import { siteConfig } from '../config/site';
         <li>定期的に記事を更新し、最新の情報を反映します</li>
       </ul>
 
-      <h2>広告について</h2>
+      <h2>広告・アフィリエイトについて</h2>
       <p>
-        当サイトでは、アフィリエイトプログラムおよび広告を利用しています。リンク先の商品・サービスを紹介することで、サイトの運営費を捻出しています。紹介内容は編集部の独自の見解に基づいており、広告主の意向によって記事内容が左右されることはありません。
+        当サイトでは、アフィリエイトプログラムおよび広告を利用しています。リンク先の商品・サービスを紹介することで、サイトの運営費を捻出しています。記事によっては「PR」表記を行い、広告・プロモーションを含む場合があります。
+      </p>
+      <p>
+        当サイトは、Amazon.co.jpを宣伝しリンクすることによってサイトが紹介料を獲得できる手段を提供することを目的に設定されたアフィリエイトプログラムである、Amazonアソシエイト・プログラムの参加者です。
+      </p>
+      <p>
+        紹介内容は編集部の独自の見解に基づいており、広告主の意向によって記事内容が左右されることはありません。詳細は<a href={withBase('/privacy')}>プライバシーポリシー</a>をご確認ください。
+      </p>
+
+      <h2>アクセス解析について</h2>
+      <p>
+        当サイトでは Google Analytics（GA4）、Microsoft Clarity、Google Search Console を利用し、サイト改善のためアクセス状況を分析しています。Cookie の利用等については<a href={withBase('/privacy')}>プライバシーポリシー</a>に記載しています。
       </p>
 
       <h2>お問い合わせ</h2>

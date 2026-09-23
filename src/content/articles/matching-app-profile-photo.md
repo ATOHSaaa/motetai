@@ -2,8 +2,7 @@
 title: "マッチングアプリのプロフィール写真｜女性に選ばれる撮り方7つのコツ"
 description: "マッチングアプリでマッチ率を上げるプロフィール写真の撮り方。女性が「いいね」する写真の共通点を論理的に分析します。"
 category: matching-app
-publishedAt: 2025-09-03
-updatedAt: 2025-09-21
+publishedAt: 2026-09-21
 tags: ["プロフィール写真", "マッチングアプリ", "写真", "マッチ率"]
 readingTime: 12
 affiliate: false

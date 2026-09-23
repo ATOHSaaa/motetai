@@ -35,6 +35,14 @@ export async function getStaticPaths() {
       },
     },
     {
+      slug: 'privacy',
+      props: {
+        title: 'プライバシーポリシー',
+        description: 'Cookie・アクセス解析・広告・アフィリエイトに関する取り扱いについて',
+        label: 'サイト情報',
+      },
+    },
+    {
       slug: 'articles',
       props: {
         title: '記事一覧',

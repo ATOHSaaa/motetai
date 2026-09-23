@@ -2,8 +2,7 @@
 title: "失恋から立ち直る方法｜男性が最短で復活する5ステップ"
 description: "失恋した男性が立ち直るための具体的な方法。感情の整理、行動の切り替え、新しい出会いの準備まで、論理的に解説します。"
 category: date-talk
-publishedAt: 2025-09-13
-updatedAt: 2025-09-21
+publishedAt: 2026-09-21
 tags: ["失恋", "立ち直り", "メンタル", "復活"]
 readingTime: 12
 affiliate: false

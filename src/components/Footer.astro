@@ -31,15 +31,25 @@ import { withBase } from '../utils/url';
         <p class="mb-3 font-semibold text-white">サイト情報</p>
         <ul class="space-y-2 text-sm">
           <li><a href={withBase('/about')} class="hover:text-white">運営者情報</a></li>
+          <li><a href={withBase('/privacy')} class="hover:text-white">プライバシーポリシー</a></li>
           <li><a href={withBase('/articles')} class="hover:text-white">記事一覧</a></li>
           <li><a href={withBase('/ranking')} class="hover:text-white">人気ランキング</a></li>
         </ul>
       </div>
     </div>
 
-    <div class="mt-10 border-t border-slate-700 pt-6 text-center text-xs text-slate-500">
+    <div class="mt-10 border-t border-slate-700 pt-6 text-center text-xs leading-relaxed text-slate-500">
       <p>
-        ※当サイトはアフィリエイト広告を利用しています。商品・サービスの紹介にはPRが含まれる場合があります。
+        ※当サイトはアフィリエイト広告を利用しています。記事内のリンクから商品・サービスが購入・契約された場合、紹介料が発生することがあります。
+      </p>
+      <p class="mt-2">
+        当サイトは、Amazon.co.jpを宣伝しリンクすることによってサイトが紹介料を獲得できる手段を提供することを目的に設定されたアフィリエイトプログラムである、Amazonアソシエイト・プログラムの参加者です。
+      </p>
+      <p class="mt-2">
+        記事には広告・PRが含まれる場合があります。Cookie およびアクセス解析ツールの利用については<a
+          href={withBase('/privacy')}
+          class="text-slate-400 underline hover:text-white">プライバシーポリシー</a
+        >をご確認ください。
       </p>
       <p class="mt-2">© {new Date().getFullYear()} {siteConfig.name}. All rights reserved.</p>
     </div>

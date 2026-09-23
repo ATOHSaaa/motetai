@@ -2,8 +2,7 @@
 title: "初デートの場所おすすめ15選｜女性が「また会いたい」と思う場所の選び方"
 description: "初デートで失敗しない場所の選び方。カフェ、ランチ、散歩デートなど、女性が好印象を持つデートスポットをシーン別に解説します。"
 category: date-talk
-publishedAt: 2025-09-06
-updatedAt: 2025-09-21
+publishedAt: 2026-09-21
 tags: ["初デート", "デート", "場所", "おすすめ"]
 readingTime: 13
 affiliate: false

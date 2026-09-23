@@ -30,12 +30,12 @@ body {
 }
 
 .prose-article p {
-  @apply mb-4 leading-relaxed text-slate-700;
+  @apply mb-4 leading-relaxed text-slate-900;
 }
 
 .prose-article ul,
 .prose-article ol {
-  @apply mb-4 ml-6 space-y-2 text-slate-700;
+  @apply mb-4 ml-6 space-y-2 text-slate-900;
 }
 
 .prose-article ul {
@@ -59,7 +59,7 @@ body {
 }
 
 .prose-article blockquote {
-  @apply my-6 rounded-r-lg border-l-4 border-brand-500 bg-brand-50 px-5 py-4 text-slate-700;
+  @apply my-6 rounded-r-lg border-l-4 border-brand-500 bg-brand-50 px-5 py-4 text-slate-900;
 }
 
 .prose-article table {
@@ -71,5 +71,30 @@ body {
 }
 
 .prose-article td {
-  @apply border border-slate-200 px-4 py-2;
+  @apply border border-slate-200 px-4 py-2 text-slate-900;
+}
+
+/* 記事内テンプレート（``` コードブロック） */
+.prose-article .template-block {
+  @apply relative my-6 overflow-hidden rounded-xl border border-brand-200/80 bg-gradient-to-br from-white to-brand-50/70 shadow-sm;
+}
+
+.prose-article .template-label {
+  @apply m-0 border-b border-brand-100 bg-brand-50/80 px-4 py-2.5 text-xs font-semibold tracking-wide text-brand-700;
+}
+
+.prose-article .template-body {
+  @apply space-y-1 px-4 py-4 font-sans text-[0.9375rem] leading-7 text-slate-900;
+}
+
+.prose-article .template-section-title {
+  @apply m-0 pt-3 text-sm font-bold text-brand-800 first:pt-0;
+}
+
+.prose-article .template-line {
+  @apply m-0 leading-7 text-slate-900;
+}
+
+.prose-article .template-spacer {
+  @apply h-2;
 }

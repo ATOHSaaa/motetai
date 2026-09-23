@@ -65,7 +65,7 @@ npm run research -- "マッチングアプリ おすすめ 男性" --slug matchi
 title: "検索キーワードを含むタイトル"
 description: "120〜160文字。キーワードを自然に含める"
 category: matching-app  # いずれか
-publishedAt: 2025-09-21
+publishedAt: 2026-09-21
 targetKeyword: "メインキーワード"
 targetKeywords: ["サブKW1", "サブKW2"]
 researchSlug: "記事スラッグ"  # research/ のファイル名
@@ -142,4 +142,3 @@ npm run indexnow -- article-slug # 特定記事
 | appearance | メンズ スキンケア 初心者、脱毛 婚活、AGA 恋愛 |
 | date-talk | 初デート 場所、LINE 送り方 男性、会話 ネタ |
 | fashion | デート 服装 男性、婚活 ファッション、清潔感 コーデ |
-| relationship | 告白 タイミング、失恋 立ち直り、付き合う タイミング |

@@ -2,8 +2,7 @@
 title: "Omiai攻略ガイド｜30代男性が婚活で成果を出すプロフィール術"
 description: "婚活アプリOmiaiでマッチ率を上げる方法。30代男性向けにプロフィール作成、写真選び、メッセージのコツを解説します。"
 category: matching-app
-publishedAt: 2025-09-07
-updatedAt: 2025-09-21
+publishedAt: 2026-09-21
 tags: ["Omiai", "婚活", "プロフィール", "30代"]
 readingTime: 13
 affiliate: true

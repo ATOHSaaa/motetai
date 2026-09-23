@@ -2,8 +2,7 @@
 title: "Pairsプロフィール完全攻略｜マッチ率3倍にする写真・自己紹介の書き方"
 description: "Pairsでマッチ率を上げるプロフィール作成法。写真の選び方、自己紹介文のテンプレート、女性がスワイプする理由を論理的に解説。"
 category: matching-app
-publishedAt: 2025-09-02
-updatedAt: 2025-09-21
+publishedAt: 2026-09-21
 featured: true
 tags: ["Pairs", "プロフィール", "写真", "自己紹介"]
 readingTime: 14

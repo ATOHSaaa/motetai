@@ -1,0 +1,133 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Breadcrumb from '../components/Breadcrumb.astro';
+import { siteConfig } from '../config/site';
+import { withBase } from '../utils/url';
+
+const updatedAt = new Date('2026-09-21');
+const formattedUpdatedAt = updatedAt.toLocaleDateString('ja-JP', {
+  year: 'numeric',
+  month: 'long',
+  day: 'numeric',
+});
+---
+
+<BaseLayout
+  title="プライバシーポリシー"
+  description="motetaiのプライバシーポリシー。Cookie・アクセス解析・広告・アフィリエイトに関する取り扱いを説明します。"
+  path="/privacy"
+>
+  <div class="mx-auto max-w-3xl px-4 py-8">
+    <Breadcrumb items={[{ label: 'ホーム', href: '/' }, { label: 'プライバシーポリシー' }]} />
+    <h1 class="mb-2 text-3xl font-bold text-slate-900">プライバシーポリシー</h1>
+    <p class="mb-8 text-sm text-slate-500">最終更新日: {formattedUpdatedAt}</p>
+
+    <div class="prose-article">
+      <p>
+        {siteConfig.name}（以下「当サイト」）は、ユーザーの個人情報の保護を重要な責務と考え、以下のとおりプライバシーポリシーを定めます。当サイトをご利用いただく際は、本ポリシーに同意いただいたものとみなします。
+      </p>
+
+      <h2>1. 運営者情報</h2>
+      <ul>
+        <li>サイト名: {siteConfig.name}</li>
+        <li>URL: <a href={siteConfig.url}>{siteConfig.url}</a></li>
+        <li>運営者: {siteConfig.author}</li>
+      </ul>
+
+      <h2>2. 取得する情報</h2>
+      <p>当サイトでは、以下の情報を取得する場合があります。</p>
+      <ul>
+        <li>Cookie および類似技術により取得される情報（閲覧ページ、参照元、端末・ブラウザ情報など）</li>
+        <li>アクセス解析ツールにより取得される匿名化された利用状況データ</li>
+        <li>お問い合わせ時にご本人が入力された情報（導入時）</li>
+      </ul>
+      <p>
+        当サイトは、氏名・住所・電話番号など個人を特定できる情報を、ユーザーの同意なく意図的に収集することはありません。
+      </p>
+
+      <h2>3. 利用目的</h2>
+      <p>取得した情報は、以下の目的で利用します。</p>
+      <ul>
+        <li>当サイトの品質向上・コンテンツ改善</li>
+        <li>アクセス状況の分析および利用傾向の把握</li>
+        <li>広告・アフィリエイトの効果測定</li>
+        <li>不正利用の防止およびセキュリティの確保</li>
+      </ul>
+
+      <h2>4. アクセス解析ツール</h2>
+      <p>当サイトでは、以下のアクセス解析ツールを利用しています。</p>
+
+      <h3>Google Analytics（GA4）</h3>
+      <p>
+        Google LLC が提供するアクセス解析サービスです。Cookie を使用して利用状況を収集し、当サイトは統計情報として閲覧数や行動傾向を分析します。収集されたデータは Google のプライバシーポリシーに基づいて管理されます。
+      </p>
+      <ul>
+        <li>
+          Google ポリシー: <a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a>
+        </li>
+        <li>
+          オプトアウト: <a href="https://tools.google.com/dlpage/gaoptout">Google Analytics オプトアウト アドオン</a>
+        </li>
+      </ul>
+
+      <h3>Microsoft Clarity</h3>
+      <p>
+        Microsoft Corporation が提供する行動分析ツールです。ページの閲覧状況や操作の傾向を把握するために Cookie 等を使用します。個人を特定する目的では利用しません。
+      </p>
+      <ul>
+        <li>
+          Microsoft プライバシー: <a href="https://privacy.microsoft.com/ja-jp/privacystatement">https://privacy.microsoft.com/ja-jp/privacystatement</a>
+        </li>
+      </ul>
+
+      <h3>Google Search Console</h3>
+      <p>
+        当サイトの検索パフォーマンスを把握するため、Google Search Console を利用しています。Search Console 自体はサイト訪問者の行動を個別に追跡するものではありませんが、サイト所有権の確認のため HTML タグを設置しています。
+      </p>
+
+      <h2>5. 広告・アフィリエイトについて</h2>
+      <p>
+        当サイトは、サイト運営のため以下を利用しています。記事内のリンクをクリックして商品・サービスが購入・契約された場合、当サイトに紹介料等が支払われることがあります。
+      </p>
+      <ul>
+        <li>アフィリエイトプログラム（各サービス提供者）</li>
+        <li>Amazonアソシエイト・プログラム</li>
+        <li>その他の広告配信（導入する場合）</li>
+      </ul>
+      <p>
+        当サイトは、Amazon.co.jp を宣伝しリンクすることによってサイトが紹介料を獲得できる手段を提供することを目的に設定されたアフィリエイトプログラムである、Amazonアソシエイト・プログラムの参加者です。
+      </p>
+      <p>
+        広告・アフィリエイトリンクには Cookie 等が使用される場合があります。第三者配信事業者は、ユーザーの興味に応じた広告を表示するために Cookie を使用することがあります。記事によっては「PR」表記を行い、広告・プロモーションを含む場合があります。
+      </p>
+      <p>
+        記事の内容は編集部の独自の見解に基づいて作成していますが、収益化のため特定の商品・サービスを紹介する場合があります。掲載内容は記事公開時点の情報であり、最新性・正確性を保証するものではありません。
+      </p>
+
+      <h2>6. 第三者への提供</h2>
+      <p>
+        当サイトは、法令に基づく場合を除き、取得した情報を本人の同意なく第三者に提供しません。ただし、上記のアクセス解析・広告・アフィリエイトサービス提供者に、各サービスの利用規約に基づきデータが送信される場合があります。
+      </p>
+
+      <h2>7. Cookie の管理</h2>
+      <p>
+        ブラウザの設定により Cookie の受け入れを拒否・削除できます。ただし、Cookie を無効にした場合、当サイトの一部機能が正しく動作しない可能性があります。
+      </p>
+
+      <h2>8. 保有期間</h2>
+      <p>
+        取得した情報は、利用目的の達成に必要な期間保有し、不要となった場合は適切な方法で削除または匿名化します。各外部サービスのデータ保有期間については、各提供者のポリシーをご確認ください。
+      </p>
+
+      <h2>9. お問い合わせ</h2>
+      <p>
+        本ポリシーに関するお問い合わせは、<a href={withBase('/about')}>運営者情報</a>ページをご確認ください（お問い合わせフォームは準備中です）。
+      </p>
+
+      <h2>10. ポリシーの変更</h2>
+      <p>
+        当サイトは、必要に応じて本ポリシーを変更することがあります。変更後のポリシーは、当ページに掲載した時点で効力を生じます。
+      </p>
+    </div>
+  </div>
+</BaseLayout>

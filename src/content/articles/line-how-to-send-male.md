@@ -2,8 +2,7 @@
 title: "好きな人へのLINEの送り方｜男性が押さえるべき7つのルール"
 description: "好きな人・気になる人へのLINEの送り方を男性向けに解説。返信率を上げるタイミング、文章の書き方、やってはいけないNG行動をまとめます。"
 category: date-talk
-publishedAt: 2025-09-09
-updatedAt: 2025-09-21
+publishedAt: 2026-09-21
 tags: ["LINE", "メッセージ", "恋愛", "返信"]
 readingTime: 11
 affiliate: false

@@ -2,8 +2,7 @@
 title: "【春デート】男性の服装おすすめ｜清潔感カジュアルコーデ5選"
 description: "春のデートに最適な男性の服装コーデ5選。清潔感を出す色の選び方、失敗しないアイテム、予算別のおすすめを解説します。"
 category: fashion
-publishedAt: 2025-09-08
-updatedAt: 2025-09-21
+publishedAt: 2026-09-21
 tags: ["デート服装", "春", "メンズコーデ", "清潔感"]
 readingTime: 12
 affiliate: true
