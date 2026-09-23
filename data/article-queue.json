@@ -62,7 +62,9 @@
         "婚活 服装 30代"
       ],
       "priority": 96,
-      "status": "pending"
+      "status": "completed",
+      "completedAt": "2026-09-23T00:12:00.000Z",
+      "title": "【男性向け】婚活パーティーの服装完全ガイド｜年代・季節別の正解コーデとNG例"
     },
     {
       "slug": "konkatsu-agency-comparison",
@@ -86,7 +88,9 @@
         "デート 香水"
       ],
       "priority": 94,
-      "status": "pending"
+      "status": "completed",
+      "completedAt": "2026-09-23T00:12:00.000Z",
+      "title": "【初心者向け】メンズ香水の選び方｜デートで好印象な最初の1本"
     },
     {
       "slug": "mens-hair-styling-date",
