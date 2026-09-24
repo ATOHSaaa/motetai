@@ -101,7 +101,9 @@
         "デート ヘアスタイル"
       ],
       "priority": 93,
-      "status": "pending"
+      "status": "completed",
+      "completedAt": "2026-09-24T00:15:00.000Z",
+      "title": "【男性向け】デート前のメンズヘアセット完全ガイド｜5分で清潔感を作る手順と整髪料の選び方"
     },
     {
       "slug": "line-after-first-date",
@@ -112,7 +114,9 @@
         "初デート後 連絡"
       ],
       "priority": 92,
-      "status": "pending"
+      "status": "completed",
+      "completedAt": "2026-09-24T00:15:00.000Z",
+      "title": "【男性向け】初デート後のLINE送り方完全ガイド｜タイミング・例文・2回目につなげるコツ"
     },
     {
       "slug": "matching-app-profile-text",
