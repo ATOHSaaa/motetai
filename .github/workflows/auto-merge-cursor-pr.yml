@@ -8,6 +8,7 @@ on:
 permissions:
   contents: write
   pull-requests: write
+  actions: write
 
 concurrency:
   group: auto-merge-${{ github.event.pull_request.number }}
@@ -51,3 +52,9 @@ jobs:
           gh pr merge ${{ github.event.pull_request.number }} \
             --merge \
             --delete-branch
+
+      # GITHUB_TOKEN によるマージは push イベントを発火しないため、Deploy を明示的に起動する
+      - name: Trigger deploy
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh workflow run deploy.yml --ref main
