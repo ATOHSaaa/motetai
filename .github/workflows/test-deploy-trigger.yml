@@ -10,6 +10,9 @@ jobs:
   trigger:
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
       - name: Trigger deploy (same as auto-merge post-merge step)
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
