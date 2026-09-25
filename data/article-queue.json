@@ -166,7 +166,9 @@
         "清潔感 ヒゲ"
       ],
       "priority": 88,
-      "status": "pending"
+      "status": "completed",
+      "completedAt": "2026-09-25T00:30:00.000Z",
+      "title": "【男性向け】デート前のメンズヒゲ手入れ完全ガイド｜剃る・整える・青ヒゲ対策まで清潔感を作る手順"
     },
     {
       "slug": "confession-timing-male",
@@ -177,7 +179,9 @@
         "付き合う タイミング"
       ],
       "priority": 87,
-      "status": "pending"
+      "status": "completed",
+      "completedAt": "2026-09-25T00:30:00.000Z",
+      "title": "【男性向け】告白のタイミング完全ガイド｜何回目のデート・脈ありサイン・成功する瞬間"
     },
     {
       "slug": "matching-app-photo-tips",
