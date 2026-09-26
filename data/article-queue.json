@@ -192,7 +192,9 @@
         "マッチングアプリ 自撮り"
       ],
       "priority": 86,
-      "status": "pending"
+      "status": "completed",
+      "completedAt": "2026-09-26T00:30:00.000Z",
+      "title": "【男性向け】マッチングアプリの写真撮り方完全ガイド｜いいねが増えるOK例・NG例と自撮り5ステップ"
     },
     {
       "slug": "omiai-clothing-male",
@@ -203,7 +205,9 @@
         "お見合い コーデ"
       ],
       "priority": 85,
-      "status": "pending"
+      "status": "completed",
+      "completedAt": "2026-09-26T00:30:00.000Z",
+      "title": "【男性向け】お見合いの服装完全ガイド｜スーツ・ジャケパンの選び方と年代別コーデ"
     },
     {
       "slug": "mens-posture-confidence",
