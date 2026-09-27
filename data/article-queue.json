@@ -218,7 +218,9 @@
         "清潔感 姿勢"
       ],
       "priority": 84,
-      "status": "pending"
+      "status": "completed",
+      "completedAt": "2026-09-27T00:30:00.000Z",
+      "title": "【男性向け】姿勢と恋愛の印象完全ガイド｜猫背を直して自信と清潔感を上げる5分習慣"
     },
     {
       "slug": "konkatsu-line-exchange",
@@ -242,7 +244,9 @@
         "ティンダー プロフィール"
       ],
       "priority": 82,
-      "status": "pending"
+      "status": "completed",
+      "completedAt": "2026-09-27T00:30:00.000Z",
+      "title": "【2026年最新】Tinder使い方完全ガイド｜日本で男性がマッチする登録・プロフィール・メッセージ術"
     },
     {
       "slug": "date-budget-guide-male",
