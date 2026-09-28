@@ -257,7 +257,9 @@
         "デート お金 分担"
       ],
       "priority": 81,
-      "status": "pending"
+      "status": "completed",
+      "completedAt": "2026-09-28T00:22:00.000Z",
+      "title": "【男性向け】デート予算の目安完全ガイド｜シーン別・年代別の相場と奢り方・割り勘のルール"
     },
     {
       "slug": "mens-wardrobe-essentials",
@@ -268,7 +270,9 @@
         "デート服 基本"
       ],
       "priority": 80,
-      "status": "pending"
+      "status": "completed",
+      "completedAt": "2026-09-28T00:22:00.000Z",
+      "title": "【男性向け】婚活ワードローブの基本｜最小10着で回せる服の揃え方とコーデ"
     },
     {
       "slug": "matching-app-rejection-coping",
