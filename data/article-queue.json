@@ -283,7 +283,9 @@
         "いいね 返ってこない"
       ],
       "priority": 79,
-      "status": "pending"
+      "status": "completed",
+      "completedAt": "2026-09-29T00:20:00.000Z",
+      "title": "【男性向け】マッチングアプリで振られた時の対処法｜立ち直り・再アプローチ・次の出会いへの切り替え術"
     },
     {
       "slug": "konkatsu-age-gap",
@@ -307,7 +309,9 @@
         "リップクリーム 男性"
       ],
       "priority": 77,
-      "status": "pending"
+      "status": "completed",
+      "completedAt": "2026-09-29T00:20:00.000Z",
+      "title": "【男性向け】デート前のメンズリップケア完全ガイド｜乾燥・かさぶた対策と選び方・使い方"
     },
     {
       "slug": "coffee-date-guide-male",
