@@ -322,7 +322,9 @@
         "初デート カフェ"
       ],
       "priority": 76,
-      "status": "pending"
+      "status": "completed",
+      "completedAt": "2026-09-30T00:30:00.000Z",
+      "title": "【男性向け】カフェデートおすすめ完全ガイド｜失敗しない店選び・席・マナー・予算のコツ"
     },
     {
       "slug": "konkatsu-party-guide-male",
