@@ -385,6 +385,32 @@
       "status": "completed",
       "completedAt": "2026-09-21T14:49:21.715Z",
       "title": "婚活に疲れた男性へ｜燃え尽きずに続けるための現実的なアドバイス"
+    },
+    {
+      "slug": "lunch-date-guide-male",
+      "keyword": "ランチデート おすすめ 男性",
+      "category": "date-talk",
+      "targetKeywords": [
+        "ランチデート コツ",
+        "初デート ランチ"
+      ],
+      "priority": 75,
+      "status": "completed",
+      "completedAt": "2026-10-01T00:30:00.000Z",
+      "title": "【男性向け】ランチデートおすすめ完全ガイド｜失敗しない店選び・服装・マナー・予算のコツ"
+    },
+    {
+      "slug": "matching-app-first-message-male",
+      "keyword": "マッチングアプリ 初メッセージ 例 男性",
+      "category": "matching-app",
+      "targetKeywords": [
+        "マッチングアプリ メッセージ",
+        "初メッセージ 例文"
+      ],
+      "priority": 74,
+      "status": "completed",
+      "completedAt": "2026-10-01T00:30:00.000Z",
+      "title": "【男性向け】マッチングアプリの初メッセージ例｜返信率が上がる書き方・NG例・デートに繋げるコツ"
     }
   ]
 }
