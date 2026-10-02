@@ -411,6 +411,32 @@
       "status": "completed",
       "completedAt": "2026-10-01T00:30:00.000Z",
       "title": "【男性向け】マッチングアプリの初メッセージ例｜返信率が上がる書き方・NG例・デートに繋げるコツ"
+    },
+    {
+      "slug": "dinner-date-guide-male",
+      "keyword": "食事デート おすすめ 男性",
+      "category": "date-talk",
+      "targetKeywords": [
+        "食事デート 店選び",
+        "ディナーデート 初デート"
+      ],
+      "priority": 73,
+      "status": "completed",
+      "completedAt": "2026-10-02T00:30:00.000Z",
+      "title": "【男性向け】食事デートおすすめ完全ガイド｜失敗しない店選び・予算・ジャンル・マナーのコツ"
+    },
+    {
+      "slug": "matching-app-meeting-timing-male",
+      "keyword": "マッチングアプリ 会う タイミング 男性",
+      "category": "matching-app",
+      "targetKeywords": [
+        "マッチングアプリ 会う 何日後",
+        "マッチングアプリ デート 誘う タイミング"
+      ],
+      "priority": 72,
+      "status": "completed",
+      "completedAt": "2026-10-02T00:30:00.000Z",
+      "title": "【男性向け】マッチングアプリで会うタイミング完全ガイド｜何回メッセージ・何日後・誘い方の正解"
     }
   ]
 }
