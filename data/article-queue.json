@@ -437,6 +437,32 @@
       "status": "completed",
       "completedAt": "2026-10-02T00:30:00.000Z",
       "title": "【男性向け】マッチングアプリで会うタイミング完全ガイド｜何回メッセージ・何日後・誘い方の正解"
+    },
+    {
+      "slug": "movie-date-guide-male",
+      "keyword": "映画デート おすすめ 男性",
+      "category": "date-talk",
+      "targetKeywords": [
+        "映画デート コツ",
+        "初デート 映画"
+      ],
+      "priority": 71,
+      "status": "completed",
+      "completedAt": "2026-10-03T00:30:00.000Z",
+      "title": "【男性向け】映画デートおすすめ完全ガイド｜失敗しないジャンル選び・服装・マナー・誘い方"
+    },
+    {
+      "slug": "matching-app-reply-guide-male",
+      "keyword": "マッチングアプリ 返信 例 男性",
+      "category": "matching-app",
+      "targetKeywords": [
+        "マッチングアプリ 返信",
+        "メッセージ 返信"
+      ],
+      "priority": 70,
+      "status": "completed",
+      "completedAt": "2026-10-03T00:30:00.000Z",
+      "title": "【男性向け】マッチングアプリの返信例｜会話が続く書き方・場面別テンプレ・デートに繋げるコツ"
     }
   ]
 }
