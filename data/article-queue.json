@@ -463,6 +463,32 @@
       "status": "completed",
       "completedAt": "2026-10-03T00:30:00.000Z",
       "title": "【男性向け】マッチングアプリの返信例｜会話が続く書き方・場面別テンプレ・デートに繋げるコツ"
+    },
+    {
+      "slug": "walk-date-guide-male",
+      "keyword": "散歩デート おすすめ 男性",
+      "category": "date-talk",
+      "targetKeywords": [
+        "散歩デート コツ",
+        "初デート 散歩"
+      ],
+      "priority": 69,
+      "status": "completed",
+      "completedAt": "2026-10-04T00:30:00.000Z",
+      "title": "【男性向け】散歩デートおすすめ完全ガイド｜失敗しないコース選び・服装・会話・誘い方"
+    },
+    {
+      "slug": "matching-app-multiple-male",
+      "keyword": "マッチングアプリ 複数 使い方 男性",
+      "category": "matching-app",
+      "targetKeywords": [
+        "マッチングアプリ 同時進行",
+        "マッチングアプリ 掛け持ち"
+      ],
+      "priority": 68,
+      "status": "completed",
+      "completedAt": "2026-10-04T00:30:00.000Z",
+      "title": "【男性向け】マッチングアプリ複数使い完全ガイド｜おすすめ組み合わせ・同時進行の人数・管理術"
     }
   ]
 }
