@@ -515,6 +515,32 @@
       "status": "completed",
       "completedAt": "2026-10-05T00:30:00.000Z",
       "title": "【男性向け】マッチングアプリ有料会員おすすめ完全ガイド｜いつから課金すべき？アプリ別の判断基準"
+    },
+    {
+      "slug": "aquarium-date-guide-male",
+      "keyword": "水族館デート おすすめ 男性",
+      "category": "date-talk",
+      "targetKeywords": [
+        "水族館デート コツ",
+        "初デート 水族館"
+      ],
+      "priority": 65,
+      "status": "completed",
+      "completedAt": "2026-10-06T00:30:00.000Z",
+      "title": "【男性向け】水族館デートおすすめ完全ガイド｜失敗しない館選び・服装・会話・誘い方"
+    },
+    {
+      "slug": "matching-app-no-match-male",
+      "keyword": "マッチングアプリ マッチしない 原因 男性",
+      "category": "matching-app",
+      "targetKeywords": [
+        "マッチングアプリ マッチしない",
+        "いいね 返ってこない"
+      ],
+      "priority": 64,
+      "status": "completed",
+      "completedAt": "2026-10-06T00:30:00.000Z",
+      "title": "【男性向け】マッチングアプリでマッチしない原因完全ガイド｜いいねが返ってこない11の理由と改善チェックリスト"
     }
   ]
 }
