@@ -567,6 +567,32 @@
       "status": "completed",
       "completedAt": "2026-10-07T00:06:00.000Z",
       "title": "【男性向け】マッチングアプリ退会タイミング完全ガイド｜交際成立後・解約手順・課金トラブル防止"
+    },
+    {
+      "slug": "museum-date-guide-male",
+      "keyword": "美術館デート おすすめ 男性",
+      "category": "date-talk",
+      "targetKeywords": [
+        "美術館デート コツ",
+        "初デート 美術館"
+      ],
+      "priority": 61,
+      "status": "completed",
+      "completedAt": "2026-10-11T00:06:00.000Z",
+      "title": "【男性向け】美術館デートおすすめ完全ガイド｜失敗しない館選び・服装・会話・誘い方"
+    },
+    {
+      "slug": "matching-app-profile-update-male",
+      "keyword": "マッチングアプリ プロフィール 更新 男性",
+      "category": "matching-app",
+      "targetKeywords": [
+        "マッチングアプリ プロフィール 改善",
+        "プロフィール 見直し"
+      ],
+      "priority": 60,
+      "status": "completed",
+      "completedAt": "2026-10-11T00:06:00.000Z",
+      "title": "【男性向け】マッチングアプリのプロフィール更新完全ガイド｜いいねが増える見直しタイミングと改善チェックリスト"
     }
   ]
 }
