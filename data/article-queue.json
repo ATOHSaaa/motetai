@@ -593,6 +593,32 @@
       "status": "completed",
       "completedAt": "2026-10-11T00:06:00.000Z",
       "title": "【男性向け】マッチングアプリのプロフィール更新完全ガイド｜いいねが増える見直しタイミングと改善チェックリスト"
+    },
+    {
+      "slug": "theme-park-date-guide-male",
+      "keyword": "遊園地デート おすすめ 男性",
+      "category": "date-talk",
+      "targetKeywords": [
+        "遊園地デート コツ",
+        "初デート 遊園地"
+      ],
+      "priority": 59,
+      "status": "completed",
+      "completedAt": "2026-10-12T00:06:00.000Z",
+      "title": "【男性向け】遊園地デートおすすめ完全ガイド｜失敗しない園選び・服装・予算・誘い方"
+    },
+    {
+      "slug": "matching-app-identity-verification-male",
+      "keyword": "マッチングアプリ 本人確認 男性",
+      "category": "matching-app",
+      "targetKeywords": [
+        "マッチングアプリ 本人確認",
+        "マッチングアプリ 安全"
+      ],
+      "priority": 58,
+      "status": "completed",
+      "completedAt": "2026-10-12T00:06:00.000Z",
+      "title": "【男性向け】マッチングアプリの本人確認完全ガイド｜手順・書類・アプリ別の違いと失敗しないコツ"
     }
   ]
 }
