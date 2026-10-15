@@ -645,6 +645,32 @@
       "status": "completed",
       "completedAt": "2026-10-14T00:30:00.000Z",
       "title": "【男性向け】マッチングアプリのブロック・通報完全ガイド｜バレる？手順・アプリ別の注意と切り方"
+    },
+    {
+      "slug": "drive-date-guide-male",
+      "keyword": "ドライブデート おすすめ 男性",
+      "category": "date-talk",
+      "targetKeywords": [
+        "ドライブデート コツ",
+        "初デート ドライブ"
+      ],
+      "priority": 55,
+      "status": "completed",
+      "completedAt": "2026-10-15T00:06:00.000Z",
+      "title": "【男性向け】ドライブデートおすすめ完全ガイド｜付き合う前の誘い方・コース・車内準備・安全"
+    },
+    {
+      "slug": "matching-app-income-profile-male",
+      "keyword": "マッチングアプリ 年収 書き方 男性",
+      "category": "matching-app",
+      "targetKeywords": [
+        "マッチングアプリ 年収",
+        "プロフィール 年収"
+      ],
+      "priority": 54,
+      "status": "completed",
+      "completedAt": "2026-10-15T00:06:00.000Z",
+      "title": "【男性向け】マッチングアプリの年収の書き方完全ガイド｜正直・非公開・盛るリスクと年収帯別テンプレ"
     }
   ]
 }
