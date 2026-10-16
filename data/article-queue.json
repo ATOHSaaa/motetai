@@ -671,6 +671,32 @@
       "status": "completed",
       "completedAt": "2026-10-15T00:06:00.000Z",
       "title": "【男性向け】マッチングアプリの年収の書き方完全ガイド｜正直・非公開・盛るリスクと年収帯別テンプレ"
+    },
+    {
+      "slug": "shopping-date-guide-male",
+      "keyword": "ショッピングデート おすすめ 男性",
+      "category": "date-talk",
+      "targetKeywords": [
+        "ショッピングデート コツ",
+        "初デート ショッピング"
+      ],
+      "priority": 53,
+      "status": "completed",
+      "completedAt": "2026-10-16T00:06:00.000Z",
+      "title": "【男性向け】ショッピングデートおすすめ完全ガイド｜失敗しない店選び・付き添い方・誘い方"
+    },
+    {
+      "slug": "matching-app-job-profile-male",
+      "keyword": "マッチングアプリ 職業 書き方 男性",
+      "category": "matching-app",
+      "targetKeywords": [
+        "マッチングアプリ 仕事",
+        "プロフィール 職業"
+      ],
+      "priority": 52,
+      "status": "completed",
+      "completedAt": "2026-10-16T00:06:00.000Z",
+      "title": "【男性向け】マッチングアプリの職業の書き方完全ガイド｜業界×職種・職種別テンプレ・身バレ回避"
     }
   ]
 }
