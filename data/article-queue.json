@@ -697,6 +697,32 @@
       "status": "completed",
       "completedAt": "2026-10-16T00:06:00.000Z",
       "title": "【男性向け】マッチングアプリの職業の書き方完全ガイド｜業界×職種・職種別テンプレ・身バレ回避"
+    },
+    {
+      "slug": "onsen-date-guide-male",
+      "keyword": "温泉デート おすすめ 男性",
+      "category": "date-talk",
+      "targetKeywords": [
+        "温泉デート コツ",
+        "初デート 温泉"
+      ],
+      "priority": 51,
+      "status": "completed",
+      "completedAt": "2026-10-17T00:06:00.000Z",
+      "title": "【男性向け】温泉デートおすすめ完全ガイド｜付き合う前の日帰り・宿泊の選び方・誘い方・マナー"
+    },
+    {
+      "slug": "matching-app-education-profile-male",
+      "keyword": "マッチングアプリ 学歴 書き方 男性",
+      "category": "matching-app",
+      "targetKeywords": [
+        "マッチングアプリ 学歴",
+        "プロフィール 学歴"
+      ],
+      "priority": 50,
+      "status": "completed",
+      "completedAt": "2026-10-17T00:06:00.000Z",
+      "title": "【男性向け】マッチングアプリの学歴の書き方完全ガイド｜書くべき？高学歴・低学歴別・詐称リスクと整合"
     }
   ]
 }
