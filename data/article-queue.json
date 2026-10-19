@@ -749,6 +749,32 @@
       "status": "completed",
       "completedAt": "2026-10-18T00:07:00.000Z",
       "title": "【男性向け】マッチングアプリの趣味の書き方完全ガイド｜いいねが増える例文・NG・デートにつなげる設計"
+    },
+    {
+      "slug": "fireworks-date-guide-male",
+      "keyword": "花火デート おすすめ 男性",
+      "category": "date-talk",
+      "targetKeywords": [
+        "花火デート コツ",
+        "初デート 花火"
+      ],
+      "priority": 47,
+      "status": "completed",
+      "completedAt": "2026-10-19T00:04:00.000Z",
+      "title": "【男性向け】花火デートおすすめ完全ガイド｜付き合う前の大会選び・流れ・服装・持ち物・誘い方・マナー"
+    },
+    {
+      "slug": "matching-app-height-profile-male",
+      "keyword": "マッチングアプリ 身長 書き方 男性",
+      "category": "matching-app",
+      "targetKeywords": [
+        "マッチングアプリ 身長",
+        "プロフィール 身長"
+      ],
+      "priority": 46,
+      "status": "completed",
+      "completedAt": "2026-10-19T00:04:00.000Z",
+      "title": "【男性向け】マッチングアプリの身長の書き方完全ガイド｜書くべき？低身長・平均・高身長別・詐称リスクと写真"
     }
   ]
 }
