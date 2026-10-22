@@ -827,6 +827,32 @@
       "status": "completed",
       "completedAt": "2026-10-21T00:30:00.000Z",
       "title": "【男性向け】マッチングアプリの子供の希望の書き方完全ガイド｜婚活・恋活別・既婚歴・年代別テンプレ・NG例と結婚観との整合"
+    },
+    {
+      "slug": "halloween-date-guide-male",
+      "keyword": "ハロウィンデート おすすめ 男性",
+      "category": "date-talk",
+      "targetKeywords": [
+        "ハロウィンデート コツ",
+        "初デート ハロウィン"
+      ],
+      "priority": 41,
+      "status": "completed",
+      "completedAt": "2026-10-22T00:06:00.000Z",
+      "title": "【男性向け】ハロウィンデートおすすめ完全ガイド｜付き合う前の仮装・プラン・混雑回避・誘い方・マナー"
+    },
+    {
+      "slug": "matching-app-pet-profile-male",
+      "keyword": "マッチングアプリ ペット 書き方 男性",
+      "category": "matching-app",
+      "targetKeywords": [
+        "マッチングアプリ ペット",
+        "プロフィール ペット"
+      ],
+      "priority": 40,
+      "status": "completed",
+      "completedAt": "2026-10-22T00:06:00.000Z",
+      "title": "【男性向け】マッチングアプリのペットの書き方完全ガイド｜飼育中・将来希望・写真・アレルギー・婚活別テンプレ・NG例"
     }
   ]
 }
