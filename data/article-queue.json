@@ -853,6 +853,32 @@
       "status": "completed",
       "completedAt": "2026-10-22T00:06:00.000Z",
       "title": "【男性向け】マッチングアプリのペットの書き方完全ガイド｜飼育中・将来希望・写真・アレルギー・婚活別テンプレ・NG例"
+    },
+    {
+      "slug": "christmas-date-guide-male",
+      "keyword": "クリスマスデート おすすめ 男性",
+      "category": "date-talk",
+      "targetKeywords": [
+        "クリスマスデート コツ",
+        "初デート クリスマス"
+      ],
+      "priority": 39,
+      "status": "completed",
+      "completedAt": "2026-10-23T00:06:00.000Z",
+      "title": "【男性向け】クリスマスデートおすすめ完全ガイド｜付き合う前の誘い方・予約・予算・混雑回避・プレゼント・マナー"
+    },
+    {
+      "slug": "matching-app-smoking-drinking-profile-male",
+      "keyword": "マッチングアプリ タバコ お酒 書き方 男性",
+      "category": "matching-app",
+      "targetKeywords": [
+        "マッチングアプリ 喫煙",
+        "プロフィール お酒"
+      ],
+      "priority": 38,
+      "status": "completed",
+      "completedAt": "2026-10-23T00:06:00.000Z",
+      "title": "【男性向け】マッチングアプリのタバコ・お酒の書き方完全ガイド｜喫煙・飲酒欄・加熱式・婚活別テンプレ・NG例とデート配慮"
     }
   ]
 }
