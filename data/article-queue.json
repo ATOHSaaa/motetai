@@ -905,6 +905,32 @@
       "status": "completed",
       "completedAt": "2026-10-24T00:06:00.000Z",
       "title": "【男性向け】マッチングアプリの休日の書き方完全ガイド｜誘いやすさ・シフト勤務・インドア派・アウトドア派・年代別テンプレ・NG例"
+    },
+    {
+      "slug": "nabe-date-guide-male",
+      "keyword": "鍋デート おすすめ 男性",
+      "category": "date-talk",
+      "targetKeywords": [
+        "鍋デート コツ",
+        "初デート 鍋"
+      ],
+      "priority": 35,
+      "status": "completed",
+      "completedAt": "2026-10-25T00:07:00.000Z",
+      "title": "【男性向け】鍋デートおすすめ完全ガイド｜付き合う前の店選び・ジャンル・個室・家鍋の線引き・誘い方・予算・マナー"
+    },
+    {
+      "slug": "matching-app-living-area-profile-male",
+      "keyword": "マッチングアプリ 居住地 書き方 男性",
+      "category": "matching-app",
+      "targetKeywords": [
+        "マッチングアプリ 住んでいる場所",
+        "プロフィール 居住地"
+      ],
+      "priority": 34,
+      "status": "completed",
+      "completedAt": "2026-10-25T00:07:00.000Z",
+      "title": "【男性向け】マッチングアプリの居住地の書き方完全ガイド｜市区町村・駅・身バレ回避・婚活恋活別テンプレ・NG例と会いやすさの設計"
     }
   ]
 }
