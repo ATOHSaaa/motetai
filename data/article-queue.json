@@ -931,6 +931,32 @@
       "status": "completed",
       "completedAt": "2026-10-25T00:07:00.000Z",
       "title": "【男性向け】マッチングアプリの居住地の書き方完全ガイド｜市区町村・駅・身バレ回避・婚活恋活別テンプレ・NG例と会いやすさの設計"
+    },
+    {
+      "slug": "ski-date-guide-male",
+      "keyword": "スキーデート おすすめ 男性",
+      "category": "date-talk",
+      "targetKeywords": [
+        "スキーデート コツ",
+        "デート スキー"
+      ],
+      "priority": 33,
+      "status": "completed",
+      "completedAt": "2026-10-26T00:03:21.056Z",
+      "title": "【男性向け】スキーデートおすすめ完全ガイド｜付き合う前のタイミング・レベル差・スキーvsスノボ・日帰りプラン・誘い方・予算・マナー"
+    },
+    {
+      "slug": "matching-app-age-profile-male",
+      "keyword": "マッチングアプリ 年齢 書き方 男性",
+      "category": "matching-app",
+      "targetKeywords": [
+        "マッチングアプリ 年齢",
+        "プロフィール 年齢"
+      ],
+      "priority": 32,
+      "status": "completed",
+      "completedAt": "2026-10-26T00:03:21.056Z",
+      "title": "【男性向け】マッチングアプリの年齢の書き方完全ガイド｜年齢欄と自己紹介・年齢確認・年の差設定・年代別テンプレ・若く見せすぎNGと誠実さの設計"
     }
   ]
 }
