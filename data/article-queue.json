@@ -1009,6 +1009,32 @@
       "status": "completed",
       "completedAt": "2026-10-28T00:05:00.000Z",
       "title": "【男性向け】マッチングアプリの離婚歴の書き方完全ガイド｜隠すか書くか・自己紹介テンプレ・子ども・会話での伝え方"
+    },
+    {
+      "slug": "escape-room-date-guide-male",
+      "keyword": "脱出ゲーム デート 男性",
+      "category": "date-talk",
+      "targetKeywords": [
+        "脱出ゲーム デート",
+        "密室脱出デート"
+      ],
+      "priority": 37,
+      "status": "completed",
+      "completedAt": "2026-10-29T00:05:00.000Z",
+      "title": "【男性向け】脱出ゲーム・謎解きデート完全ガイド｜初デート向きか・選び方・服装・予算・LINE例文"
+    },
+    {
+      "slug": "matching-app-housework-profile-male",
+      "keyword": "マッチングアプリ プロフィール 家事 男性",
+      "category": "matching-app",
+      "targetKeywords": [
+        "マッチングアプリ 家事",
+        "プロフィール 家事分担"
+      ],
+      "priority": 36,
+      "status": "completed",
+      "completedAt": "2026-10-29T00:05:00.000Z",
+      "title": "【男性向け】マッチングアプリの家事・分担の書き方完全ガイド｜プロフィール欄・自己紹介テンプレ・年代別・NG例"
     }
   ]
 }
