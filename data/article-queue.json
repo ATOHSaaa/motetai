@@ -1035,6 +1035,32 @@
       "status": "completed",
       "completedAt": "2026-10-29T00:05:00.000Z",
       "title": "【男性向け】マッチングアプリの家事・分担の書き方完全ガイド｜プロフィール欄・自己紹介テンプレ・年代別・NG例"
+    },
+    {
+      "slug": "game-center-date-guide-male",
+      "keyword": "ゲームセンター デート 男性",
+      "category": "date-talk",
+      "targetKeywords": [
+        "ゲームセンター デート",
+        "ゲーセンデート"
+      ],
+      "priority": 39,
+      "status": "completed",
+      "completedAt": "2026-10-31T00:05:00.000Z",
+      "title": "【男性向け】ゲームセンターデート完全ガイド｜初デート向きか・おすすめゲーム・予算・LINE例文"
+    },
+    {
+      "slug": "matching-app-parents-living-profile-male",
+      "keyword": "マッチングアプリ 実家暮らし 書き方 男性",
+      "category": "matching-app",
+      "targetKeywords": [
+        "マッチングアプリ 実家暮らし",
+        "プロフィール 実家"
+      ],
+      "priority": 38,
+      "status": "completed",
+      "completedAt": "2026-10-31T00:05:00.000Z",
+      "title": "【男性向け】マッチングアプリの実家暮らしの書き方完全ガイド｜隠すか書くか・自己紹介テンプレ・年代別・デート"
     }
   ]
 }
