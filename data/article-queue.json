@@ -1061,6 +1061,32 @@
       "status": "completed",
       "completedAt": "2026-10-31T00:05:00.000Z",
       "title": "【男性向け】マッチングアプリの実家暮らしの書き方完全ガイド｜隠すか書くか・自己紹介テンプレ・年代別・デート"
+    },
+    {
+      "slug": "picnic-date-guide-male",
+      "keyword": "ピクニック デート 男性",
+      "category": "date-talk",
+      "targetKeywords": [
+        "ピクニック デート",
+        "公園デート"
+      ],
+      "priority": 40,
+      "status": "completed",
+      "completedAt": "2026-11-01T00:05:00.000Z",
+      "title": "【男性向け】ピクニックデート完全ガイド｜初デート向きか・持ち物・服装・公園選び・LINE例文"
+    },
+    {
+      "slug": "matching-app-relocation-profile-male",
+      "keyword": "マッチングアプリ 転勤 書き方 男性",
+      "category": "matching-app",
+      "targetKeywords": [
+        "マッチングアプリ 転勤",
+        "プロフィール 転勤"
+      ],
+      "priority": 41,
+      "status": "completed",
+      "completedAt": "2026-11-01T00:05:00.000Z",
+      "title": "【男性向け】マッチングアプリの転勤の書き方完全ガイド｜隠すか書くか・自己紹介テンプレ・単身赴任・婚活"
     }
   ]
 }
