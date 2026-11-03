@@ -1113,6 +1113,54 @@
       "status": "completed",
       "completedAt": "2026-11-02T00:05:00.000Z",
       "title": "【男性向け】マッチングアプリのシフト勤務の書き方完全ガイド｜平日休み・夜勤・自己紹介テンプレ・デート調整"
+    },
+    {
+      "slug": "ice-skating-date-guide-male",
+      "keyword": "スケート デート 男性",
+      "category": "date-talk",
+      "targetKeywords": [
+        "スケート デート",
+        "アイススケート デート"
+      ],
+      "priority": 50,
+      "status": "completed",
+      "completedAt": "2026-11-03T00:06:00.000Z",
+      "title": "【男性向け】スケートデート完全ガイド｜初デート向きか・服装・持ち物・誘い方・LINE例文"
+    },
+    {
+      "slug": "matching-app-remote-work-profile-male",
+      "keyword": "マッチングアプリ 在宅勤務 書き方 男性",
+      "category": "matching-app",
+      "targetKeywords": [
+        "マッチングアプリ 在宅",
+        "プロフィール リモートワーク"
+      ],
+      "priority": 50,
+      "status": "completed",
+      "completedAt": "2026-11-03T00:06:00.000Z",
+      "title": "【男性向け】マッチングアプリの在宅勤務の書き方完全ガイド｜リモート・ハイブリッド・自己紹介テンプレ・デート調整"
+    },
+    {
+      "slug": "ice-skating-date-guide-male",
+      "keyword": "スケート デート 男性",
+      "category": "date-talk",
+      "targetKeywords": [
+        "スケート デート",
+        "アイススケート デート"
+      ],
+      "priority": 50,
+      "status": "pending"
+    },
+    {
+      "slug": "matching-app-remote-work-profile-male",
+      "keyword": "マッチングアプリ 在宅勤務 書き方 男性",
+      "category": "matching-app",
+      "targetKeywords": [
+        "マッチングアプリ 在宅",
+        "プロフィール リモートワーク"
+      ],
+      "priority": 50,
+      "status": "pending"
     }
   ]
 }
