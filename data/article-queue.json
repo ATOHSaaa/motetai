@@ -1141,26 +1141,30 @@
       "title": "【男性向け】マッチングアプリの在宅勤務の書き方完全ガイド｜リモート・ハイブリッド・自己紹介テンプレ・デート調整"
     },
     {
-      "slug": "ice-skating-date-guide-male",
-      "keyword": "スケート デート 男性",
+      "slug": "planetarium-date-guide-male",
+      "keyword": "プラネタリウム デート 男性",
       "category": "date-talk",
       "targetKeywords": [
-        "スケート デート",
-        "アイススケート デート"
+        "プラネタリウム デート",
+        "天文台 デート"
       ],
       "priority": 50,
-      "status": "pending"
+      "status": "completed",
+      "completedAt": "2026-11-04T00:07:00.000Z",
+      "title": "【男性向け】プラネタリウムデート完全ガイド｜初デート向きか・服装・座席・誘い方・LINE例文"
     },
     {
-      "slug": "matching-app-remote-work-profile-male",
-      "keyword": "マッチングアプリ 在宅勤務 書き方 男性",
+      "slug": "matching-app-freelance-profile-male",
+      "keyword": "マッチングアプリ フリーランス 書き方 男性",
       "category": "matching-app",
       "targetKeywords": [
-        "マッチングアプリ 在宅",
-        "プロフィール リモートワーク"
+        "マッチングアプリ フリーランス",
+        "プロフィール 個人事業主"
       ],
       "priority": 50,
-      "status": "pending"
+      "status": "completed",
+      "completedAt": "2026-11-04T00:07:00.000Z",
+      "title": "【男性向け】マッチングアプリのフリーランスの書き方完全ガイド｜収入・職種・自己紹介テンプレ・デート調整"
     }
   ]
 }
