@@ -1165,6 +1165,32 @@
       "status": "completed",
       "completedAt": "2026-11-04T00:07:00.000Z",
       "title": "【男性向け】マッチングアプリのフリーランスの書き方完全ガイド｜収入・職種・自己紹介テンプレ・デート調整"
+    },
+    {
+      "slug": "live-music-date-guide-male",
+      "keyword": "ライブ デート 男性",
+      "category": "date-talk",
+      "targetKeywords": [
+        "ライブ デート",
+        "コンサート デート"
+      ],
+      "priority": 50,
+      "status": "completed",
+      "completedAt": "2026-11-05T00:06:00.000Z",
+      "title": "【男性向け】ライブデート完全ガイド｜付き合う前の誘い方・チケット・服装・当日マナー・LINE例文"
+    },
+    {
+      "slug": "matching-app-food-preference-profile-male",
+      "keyword": "マッチングアプリ 食べ物 プロフィール 男性",
+      "category": "matching-app",
+      "targetKeywords": [
+        "マッチングアプリ 食の好み",
+        "プロフィール グルメ"
+      ],
+      "priority": 49,
+      "status": "completed",
+      "completedAt": "2026-11-05T00:06:00.000Z",
+      "title": "【男性向け】マッチングアプリの食べ物・グルメの書き方完全ガイド｜好み・アレルギー・デート飯・自己紹介テンプレ"
     }
   ]
 }
