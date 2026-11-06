@@ -1191,6 +1191,32 @@
       "status": "completed",
       "completedAt": "2026-11-05T00:06:00.000Z",
       "title": "【男性向け】マッチングアプリの食べ物・グルメの書き方完全ガイド｜好み・アレルギー・デート飯・自己紹介テンプレ"
+    },
+    {
+      "slug": "stargazing-date-guide-male",
+      "keyword": "星空 デート 男性",
+      "category": "date-talk",
+      "targetKeywords": [
+        "星空 デート",
+        "天体観測 デート"
+      ],
+      "priority": 50,
+      "status": "completed",
+      "completedAt": "2026-11-06T00:06:00.000Z",
+      "title": "【男性向け】星空デート完全ガイド｜野外・プラネタリウム・誘い方・持ち物・暗闇マナー・LINE例文"
+    },
+    {
+      "slug": "matching-app-sleep-schedule-profile-male",
+      "keyword": "マッチングアプリ 生活リズム プロフィール 男性",
+      "category": "matching-app",
+      "targetKeywords": [
+        "マッチングアプリ 早寝",
+        "プロフィール 生活習慣"
+      ],
+      "priority": 50,
+      "status": "completed",
+      "completedAt": "2026-11-06T00:06:00.000Z",
+      "title": "【男性向け】マッチングアプリの生活リズム・睡眠の書き方完全ガイド｜早寝早起き・夜型・シフト・自己紹介テンプレ"
     }
   ]
 }
