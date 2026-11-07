@@ -1217,6 +1217,32 @@
       "status": "completed",
       "completedAt": "2026-11-06T00:06:00.000Z",
       "title": "【男性向け】マッチングアプリの生活リズム・睡眠の書き方完全ガイド｜早寝早起き・夜型・シフト・自己紹介テンプレ"
+    },
+    {
+      "slug": "ferry-date-guide-male",
+      "keyword": "フェリー デート 男性",
+      "category": "date-talk",
+      "targetKeywords": [
+        "フェリー デート",
+        "船 デート"
+      ],
+      "priority": 50,
+      "status": "completed",
+      "completedAt": "2026-11-07T00:06:00.000Z",
+      "title": "【男性向け】フェリーデート完全ガイド｜付き合う前の誘い方・短時間航路・長距離の線引き・安全・予算"
+    },
+    {
+      "slug": "matching-app-message-frequency-male",
+      "keyword": "マッチングアプリ メッセージ 頻度 男性",
+      "category": "matching-app",
+      "targetKeywords": [
+        "マッチングアプリ 返信 頻度",
+        "やり取り ペース"
+      ],
+      "priority": 50,
+      "status": "completed",
+      "completedAt": "2026-11-07T00:06:00.000Z",
+      "title": "【男性向け】マッチングアプリのメッセージ頻度完全ガイド｜段階別目安・ミラーリング・追いLINE・デート打診のタイミング"
     }
   ]
 }
