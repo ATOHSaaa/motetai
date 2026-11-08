@@ -1243,6 +1243,32 @@
       "status": "completed",
       "completedAt": "2026-11-07T00:06:00.000Z",
       "title": "【男性向け】マッチングアプリのメッセージ頻度完全ガイド｜段階別目安・ミラーリング・追いLINE・デート打診のタイミング"
+    },
+    {
+      "slug": "shrine-temple-date-guide-male",
+      "keyword": "神社 デート 男性",
+      "category": "date-talk",
+      "targetKeywords": [
+        "初詣",
+        "寺社"
+      ],
+      "priority": 50,
+      "status": "completed",
+      "completedAt": "2026-11-08T00:06:00.000Z",
+      "title": "【男性向け】神社・お寺デート完全ガイド｜付き合う前の誘い方・参拝マナー・服装・初詣・LINE例文"
+    },
+    {
+      "slug": "matching-app-exercise-profile-male",
+      "keyword": "マッチングアプリ 運動 プロフィール 男性",
+      "category": "matching-app",
+      "targetKeywords": [
+        "ジム",
+        "筋トレ"
+      ],
+      "priority": 50,
+      "status": "completed",
+      "completedAt": "2026-11-08T00:06:00.000Z",
+      "title": "【男性向け】マッチングアプリの運動・筋トレの書き方完全ガイド｜プロフィール欄・自己紹介・写真・ジム派・ランニング派テンプレ"
     }
   ]
 }
