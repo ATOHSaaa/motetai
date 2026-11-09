@@ -1269,6 +1269,34 @@
       "status": "completed",
       "completedAt": "2026-11-08T00:06:00.000Z",
       "title": "【男性向け】マッチングアプリの運動・筋トレの書き方完全ガイド｜プロフィール欄・自己紹介・写真・ジム派・ランニング派テンプレ"
+    },
+    {
+      "slug": "winter-date-guide-male",
+      "keyword": "冬 デート 男性 おすすめ",
+      "category": "date-talk",
+      "targetKeywords": [
+        "冬デート",
+        "デート場所",
+        "男性"
+      ],
+      "priority": 60,
+      "status": "completed",
+      "completedAt": "2026-11-09T00:06:00.000Z",
+      "title": "【男性向け】冬デート完全ガイド2026｜付き合う前のおすすめスポット・服装・予算・屋内屋外の組み合わせ・LINE例文"
+    },
+    {
+      "slug": "matching-app-hometown-profile-male",
+      "keyword": "マッチングアプリ プロフィール 出身地 男性",
+      "category": "matching-app",
+      "targetKeywords": [
+        "マッチングアプリ",
+        "プロフィール",
+        "出身地"
+      ],
+      "priority": 59,
+      "status": "completed",
+      "completedAt": "2026-11-09T00:06:00.000Z",
+      "title": "【男性向け】マッチングアプリの出身地の書き方完全ガイド｜基本情報・自己紹介・方言・実家と一人暮らし・婚活恋活テンプレ"
     }
   ]
 }
