@@ -1297,6 +1297,34 @@
       "status": "completed",
       "completedAt": "2026-11-09T00:06:00.000Z",
       "title": "【男性向け】マッチングアプリの出身地の書き方完全ガイド｜基本情報・自己紹介・方言・実家と一人暮らし・婚活恋活テンプレ"
+    },
+    {
+      "slug": "bookstore-date-guide-male",
+      "keyword": "本屋 デート 男性 おすすめ",
+      "category": "date-talk",
+      "targetKeywords": [
+        "本屋デート",
+        "デート場所",
+        "男性"
+      ],
+      "priority": 55,
+      "status": "completed",
+      "completedAt": "2026-11-10T00:06:00.000Z",
+      "title": "【男性向け】本屋デート完全ガイド2026｜付き合う前のおすすめ・誘い方・会話・本屋と図書館の違い・予算・LINE例文"
+    },
+    {
+      "slug": "matching-app-travel-profile-male",
+      "keyword": "マッチングアプリ プロフィール 旅行好き 男性",
+      "category": "matching-app",
+      "targetKeywords": [
+        "マッチングアプリ",
+        "プロフィール",
+        "旅行"
+      ],
+      "priority": 54,
+      "status": "completed",
+      "completedAt": "2026-11-10T00:06:00.000Z",
+      "title": "【男性向け】マッチングアプリの旅行好きの書き方完全ガイド｜基本情報・写真・国内海外・頻度・自慢と趣味の線引き・婚活恋活テンプレ"
     }
   ]
 }
