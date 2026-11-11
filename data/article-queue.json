@@ -1325,6 +1325,34 @@
       "status": "completed",
       "completedAt": "2026-11-10T00:06:00.000Z",
       "title": "【男性向け】マッチングアプリの旅行好きの書き方完全ガイド｜基本情報・写真・国内海外・頻度・自慢と趣味の線引き・婚活恋活テンプレ"
+    },
+    {
+      "slug": "cat-cafe-date-guide-male",
+      "keyword": "猫カフェ デート 男性",
+      "category": "date-talk",
+      "targetKeywords": [
+        "猫カフェデート",
+        "デート場所",
+        "男性"
+      ],
+      "priority": 53,
+      "status": "completed",
+      "completedAt": "2026-11-11T00:06:00.000Z",
+      "title": "【男性向け】猫カフェデート完全ガイド2026｜付き合う前の誘い方・店選び・服装・マナー・会話・予算・LINE例文"
+    },
+    {
+      "slug": "matching-app-cooking-profile-male",
+      "keyword": "マッチングアプリ 料理 プロフィール 男性",
+      "category": "matching-app",
+      "targetKeywords": [
+        "マッチングアプリ",
+        "プロフィール",
+        "料理"
+      ],
+      "priority": 52,
+      "status": "completed",
+      "completedAt": "2026-11-11T00:06:00.000Z",
+      "title": "【男性向け】マッチングアプリの料理・自炊の書き方完全ガイド｜頻度・レパートリー・写真・デート接続・自己紹介テンプレ"
     }
   ]
 }
