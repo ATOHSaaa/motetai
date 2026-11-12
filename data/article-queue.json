@@ -1353,6 +1353,34 @@
       "status": "completed",
       "completedAt": "2026-11-11T00:06:00.000Z",
       "title": "【男性向け】マッチングアプリの料理・自炊の書き方完全ガイド｜頻度・レパートリー・写真・デート接続・自己紹介テンプレ"
+    },
+    {
+      "slug": "dog-cafe-date-guide-male",
+      "keyword": "犬カフェ デート 男性",
+      "category": "date-talk",
+      "targetKeywords": [
+        "犬カフェデート",
+        "デート場所",
+        "男性"
+      ],
+      "priority": 51,
+      "status": "completed",
+      "completedAt": "2026-11-12T00:06:00.000Z",
+      "title": "【男性向け】犬カフェデート完全ガイド2026｜付き合う前の誘い方・店選び・大型犬・マナー・会話・予算・LINE例文"
+    },
+    {
+      "slug": "matching-app-reading-profile-male",
+      "keyword": "マッチングアプリ 読書 プロフィール 男性",
+      "category": "matching-app",
+      "targetKeywords": [
+        "マッチングアプリ",
+        "プロフィール",
+        "読書"
+      ],
+      "priority": 50,
+      "status": "completed",
+      "completedAt": "2026-11-12T00:06:00.000Z",
+      "title": "【男性向け】マッチングアプリの読書・本好きの書き方完全ガイド｜ジャンル・頻度・写真・本屋デート接続・自己紹介テンプレ"
     }
   ]
 }
