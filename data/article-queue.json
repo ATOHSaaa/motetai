@@ -1465,6 +1465,34 @@
       "status": "completed",
       "completedAt": "2026-11-16T00:06:00.000Z",
       "title": "【男性向け】マッチングアプリのゲーム・ゲーム好きの書き方完全ガイド｜ジャンル・頻度・オンライン・写真・自己紹介テンプレ"
+    },
+    {
+      "slug": "sauna-date-guide-male",
+      "keyword": "サウナ デート 男性",
+      "category": "date-talk",
+      "targetKeywords": [
+        "サウナデート",
+        "デート場所",
+        "男性"
+      ],
+      "priority": 51,
+      "status": "completed",
+      "completedAt": "2026-11-17T00:06:00.000Z",
+      "title": "【男性向け】サウナデート完全ガイド2026｜付き合う前の誘い方・施設選び・マナー・予算・サ飯・LINE例文"
+    },
+    {
+      "slug": "matching-app-camping-profile-male",
+      "keyword": "マッチングアプリ キャンプ プロフィール 男性",
+      "category": "matching-app",
+      "targetKeywords": [
+        "マッチングアプリ",
+        "プロフィール",
+        "キャンプ"
+      ],
+      "priority": 50,
+      "status": "completed",
+      "completedAt": "2026-11-17T00:06:00.000Z",
+      "title": "【男性向け】マッチングアプリのキャンプ・アウトドアの書き方完全ガイド｜装備より体験・ソロ・頻度・写真・デート段階・自己紹介テンプレ"
     }
   ]
 }
