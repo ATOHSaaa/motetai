@@ -1549,6 +1549,34 @@
       "status": "completed",
       "completedAt": "2026-11-19T00:06:00.000Z",
       "title": "【男性向け】マッチングアプリのスポーツ好きの書き方完全ガイド｜観る派・やる派・頻度・チームとソロ・写真・デート接続・自己紹介テンプレ"
+    },
+    {
+      "slug": "cycling-date-guide-male",
+      "keyword": "自転車 デート 男性",
+      "category": "date-talk",
+      "targetKeywords": [
+        "自転車デート",
+        "デート場所",
+        "男性"
+      ],
+      "priority": 51,
+      "status": "completed",
+      "completedAt": "2026-11-20T00:07:00.000Z",
+      "title": "【男性向け】自転車デート完全ガイド2026｜付き合う前の誘い方・レンタル・距離・服装・並走マナー・半日プラン・LINE例文"
+    },
+    {
+      "slug": "matching-app-cycling-profile-male",
+      "keyword": "マッチングアプリ 自転車 プロフィール 男性",
+      "category": "matching-app",
+      "targetKeywords": [
+        "マッチングアプリ",
+        "プロフィール",
+        "自転車"
+      ],
+      "priority": 50,
+      "status": "completed",
+      "completedAt": "2026-11-20T00:07:00.000Z",
+      "title": "【男性向け】マッチングアプリの自転車好きの書き方完全ガイド｜通勤・ロード・シティ・頻度・写真・サイクリングデート接続・自己紹介テンプレ"
     }
   ]
 }
