@@ -1577,6 +1577,34 @@
       "status": "completed",
       "completedAt": "2026-11-20T00:07:00.000Z",
       "title": "【男性向け】マッチングアプリの自転車好きの書き方完全ガイド｜通勤・ロード・シティ・頻度・写真・サイクリングデート接続・自己紹介テンプレ"
+    },
+    {
+      "slug": "running-date-guide-male",
+      "keyword": "ランニング デート 男性",
+      "category": "date-talk",
+      "targetKeywords": [
+        "ランニングデート",
+        "デート場所",
+        "男性"
+      ],
+      "priority": 51,
+      "status": "completed",
+      "completedAt": "2026-11-21T00:06:00.000Z",
+      "title": "【男性向け】ランニングデート完全ガイド2026｜付き合う前の誘い方・ペース・距離・服装・汗・皇居・公園・LINE例文"
+    },
+    {
+      "slug": "matching-app-running-profile-male",
+      "keyword": "マッチングアプリ ランニング プロフィール 男性",
+      "category": "matching-app",
+      "targetKeywords": [
+        "マッチングアプリ",
+        "プロフィール",
+        "ランニング"
+      ],
+      "priority": 50,
+      "status": "completed",
+      "completedAt": "2026-11-21T00:06:00.000Z",
+      "title": "【男性向け】マッチングアプリのランニング好きの書き方完全ガイド｜ジョグ・フル・頻度・タイム・写真・ランデート接続・自己紹介テンプレ"
     }
   ]
 }
