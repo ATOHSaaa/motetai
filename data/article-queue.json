@@ -1605,6 +1605,34 @@
       "status": "completed",
       "completedAt": "2026-11-21T00:06:00.000Z",
       "title": "【男性向け】マッチングアプリのランニング好きの書き方完全ガイド｜ジョグ・フル・頻度・タイム・写真・ランデート接続・自己紹介テンプレ"
+    },
+    {
+      "slug": "swimming-date-guide-male",
+      "keyword": "プール デート 男性",
+      "category": "date-talk",
+      "targetKeywords": [
+        "プールデート",
+        "デート場所",
+        "男性"
+      ],
+      "priority": 51,
+      "status": "completed",
+      "completedAt": "2026-11-22T00:06:00.000Z",
+      "title": "【男性向け】プールデート完全ガイド2026｜付き合う前の誘い方・水着・持ち物・施設選び・日焼け・半日プラン・LINE例文"
+    },
+    {
+      "slug": "matching-app-swimming-profile-male",
+      "keyword": "マッチングアプリ 水泳 プロフィール 男性",
+      "category": "matching-app",
+      "targetKeywords": [
+        "マッチングアプリ",
+        "プロフィール",
+        "水泳"
+      ],
+      "priority": 50,
+      "status": "completed",
+      "completedAt": "2026-11-22T00:06:00.000Z",
+      "title": "【男性向け】マッチングアプリの水泳好きの書き方完全ガイド｜週何回・泳力・プール・マリン・写真・プールデート接続・自己紹介テンプレ"
     }
   ]
 }
