@@ -1633,6 +1633,26 @@
       "status": "completed",
       "completedAt": "2026-11-22T00:06:00.000Z",
       "title": "【男性向け】マッチングアプリの水泳好きの書き方完全ガイド｜週何回・泳力・プール・マリン・写真・プールデート接続・自己紹介テンプレ"
+    },
+    {
+      "slug": "golf-date-guide-male",
+      "keyword": "ゴルフ デート 男性",
+      "category": "date-talk",
+      "targetKeywords": [],
+      "priority": 50,
+      "status": "completed",
+      "completedAt": "2026-11-23T00:02:51.799Z",
+      "title": "【男性向け】ゴルフデート完全ガイド2026"
+    },
+    {
+      "slug": "matching-app-golf-profile-male",
+      "keyword": "マッチングアプリ ゴルフ プロフィール 男性",
+      "category": "matching-app",
+      "targetKeywords": [],
+      "priority": 50,
+      "status": "completed",
+      "completedAt": "2026-11-23T00:02:51.800Z",
+      "title": "【男性向け】マッチングアプリのゴルフ好きの書き方完全ガイド"
     }
   ]
 }
