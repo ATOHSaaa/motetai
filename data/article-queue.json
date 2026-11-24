@@ -1653,6 +1653,34 @@
       "status": "completed",
       "completedAt": "2026-11-23T00:02:51.800Z",
       "title": "【男性向け】マッチングアプリのゴルフ好きの書き方完全ガイド"
+    },
+    {
+      "slug": "tennis-date-guide-male",
+      "keyword": "テニス デート 男性",
+      "category": "date-talk",
+      "targetKeywords": [
+        "テニスデート",
+        "デート場所",
+        "男性"
+      ],
+      "priority": 50,
+      "status": "completed",
+      "completedAt": "2026-11-24T00:03:30.000Z",
+      "title": "【男性向け】テニスデート完全ガイド2026"
+    },
+    {
+      "slug": "matching-app-tennis-profile-male",
+      "keyword": "マッチングアプリ テニス プロフィール 男性",
+      "category": "matching-app",
+      "targetKeywords": [
+        "マッチングアプリ",
+        "プロフィール",
+        "テニス"
+      ],
+      "priority": 50,
+      "status": "completed",
+      "completedAt": "2026-11-24T00:03:30.001Z",
+      "title": "【男性向け】マッチングアプリのテニス好きの書き方完全ガイド"
     }
   ]
 }
