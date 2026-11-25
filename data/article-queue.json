@@ -1681,6 +1681,34 @@
       "status": "completed",
       "completedAt": "2026-11-24T00:03:30.001Z",
       "title": "【男性向け】マッチングアプリのテニス好きの書き方完全ガイド"
+    },
+    {
+      "slug": "badminton-date-guide-male",
+      "keyword": "バドミントン デート 男性",
+      "category": "date-talk",
+      "targetKeywords": [
+        "バドミントンデート",
+        "デート場所",
+        "男性"
+      ],
+      "priority": 50,
+      "status": "completed",
+      "completedAt": "2026-11-25T00:10:00.000Z",
+      "title": "【男性向け】バドミントンデート完全ガイド2026"
+    },
+    {
+      "slug": "matching-app-badminton-profile-male",
+      "keyword": "マッチングアプリ バドミントン プロフィール 男性",
+      "category": "matching-app",
+      "targetKeywords": [
+        "マッチングアプリ",
+        "プロフィール",
+        "バドミントン"
+      ],
+      "priority": 50,
+      "status": "completed",
+      "completedAt": "2026-11-25T00:10:00.000Z",
+      "title": "【男性向け】マッチングアプリのバドミントン好きの書き方完全ガイド"
     }
   ]
 }
