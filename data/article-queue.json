@@ -1709,6 +1709,34 @@
       "status": "completed",
       "completedAt": "2026-11-25T00:10:00.000Z",
       "title": "【男性向け】マッチングアプリのバドミントン好きの書き方完全ガイド"
+    },
+    {
+      "slug": "table-tennis-date-guide-male",
+      "keyword": "卓球 デート 男性",
+      "category": "date-talk",
+      "targetKeywords": [
+        "卓球デート",
+        "デート場所",
+        "男性"
+      ],
+      "priority": 50,
+      "status": "completed",
+      "completedAt": "2026-11-26T00:06:00.000Z",
+      "title": "【男性向け】卓球デート完全ガイド2026"
+    },
+    {
+      "slug": "matching-app-table-tennis-profile-male",
+      "keyword": "マッチングアプリ 卓球 プロフィール 男性",
+      "category": "matching-app",
+      "targetKeywords": [
+        "マッチングアプリ",
+        "プロフィール",
+        "卓球"
+      ],
+      "priority": 50,
+      "status": "completed",
+      "completedAt": "2026-11-26T00:06:00.000Z",
+      "title": "【男性向け】マッチングアプリの卓球好きの書き方完全ガイド"
     }
   ]
 }
