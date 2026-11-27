@@ -1737,6 +1737,34 @@
       "status": "completed",
       "completedAt": "2026-11-26T00:06:00.000Z",
       "title": "【男性向け】マッチングアプリの卓球好きの書き方完全ガイド"
+    },
+    {
+      "slug": "darts-date-guide-male",
+      "keyword": "ダーツ デート 男性",
+      "category": "date-talk",
+      "targetKeywords": [
+        "ダーツデート",
+        "デート場所",
+        "男性"
+      ],
+      "priority": 50,
+      "status": "completed",
+      "completedAt": "2026-11-27T00:06:00.000Z",
+      "title": "【男性向け】ダーツデート完全ガイド2026"
+    },
+    {
+      "slug": "matching-app-darts-profile-male",
+      "keyword": "マッチングアプリ ダーツ プロフィール 男性",
+      "category": "matching-app",
+      "targetKeywords": [
+        "ダーツ",
+        "プロフィール",
+        "男性"
+      ],
+      "priority": 50,
+      "status": "completed",
+      "completedAt": "2026-11-27T00:06:00.000Z",
+      "title": "【男性向け】マッチングアプリのダーツ好きの書き方完全ガイド"
     }
   ]
 }
