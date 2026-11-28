@@ -1765,6 +1765,34 @@
       "status": "completed",
       "completedAt": "2026-11-27T00:06:00.000Z",
       "title": "【男性向け】マッチングアプリのダーツ好きの書き方完全ガイド"
+    },
+    {
+      "slug": "billiards-date-guide-male",
+      "keyword": "ビリヤード デート 男性",
+      "category": "date-talk",
+      "targetKeywords": [
+        "ビリヤードデート",
+        "デート場所",
+        "男性"
+      ],
+      "priority": 50,
+      "status": "completed",
+      "completedAt": "2026-11-28T00:07:00.000Z",
+      "title": "【男性向け】ビリヤードデート完全ガイド2026｜付き合う前の誘い方・店選び・会員・服装・90分・勝負回避・予算・LINE例文"
+    },
+    {
+      "slug": "matching-app-billiards-profile-male",
+      "keyword": "マッチングアプリ ビリヤード プロフィール 男性",
+      "category": "matching-app",
+      "targetKeywords": [
+        "マッチングアプリ",
+        "プロフィール",
+        "ビリヤード"
+      ],
+      "priority": 50,
+      "status": "completed",
+      "completedAt": "2026-11-28T00:07:00.000Z",
+      "title": "【男性向け】マッチングアプリのビリヤード好きの書き方完全ガイド｜頻度・店舗・腕自慢回避・写真・ビリヤードデート接続・自己紹介テンプレ"
     }
   ]
 }
